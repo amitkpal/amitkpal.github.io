@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Amit Kumar Pal"
 title_separator          : "-"
 name                     : &name "Amit Kumar Pal"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Associate Professor, Dept. of Physics, IIT Palakkad"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://amitkpal.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,24 +24,24 @@ repository               : "amitkpal/amitkpal.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  name             : "Amit Kumar Pal"
+  pronouns         : "he/his/him"  
+  bio              : "Associate Professor, Dept. of Physics, IIT Palakkad"
+  location         : "Palakkad, Kerala, India"
+  employer         : "IIT Palakkad"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "amit@iitpkd.ac.in" 
 
   # Academic websites
   academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  arxiv            : "https://arxiv.org/a/pal_a_2.html"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&authuser=2&user=xwiYzp4AAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-4101-2193"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -57,14 +57,14 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username - "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram        : "amitsweb"
   lastfm           : # Username
   linkedin         : # Username
   mastodon         : # URL
