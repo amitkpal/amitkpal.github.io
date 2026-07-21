@@ -9,7 +9,7 @@ redirect_from:
 
 Welcome to my homepage. 
 
-I am Amit, an Associate Professor at the [Department of Physics](https://physics.iitpkd.ac.in), [IIT Palakkad](https://iitpkd.ac.in), where I lead the [Complex Quantum Systems Group](group.md). My research brings together cocepts from quantum information theory,  quantum many-body physics, quantum optics, quantum thermodynamics, and open quantum systems. Some of my current focuses include quantum information processing in low-dimensional quantum spin models, measurement-based quantum protocols and error correction/mitigation, non-equilibrium quantum systems and quantum thermodynamics, quantum devices and applications in presence of noise, and many-body noisy quantum metrology. 
+I am Amit, an Associate Professor at the [Department of Physics](https://physics.iitpkd.ac.in), [IIT Palakkad](https://iitpkd.ac.in), where I lead the [Complex Quantum Systems and Dynamics Group](group.md). My research brings together cocepts from quantum information theory,  quantum many-body physics, quantum optics, quantum thermodynamics, and open quantum systems. Some of my current focuses include quantum information processing in low-dimensional quantum spin models, measurement-based quantum protocols and error correction/mitigation, non-equilibrium quantum systems and quantum thermodynamics, quantum devices and applications in presence of noise, and many-body noisy quantum metrology. 
 
 For details of my research, see here.
 
