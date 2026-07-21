@@ -21,10 +21,7 @@ main:
     url: /teaching/    
 
   - title: "News and events"
-    url: /news/
-
-  - title: "Teaching"
-    url: /teaching/      
+    url: /news/    
 
   - title: "Miscellaneous"
     url: /misc/     
