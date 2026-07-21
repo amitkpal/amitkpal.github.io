@@ -5,7 +5,7 @@ permalink: /group/
 author_profile: true
 ---
 
-![April2026](../images/group.png) 
+![April2026](../images/group2026.png) 
 
 April 2026
 
