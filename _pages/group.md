@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Complex Quantum Systems Group"
+title: "Complex Quantum Systems and Dynamics Group"
 permalink: /group/
 author_profile: true
 ---
