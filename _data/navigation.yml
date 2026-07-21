@@ -13,6 +13,9 @@ main:
     
   - title: "Group"
     url: /group/
+
+  - title: "News and events"
+    url: /news/
     
   #- title: "Publications"
   #  url: /publications/
