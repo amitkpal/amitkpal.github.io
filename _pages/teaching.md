@@ -5,7 +5,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-Following are some of the courses that I have previously taught at IIT Palakkad. 
+Following are some of the courses that I have previously taught at IIT Palakkad. The class notes are accessible only via an IIT Palakkad student account. 
 
 UG Courses
 ------
