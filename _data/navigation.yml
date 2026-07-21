@@ -15,10 +15,19 @@ main:
     url: /group/
     
   - title: "Publications"
-    url: /publications/    
+    url: /publications/   
+
+  - title: "Teaching"
+    url: /teaching/    
 
   - title: "News and events"
     url: /news/
+
+  - title: "Teaching"
+    url: /teaching/      
+
+  - title: "Miscellaneous"
+    url: /misc/     
 
   #- title: "Talks"
   #  url: /talks/    
