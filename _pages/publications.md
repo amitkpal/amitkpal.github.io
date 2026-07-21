@@ -8,22 +8,22 @@ author_profile: true
 Recent Preprints
 ------
 
-1. **A graph-aware bounded distance decoder for all stabilizer codes**, Harikrishnan K. J., and A. K. Pal, arXiv: [2604.25424](https://arxiv.org/abs/2604.25424)
-2. **Robust quantum metrology using disordered probes**, Vishnupriya K., Harikrishnan K. J., and A. K. Pal, arXiv: [2604.11635](https://arxiv.org/abs/2604.11635)
-3. **Quantum batteries with K-regular graph generators: A no-go for quantum advantage**, D. Ghosh, T. K. Konar, A. K. Pal, and A. Sen(De), arXiv:[2512.22908](https://arxiv.org/abs/2512.22908)
-4. **Quantum error correction via purification using a single auxiliary**, C. B. Pushpan, T. K. Konar, A. Sen(De), and A. K. Pal, arXiv: [2512.09745](https://arxiv.org/abs/2512.09745)
-5. **Block entanglement bounds distribution of regionally localized entanglement**, J. G. Krishnan, A. Sen(De), and A. K. Pal, arXiv: [2508.05431](https://arxiv.org/abs/2508.05431)
+1. **A graph-aware bounded distance decoder for all stabilizer codes**, Harikrishnan K. J., and A. K. Pal, **arXiv:** [2604.25424](https://arxiv.org/abs/2604.25424)
+2. **Robust quantum metrology using disordered probes**, Vishnupriya K., Harikrishnan K. J., and A. K. Pal, **arXiv:** [2604.11635](https://arxiv.org/abs/2604.11635)
+3. **Quantum batteries with K-regular graph generators: A no-go for quantum advantage**, D. Ghosh, T. K. Konar, A. K. Pal, and A. Sen(De), **arXiv:** [2512.22908](https://arxiv.org/abs/2512.22908)
+4. **Quantum error correction via purification using a single auxiliary**, C. B. Pushpan, T. K. Konar, A. Sen(De), and A. K. Pal, **arXiv:** [2512.09745](https://arxiv.org/abs/2512.09745)
+5. **Block entanglement bounds distribution of regionally localized entanglement**, J. G. Krishnan, A. Sen(De), and A. K. Pal, **arXiv:** [2508.05431](https://arxiv.org/abs/2508.05431)
 
 Published / Accepted for Publications 
 ------
 
 **2026**
 
-1. **Developing universal logical state-purification strategy**, C. B. Pushpan, T. K. Konar, A. Sen(De), and A. K. Pal, arXiv: 2502.01393, to appear in Physical Review A
-2. **Bridging the daemonic gap en route to charge multi-mode batteries via a single auxiliary**, C. B. Pushpan and A. K. Pal, arXiv: 2511.07243, to appear in Physical Review A
-3. **Simultaneous cooling of qubits via a quantum absorption refrigerator and beyond**, J. G. Krishnan, C. B. Pushpan, and A. K. Pal, arXiv: 2410.15871, To appear in Physics Letters A
-4. **Scalable and deterministic Greenberger-Horne-Zeilinger state generation via graph states-assisted measurements**, Harikrishnan K. J. and A. K. Pal, Phys. Rev. A 113, 052450 (2026), arXiv: 2410.15892
-5. **Scaling of entanglement entropy and correlations in the variable-range extended Ising model**, Harikrishnan K. J., D. Sadhukhan, and A. K. Pal, Phys. Rev. A 113, 052444 (2026), arXiv: 2504.01846
+1. **Developing universal logical state-purification strategy**, C. B. Pushpan, T. K. Konar, A. Sen(De), and A. K. Pal, **arXiv:** 2502.01393, to appear in Physical Review A
+2. **Bridging the daemonic gap en route to charge multi-mode batteries via a single auxiliary**, C. B. Pushpan and A. K. Pal, [**Phys. Rev. A** 114, 012607 (2026)](https://journals.aps.org/pra/abstract/10.1103/jr71-mkfl), **arXiv:** [2511.07243](https://arxiv.org/abs/2511.07243)
+3. **Simultaneous cooling of qubits via a quantum absorption refrigerator and beyond**, J. G. Krishnan, C. B. Pushpan, and A. K. Pal, **Phys. Lett. A** 591, 131871 (2026), arXiv: 2410.15871
+4. **Scalable and deterministic Greenberger-Horne-Zeilinger state generation via graph states-assisted measurements**, Harikrishnan K. J. and A. K. Pal, **Phys. Rev. A** 113, 052450 (2026), **arXiv:** 2410.15892
+5. **Scaling of entanglement entropy and correlations in the variable-range extended Ising model**, Harikrishnan K. J., D. Sadhukhan, and A. K. Pal, **Phys. Rev. A** 113, 052444 (2026), **arXiv:** 2504.01846
 
 **2025**
 
