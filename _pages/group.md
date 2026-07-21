@@ -35,6 +35,7 @@ Joining the Group
 **Postdoc:** We have a few very competitive post-doc positions at the Department, and we encourage interested postdoctoral candidates to apply for their own funding with us. If you are interested,  please contact by sending an email with your CV. Possible funding information can be found below. 
 
 - [ANRF-National Post-Doctoral Fellowship](https://anrfonline.in/ANRF/npdf)
-- [Woman Scientist position](https://dst.gov.in/scientific-programmes/wise-kiran)
+- [DST Woman Scientist Position](https://dst.gov.in/scientific-programmes/wise-kiran)
+- [KSCSTE Women in Science and Technology](https://kscste.kerala.gov.in/service/women-in-science-technology/)
 
 **MSc Projects:** Motivated Students from the MSc Physics program of IIT Palakkad can pursue their third (minor) and fourth (major) semester projects in the group. If you are interested, please contact by sending an email to know more about the available projects. 
