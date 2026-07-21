@@ -5,7 +5,9 @@ permalink: /group/
 author_profile: true
 ---
 
-![April2026](../images/group.png) April 2026
+![April2026](../images/group.png) 
+
+April 2026
 
 Current Members
 ------
