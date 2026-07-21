@@ -13,7 +13,7 @@ I am Amit, an Associate Professor at the [Department of Physics](https://physics
 
 For details of my research, see here.
 
-News and events
+News and Events
 ------
 
 - **07-04-2026:** Jithin successfuly defends his thesis. Congratulations to Dr. Jithin G. Krishnan!
@@ -21,5 +21,14 @@ News and events
 - **13-01-2026:** Dr. Surajit Bera from the Collège de France, Paris delivers a seminar titled "Generation of Volume-Law Entanglement by Local-Measurement-Only Quantum Dynamics".
 - **01-01-2026:** Vimal Sreekanth joins the group.
 For older news and events, see [here](news.md).
+
+Recent Works
+------
+- A graph-aware bounded distance decoder for all stabilizer codes, Harikrishnan K. J., and A. K. Pal, arXiv: [2604.25424](https://arxiv.org/abs/2604.25424)
+- Robust quantum metrology using disordered probes, Vishnupriya K., Harikrishnan K. J., and A. K. Pal, arXiv: [2604.11635](https://arxiv.org/abs/2604.11635)
+- Quantum batteries with K-regular graph generators: A no-go for quantum advantage, D. Ghosh, T. K. Konar, A. K. Pal, and A. Sen(De), arXiv:[2512.22908](https://arxiv.org/abs/2512.22908)
+- Quantum error correction via purification using a single auxiliary, C. B. Pushpan, T. K. Konar, A. Sen(De), and A. K. Pal, arXiv: [2512.09745](https://arxiv.org/abs/2512.09745)
+- Block entanglement bounds distribution of regionally localized entanglement, J. G. Krishnan, A. Sen(De), and A. K. Pal, arXiv: [2508.05431](https://arxiv.org/abs/2508.05431)
+For complete list of publications, see [here](publications.md).
 
 
