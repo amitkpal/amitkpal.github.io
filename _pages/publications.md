@@ -27,25 +27,25 @@ Published / Accepted for Publications
 
 **2025**
 
-1. Recovery of resources through sequential noisy measurements, S. Mondal, P. Halder, A. K. Pal, and A. Sen(De), **Phys. Rev. A** 111, 042401 (2025), **DOI:**, **arXiv:** [2406.07652](https://arxiv.org/abs/2406.07652)
-2. Entanglement and fidelity across quantum phase transitions in locally perturbed topological codes with open boundaries, Harikrishnan K. J. and A. K. Pal, **Phys. Rev. A** 111, 032401 (2025), **DOI:**. **arXiv:** [2405.00416](https://arxiv.org/abs/2405.00416)
-3. Logarithmic growth of peripheral entanglement concentrated via noisy measurements in a star network of spins, J. G. Krishnan, Harikrishnan K. J., and A. K. Pal, **Phys. Lett. A** 531, 130170 (2025), **DOI:**, **arXiv:** [2307.15949](https://arxiv.org/abs/2307.15949)
+1. **Recovery of resources through sequential noisy measurements**, S. Mondal, P. Halder, A. K. Pal, and A. Sen(De), **Phys. Rev. A** 111, 042401 (2025), **DOI:**, **arXiv:** [2406.07652](https://arxiv.org/abs/2406.07652)
+2. **Entanglement and fidelity across quantum phase transitions in locally perturbed topological codes with open boundaries**, Harikrishnan K. J. and A. K. Pal, **Phys. Rev. A** 111, 032401 (2025), **DOI:**. **arXiv:** [2405.00416](https://arxiv.org/abs/2405.00416)
+3. **Logarithmic growth of peripheral entanglement concentrated via noisy measurements in a star network of spins**, J. G. Krishnan, Harikrishnan K. J., and A. K. Pal, **Phys. Lett. A** 531, 130170 (2025), **DOI:**, **arXiv:** [2307.15949](https://arxiv.org/abs/2307.15949)
 
 **2024**
 
-1. Estimating correlations and entanglement in the two-dimensional Heisenberg model in the strong rung-coupling limit, C. B. Pushpan, Harikrishnan K. J., P. Narayan, and A. K. Pal, **Phys. Rev. A** 110, 032408 (2024), arXiv: 2301.04615
-2. Quantum state transfer on 2D lattices: A low-energy eﬀective Hamiltonian approach, C. B. Pushpan, Harikrishnan K. J., and A. K. Pal, Phys. Lett. A 511, 129543 (2024), arXiv: 2306.08440
+1. **Estimating correlations and entanglement in the two-dimensional Heisenberg model in the strong rung-coupling limit**, C. B. Pushpan, Harikrishnan K. J., P. Narayan, and A. K. Pal, **Phys. Rev. A** 110, 032408 (2024), **DOI:**, **arXiv:** 2301.04615
+2. **Quantum state transfer on 2D lattices: A low-energy eﬀective Hamiltonian approach**, C. B. Pushpan, Harikrishnan K. J., and A. K. Pal, **Phys. Lett. A** 511, 129543 (2024), **DOI:**. **arXiv:** 2306.08440
 
 **2023**
 
-1. Localizing genuine multiparty entanglement in noisy stabilizer states, Harikrishnan K. J. and A. K. Pal, Phys. Rev. A 108, 032404 (2023), arXiv: 2211.01064
-2. Controlling gain with loss: Bounds of localizable entanglement in multi-qubit systems, J. G. Krishnan, Harikrishnan K. J., and A. K. Pal, Phys. Rev. A 107, 042411 (2023), arXiv: 2206.07731
-3. Designing refrigerators in higher dimensions using quantum spin models, T. K. Konar, S. Ghosh, A. K. Pal, and A. Sen(De), Phys. Rev. A 107, 032602 (2023), arXiv: 2112.13765
+1. **Localizing genuine multiparty entanglement in noisy stabilizer states**, Harikrishnan K. J. and A. K. Pal, **Phys. Rev. A** 108, 032404 (2023), **DOI:**, **arXiv:** 2211.01064
+2. **Controlling gain with loss: Bounds of localizable entanglement in multi-qubit systems**, J. G. Krishnan, Harikrishnan K. J., and A. K. Pal, **Phys. Rev. A** 107, 042411 (2023), **DOI:**, **arXiv:** 2206.07731
+3. **Designing refrigerators in higher dimensions using quantum spin models**, T. K. Konar, S. Ghosh, A. K. Pal, and A. Sen(De), **Phys. Rev. A** 107, 032602 (2023), **DOI:**, **arXiv:** 2112.13765
 
 **2022**
 
-1. Circulating genuine multiparty entanglement in quantum network, P. Halder, R. Banerjee, S. Ghosh, A. K. Pal, and A. Sen(De), Phys. Rev. A 106, 032604 (2022), arXiv: 2112.10122
-2. Exactly solvable 1D quantum models with Gamma matrices, Y. Chugh, K. Dhochak, U. Divakaran, P. Narayan, and A. K. Pal, Phys. Rev. E 106, 024114 (2022), arXiv: 2201.06588
+1. **Circulating genuine multiparty entanglement in quantum network**, P. Halder, R. Banerjee, S. Ghosh, A. K. Pal, and A. Sen(De), **Phys. Rev. A** 106, 032604 (2022), **DOI:**, **arXiv:** 2112.10122
+2. **Exactly solvable 1D quantum models with Gamma matrices**, Y. Chugh, K. Dhochak, U. Divakaran, P. Narayan, and A. K. Pal, Phys. Rev. E 106, 024114 (2022), arXiv: 2201.06588
 3. Distinguishing phases via non-Markovian dynamics of entanglement in topological quantum codes under parallel magnetic field, Harikrishnan K. J. and A. K. Pal, Phys. Rev. A 105, 052421 (2022), arXiv: 2108.11198
 4. Hierarchies of localizable entanglement due to spatial distribution of local noise, R. Banerjee, A. K. Pal, and A. Sen(De), Phys. Rev. Research 4, 023035 (2022), arXiv: 2003.02175
 5. Designing robust quantum refrigerators in disordered spin models, T. K. Konar, S. Ghosh, A. K. Pal, and A. Sen(De), Phys. Rev. A 105, 022214 (2022), arXiv: 2107.11668
