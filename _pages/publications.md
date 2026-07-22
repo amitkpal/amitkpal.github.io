@@ -12,7 +12,7 @@ Recent Preprints
 2. **Robust quantum metrology using disordered probes**, Vishnupriya K., Harikrishnan K. J., and A. K. Pal, **arXiv:** [2604.11635](https://arxiv.org/abs/2604.11635)
 3. **Quantum batteries with K-regular graph generators: A no-go for quantum advantage**, D. Ghosh, T. K. Konar, A. K. Pal, and A. Sen(De), **arXiv:** [2512.22908](https://arxiv.org/abs/2512.22908)
 4. **Quantum error correction via purification using a single auxiliary**, C. B. Pushpan, T. K. Konar, A. Sen(De), and A. K. Pal, **arXiv:** [2512.09745](https://arxiv.org/abs/2512.09745)
-5. **Block entanglement bounds distribution of regionally localized entanglement**, <span style="color:#007BFF">J. G. Krishnan</span>, A. Sen(De), and A. K. Pal, **arXiv:** [2508.05431](https://arxiv.org/abs/2508.05431)
+5. **Block entanglement bounds distribution of regionally localized entanglement**, J. G. Krishnan, A. Sen(De), and A. K. Pal, **arXiv:** [2508.05431](https://arxiv.org/abs/2508.05431)
 
 Published / Accepted for Publications 
 ------
