@@ -27,13 +27,13 @@ Published / Accepted for Publications
 
 **2025**
 
-1. Recovery of resources through sequential noisy measurements, S. Mondal, P. Halder, A. K. Pal, and A. Sen(De), Phys. Rev. A. 111, 042401 (2025), arXiv: 2406.07652
-2. Entanglement and fidelity across quantum phase transitions in locally perturbed topological codes with open boundaries, Harikrishnan K. J. and A. K. Pal, Phys. Rev. A. 111, 032401 (2025), arXiv: 2405.00416
-3. Logarithmic growth of peripheral entanglement concentrated via noisy measurements in a star network of spins, J. G. Krishnan, Harikrishnan K. J., and A. K. Pal, Phys. Lett. A 531, 130170 (2025), arXiv: 2307.15949
+1. Recovery of resources through sequential noisy measurements, S. Mondal, P. Halder, A. K. Pal, and A. Sen(De), **Phys. Rev. A** 111, 042401 (2025), **DOI:**, **arXiv:** [2406.07652](https://arxiv.org/abs/2406.07652)
+2. Entanglement and fidelity across quantum phase transitions in locally perturbed topological codes with open boundaries, Harikrishnan K. J. and A. K. Pal, **Phys. Rev. A** 111, 032401 (2025), **DOI:**. **arXiv:** [2405.00416](https://arxiv.org/abs/2405.00416)
+3. Logarithmic growth of peripheral entanglement concentrated via noisy measurements in a star network of spins, J. G. Krishnan, Harikrishnan K. J., and A. K. Pal, **Phys. Lett. A** 531, 130170 (2025), **DOI:**, **arXiv:** [2307.15949](https://arxiv.org/abs/2307.15949)
 
 **2024**
 
-1. Estimating correlations and entanglement in the two-dimensional Heisenberg model in the strong rung-coupling limit, C. B. Pushpan, Harikrishnan K. J., P. Narayan, and A. K. Pal, Phys. Rev. A. 110, 032408 (2024), arXiv: 2301.04615
+1. Estimating correlations and entanglement in the two-dimensional Heisenberg model in the strong rung-coupling limit, C. B. Pushpan, Harikrishnan K. J., P. Narayan, and A. K. Pal, **Phys. Rev. A** 110, 032408 (2024), arXiv: 2301.04615
 2. Quantum state transfer on 2D lattices: A low-energy eﬀective Hamiltonian approach, C. B. Pushpan, Harikrishnan K. J., and A. K. Pal, Phys. Lett. A 511, 129543 (2024), arXiv: 2306.08440
 
 **2023**
