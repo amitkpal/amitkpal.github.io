@@ -45,20 +45,20 @@ Published / Accepted for Publications
 **2022**
 
 1. **Circulating genuine multiparty entanglement in quantum network**, P. Halder, R. Banerjee, S. Ghosh, A. K. Pal, and A. Sen(De), **Phys. Rev. A** 106, 032604 (2022), **DOI:**, **arXiv:** 2112.10122
-2. **Exactly solvable 1D quantum models with Gamma matrices**, Y. Chugh, K. Dhochak, U. Divakaran, P. Narayan, and A. K. Pal, Phys. Rev. E 106, 024114 (2022), arXiv: 2201.06588
-3. Distinguishing phases via non-Markovian dynamics of entanglement in topological quantum codes under parallel magnetic field, Harikrishnan K. J. and A. K. Pal, Phys. Rev. A 105, 052421 (2022), arXiv: 2108.11198
-4. Hierarchies of localizable entanglement due to spatial distribution of local noise, R. Banerjee, A. K. Pal, and A. Sen(De), Phys. Rev. Research 4, 023035 (2022), arXiv: 2003.02175
-5. Designing robust quantum refrigerators in disordered spin models, T. K. Konar, S. Ghosh, A. K. Pal, and A. Sen(De), Phys. Rev. A 105, 022214 (2022), arXiv: 2107.11668
-6. Relaxation times do not capture logical qubit dynamics, A. K. Pal, P. Schindler, A. Erhard, A. Rivas, M.-A. Martin-Delgado, R. Blatt, T. Monz, and M. Müller, Quantum 6, 632 (2022), arXiv: 2012.07911
+2. **Exactly solvable 1D quantum models with Gamma matrices**, Y. Chugh, K. Dhochak, U. Divakaran, P. Narayan, and A. K. Pal, **Phys. Rev. E** 106, 024114 (2022), **DOI:**, **arXiv:** 2201.06588
+3. **Distinguishing phases via non-Markovian dynamics of entanglement in topological quantum codes under parallel magnetic field**, Harikrishnan K. J. and A. K. Pal, **Phys. Rev. A** 105, 052421 (2022), **DOI:**, **arXiv:** 2108.11198
+4. **Hierarchies of localizable entanglement due to spatial distribution of local noise**, R. Banerjee, A. K. Pal, and A. Sen(De), **Phys. Rev. Research** 4, 023035 (2022), **DOI:**, **arXiv:** 2003.02175
+5. **Designing robust quantum refrigerators in disordered spin models**, T. K. Konar, S. Ghosh, A. K. Pal, and A. Sen(De), **Phys. Rev. A** 105, 022214 (2022), **DOI:**, **arXiv:** 2107.11668
+6. **Relaxation times do not capture logical qubit dynamics**, A. K. Pal, P. Schindler, A. Erhard, A. Rivas, M.-A. Martin-Delgado, R. Blatt, T. Monz, and M. Müller, **Quantum** 6, 632 (2022), **DOI:**, **arXiv:** 2012.07911
 
 **2021**
 
-1. Three qubits in less than three baths: Beyond two-body system-bath interactions in quantum refrigerators, A. Ghoshal, S. Das, A. K. Pal, A. Sen(De), and U. Sen, Phys. Rev. A 104, 042208 (2021), arXiv: 2012.08399
+1. **Three qubits in less than three baths: Beyond two-body system-bath interactions in quantum refrigerators**, A. Ghoshal, S. Das, A. K. Pal, A. Sen(De), and U. Sen, **Phys. Rev. A** 104, 042208 (2021), **DOI:**, **arXiv**: 2012.08399
 
 **2020**
 
-1. Scalable characterization of localizable entanglement in noisy topological quantum codes, D. Amaro, M. Müller, and A. K. Pal, New J. Phys. 22, 053038 (2020), arXiv: 1907.13161
-2. Uniform decoherence effect on localizable entanglement in random multi-qubit pure states, R. Banerjee, A. K. Pal, and A. Sen(De), Phys. Rev. A 101, 042339 (2020), arXiv: 1907.10847
+1. **Scalable characterization of localizable entanglement in noisy topological quantum codes**, D. Amaro, M. Müller, and A. K. Pal, **New J. Phys.** 22, 053038 (2020), **DOI:**, **arXiv:** 1907.13161
+2. **Uniform decoherence effect on localizable entanglement in random multi-qubit pure states**, R. Banerjee, A. K. Pal, and A. Sen(De), **Phys. Rev. A** 101, 042339 (2020), **DOI:**, **arXiv:** 1907.10847
 
 **2019 and Before**
 
@@ -70,7 +70,7 @@ Published / Accepted for Publications
 6. Multipartite entanglement accumulation in quantum states: Localizable generalized geometric measure, D. Sadhukhan, S. Singha Roy, A. K. Pal, D. Rakshit, A. Sen(De), and U. Sen, Phys. Rev. A 95, 022301 (2017), arXiv: 1511.03998
 7. Static and dynamical quantum correlations in phases of an alternating-field XY model, T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen, Phys. Rev. A 94, 042310 (2016), arXiv: 1605.07576
 8. Conclusive identification of quantum channels via monogamy of quantum correlations, A. Kumar, S. Singha Roy, A. K. Pal, R. Prabhu, A. Sen(De), and U. Sen, Phys. Lett. A 380, 3588 (2016), arXiv: 1603.02801
-9. Statistics of leading digits leads to unification of quantum correlations, T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen, Europhys. Lett. 114, 30004 (2016), arXiv: 1509.09295 [Selected as featured article (Editor’s choice) in Europhysics Letters; Included in the Europhysics Letters Highlights of 2016]
+9. Statistics of leading digits leads to unification of quantum correlations, T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen, Europhys. Lett. 114, 30004 (2016), arXiv: 1509.09295 (Selected as featured article (Editor’s choice) in Europhysics Letters; Included in the Europhysics Letters Highlights of 2016)
 10. Reducing computational complexity of quantum correlations, T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen, Phys. Rev. A 92, 062301 (2015), arXiv: 1504.04727
 11. Freezing of quantum correlations under local decoherence, T. Chanda, A. K. Pal, A. Biswas, A. Sen(De), and U. Sen, Phys. Rev. A, 91, 062119 (2015), arXiv: 1409.2096
 12. Quantum discord, decoherence and quantum phase transition, I. Bose and A. K. Pal, Int. J. Mod. Phys. B 27, 1345042 (2013), arXiv: 1205.1300
@@ -84,6 +84,5 @@ Published / Accepted for Publications
 
 **Books / Book Chapters**
 
-1. Monogamy of quantum correlations - a review, H. S. Dhar, A. K. Pal, D. Rakshit, A. Sen(De), and U. Sen, In Lectures on general quantum correlations and their applications, Edited by Felipe Fanchini, Diogo Soares-Pinto, and Gerardo Adesso (Springer (2017)), DOI: 10.1007/978-3-319-53412-1, arXiv: 1610.01069
-
+1. **Monogamy of quantum correlations - a review**, H. S. Dhar, A. K. Pal, D. Rakshit, A. Sen(De), and U. Sen, In **Lectures on general quantum correlations and their applications**, Edited by Felipe Fanchini, Diogo Soares-Pinto, and Gerardo Adesso (Springer (2017)), **DOI:** [10.1007/978-3-319-53412-1](https://doi.org/10.1007/978-3-319-53412-1), **arXiv:** [1610.01069](https://arxiv.org/abs/1610.01069)
 
