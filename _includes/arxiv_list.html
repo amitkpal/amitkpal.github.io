@@ -2,27 +2,28 @@
 
 {% for paper in site.data.arxiv %}
 
-<div style="margin-bottom:20px;">
+<div style="margin-bottom:25px;">
 
 <strong>{{ paper.title }}</strong><br>
 
 {{ paper.authors }}<br>
 
-<a href="https://arxiv.org/abs/{{ paper.arxiv }}">
-Abstract
-</a>
+{% if paper.journal != "" %}
+<i>{{ paper.journal }}</i><br>
+{% else %}
+<i>{{ paper.status }}</i><br>
+{% endif %}
 
+<a href="https://arxiv.org/abs/{{ paper.arxiv }}">Abstract</a>
 |
-
-<a href="https://arxiv.org/pdf/{{ paper.arxiv }}.pdf">
-PDF
-</a>
-
+<a href="https://arxiv.org/pdf/{{ paper.arxiv }}.pdf">PDF</a>
 |
+<a href="https://arxiv.org/abs/{{ paper.arxiv }}">arXiv:{{ paper.arxiv }}</a>
 
-<a href="https://arxiv.org/abs/{{ paper.arxiv }}">
-arXiv:{{ paper.arxiv }}
-</a>
+{% if paper.doi != "" %}
+|
+<a href="https://doi.org/{{ paper.doi }}">DOI</a>
+{% endif %}
 
 </div>
 
