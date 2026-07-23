@@ -14,17 +14,17 @@ main:
   - title: "Research"
     url: /research/   
     
-  - title: "Group"
-    url: /group/
-    
   - title: "Publications"
     url: /publications/   
 
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/   
 
-  - title: "Miscellaneous"
-    url: /misc/     
+  - title: "Group"
+    url: /group/    
+
+  - title: "Gallery"
+    url: /gallery/     
 
   #- title: "Talks"
   #  url: /talks/    
