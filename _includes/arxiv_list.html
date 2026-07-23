@@ -9,9 +9,9 @@
 {{ paper.authors }}<br>
 
 {% if paper.journal != "" %}
-<i>{{ paper.journal }}</i><br>
+{{ paper.journal }}<br>
 {% else %}
-<i>{{ paper.status }}</i><br>
+{{ paper.status }}<br>
 {% endif %}
 
 <a href="https://arxiv.org/abs/{{ paper.arxiv }}">Abstract</a>
