@@ -4,3 +4,11 @@
   journal: ""
   doi: ""
   status: "Preprint"
+
+
+- title: "Scaling of entanglement entropy and correlations in the variable-range extended Ising model"
+  authors: "Harikrishnan K. J., D. Sadhukhan, and A. K. Pal"
+  arxiv: "2504.01846"
+  journal: "Physical Review A"
+  doi: "10.1103/vgrd-dg8j"
+  status: "Published"
