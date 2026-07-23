@@ -29,6 +29,9 @@ Recent Works
 - Quantum error correction via purification using a single auxiliary, C. B. Pushpan, T. K. Konar, A. Sen(De), and A. K. Pal, arXiv: [2512.09745](https://arxiv.org/abs/2512.09745)
 - Block entanglement bounds distribution of regionally localized entanglement, J. G. Krishnan, A. Sen(De), and A. K. Pal, arXiv: [2508.05431](https://arxiv.org/abs/2508.05431)
 
+{% include recent_preprints.html %}
+
+
 For complete list of publications, see [here](publications.md).
 
 
