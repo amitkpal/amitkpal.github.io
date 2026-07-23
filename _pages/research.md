@@ -14,4 +14,9 @@ Current research interests
 - Quantum error correction and mitigation
 - Non-equilibrium quantum systems and quantum thermodynamics
 - Noisy quantum devices and applications
-- Many-body noisy quantum metrology. 
+- Many-body noisy quantum metrology.
+
+{% include recent_preprints.html %}
+
+
+For complete list of publications, see [here](publications.md).
