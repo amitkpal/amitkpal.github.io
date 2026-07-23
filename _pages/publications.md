@@ -14,6 +14,8 @@ Preprints and Peer-Reviewed Articles
 Books / Book Chapters
 ------
 
+{% include book_chapters_list.html %}
+
 
 Other than Quantum
 ------
