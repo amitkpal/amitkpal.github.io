@@ -19,7 +19,7 @@ Published / Accepted for Publications
 
 **2026**
 
-1. **Developing universal logical state-purification strategy**, C. B. Pushpan, T. K. Konar, A. Sen(De), and A. K. Pal, to appear in **Physical Review A**, **arXiv:** [2502.01393](https://arxiv.org/abs/2502.01393), 
+1. **Developing a universal logical state-purification strategy**, C. B. Pushpan, T. K. Konar, A. Sen(De), and A. K. Pal, to appear in **Physical Review A**, **arXiv:** [2502.01393](https://arxiv.org/abs/2502.01393), 
 2. **Bridging the daemonic gap en route to charge multi-mode batteries via a single auxiliary**, C. B. Pushpan and A. K. Pal, **Phys. Rev. A** 114, 012607 (2026), **DOI:**[10.1103/jr71-mkfl](https://journals.aps.org/pra/abstract/10.1103/jr71-mkfl), **arXiv:** [2511.07243](https://arxiv.org/abs/2511.07243)
 3. **Simultaneous cooling of qubits via a quantum absorption refrigerator and beyond**, J. G. Krishnan, C. B. Pushpan, and A. K. Pal, **Phys. Lett. A** 591, 131871 (2026), **DOI:** [10.1016/j.physleta.2026.131871](https://doi.org/10.1016/j.physleta.2026.131871), **arXiv:** [2410.15871](https://arxiv.org/abs/2410.15871)
 4. **Scalable and deterministic Greenberger-Horne-Zeilinger state generation via graph states-assisted measurements**, Harikrishnan K. J. and A. K. Pal, **Phys. Rev. A** 113, 052450 (2026), **DOI:** [10.1103/p2bp-mjk2](https://doi.org/10.1103/p2bp-mjk2), **arXiv:** [2410.15892](https://arxiv.org/abs/2410.15892)
