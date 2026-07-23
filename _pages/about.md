@@ -20,18 +20,3 @@ News and Events
 - **01-01-2026:** Vimal Sreekanth joins the group.
 
 For older news and events, see [here](news.md).
-
-Recent Works
-------
-- A graph-aware bounded distance decoder for all stabilizer codes, Harikrishnan K. J., and A. K. Pal, arXiv: [2604.25424](https://arxiv.org/abs/2604.25424)
-- Robust quantum metrology using disordered probes, Vishnupriya K., Harikrishnan K. J., and A. K. Pal, arXiv: [2604.11635](https://arxiv.org/abs/2604.11635)
-- Quantum batteries with K-regular graph generators: A no-go for quantum advantage, D. Ghosh, T. K. Konar, A. K. Pal, and A. Sen(De), arXiv:[2512.22908](https://arxiv.org/abs/2512.22908)
-- Quantum error correction via purification using a single auxiliary, C. B. Pushpan, T. K. Konar, A. Sen(De), and A. K. Pal, arXiv: [2512.09745](https://arxiv.org/abs/2512.09745)
-- Block entanglement bounds distribution of regionally localized entanglement, J. G. Krishnan, A. Sen(De), and A. K. Pal, arXiv: [2508.05431](https://arxiv.org/abs/2508.05431)
-
-{% include recent_preprints.html %}
-
-
-For complete list of publications, see [here](publications.md).
-
-
