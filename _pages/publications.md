@@ -5,19 +5,19 @@ permalink: /publications/
 author_profile: true
 ---
 
-Preprints and Peer-Reviewed Articles
+<span style="color:#945143">Preprints and Peer-Reviewed Articles</span>
 ------
 
 {% include quantum_papers_list.html %}
 
 
-Books / Book Chapters
+<span style="color:#945143">Books / Book Chapters</span>
 ------
 
 {% include book_chapters_list.html %}
 
 
-Other than Quantum
+<span style="color:#945143">Other than Quantum</span>
 ------
 
 {% include other_papers_list.html %}
