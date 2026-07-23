@@ -1,0 +1,36 @@
+<h2>Recent Preprints ({{ site.time | date: "%Y" }})</h2>
+
+{% assign current_year = site.time | date: "%Y" %}
+
+{% for paper in site.data.arxiv %}
+
+  {% assign paper_year = paper.year | append: "" %}
+
+  {% if paper.status | downcase == "preprint" and paper_year == current_year %}
+
+  <div style="margin-bottom:25px;">
+
+    <strong>{{ paper.title }}</strong><br>
+
+    {{ paper.authors }}<br>
+
+    {% if paper.journal != "" %}
+      <i>{{ paper.journal }}</i><br>
+    {% endif %}
+
+    <a href="https://arxiv.org/abs/{{ paper.arxiv }}">Abstract</a>
+    |
+    <a href="https://arxiv.org/pdf/{{ paper.arxiv }}.pdf">PDF</a>
+    |
+    <a href="https://arxiv.org/abs/{{ paper.arxiv }}">arXiv:{{ paper.arxiv }}</a>
+
+    {% if paper.doi != "" %}
+      |
+      <a href="https://doi.org/{{ paper.doi }}">DOI</a>
+    {% endif %}
+
+  </div>
+
+  {% endif %}
+
+{% endfor %}
