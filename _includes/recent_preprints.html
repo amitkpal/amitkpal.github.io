@@ -8,28 +8,28 @@
 
   {% if paper.status | downcase == "preprint" and paper_year == current_year %}
 
-  <div style="margin-bottom:25px;">
+    <div style="margin-bottom:30px;">
 
-    <strong>{{ paper.title }}</strong><br>
+      <strong>{{ paper.title }}</strong><br>
 
-    {{ paper.authors }}<br>
+      {{ paper.authors }}<br>
 
-    {% if paper.journal != "" %}
-      <i>{{ paper.journal }}</i><br>
-    {% endif %}
+      {% if paper.journal %}
+        <i>{{ paper.journal }}</i><br>
+      {% endif %}
 
-    <a href="https://arxiv.org/abs/{{ paper.arxiv }}">Abstract</a>
-    |
-    <a href="https://arxiv.org/pdf/{{ paper.arxiv }}.pdf">PDF</a>
-    |
-    <a href="https://arxiv.org/abs/{{ paper.arxiv }}">arXiv:{{ paper.arxiv }}</a>
-
-    {% if paper.doi != "" %}
+      <a href="https://arxiv.org/abs/{{ paper.arxiv }}">Abstract</a>
       |
-      <a href="https://doi.org/{{ paper.doi }}">DOI</a>
-    {% endif %}
+      <a href="https://arxiv.org/pdf/{{ paper.arxiv }}.pdf">PDF</a>
+      |
+      <a href="https://arxiv.org/abs/{{ paper.arxiv }}">arXiv:{{ paper.arxiv }}</a>
 
-  </div>
+      {% if paper.doi %}
+        |
+        <a href="https://doi.org/{{ paper.doi }}">DOI</a>
+      {% endif %}
+
+    </div>
 
   {% endif %}
 
