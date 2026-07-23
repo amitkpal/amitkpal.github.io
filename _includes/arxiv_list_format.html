@@ -1,0 +1,72 @@
+<h2>Preprints</h2>
+
+{% for paper in site.data.arxiv %}
+
+<div style="margin-bottom:35px;">
+
+<strong>{{ paper.title }}</strong><br>
+
+{{ paper.authors }}<br>
+
+{% if paper.journal != "" %}
+<i>{{ paper.journal }}</i>
+{% endif %}
+
+{% if paper.year %}
+({{ paper.year }})
+{% endif %}
+
+<br><br>
+
+{% if paper.status %}
+<strong>Status:</strong> {{ paper.status }}<br>
+{% endif %}
+
+{% if paper.arxiv %}
+<strong>arXiv:</strong>
+<a href="https://arxiv.org/abs/{{ paper.arxiv }}">
+{{ paper.arxiv }}
+</a><br>
+{% endif %}
+
+{% if paper.doi %}
+<strong>DOI:</strong>
+<a href="https://doi.org/{{ paper.doi }}">
+{{ paper.doi }}
+</a><br>
+{% endif %}
+
+{% if paper.pdf %}
+<strong>PDF:</strong>
+<a href="{{ paper.pdf }}">
+Download
+</a><br>
+{% endif %}
+
+{% if paper.code %}
+<strong>Code:</strong>
+<a href="{{ paper.code }}">
+Repository
+</a><br>
+{% endif %}
+
+{% if paper.abstract %}
+<br>
+<strong>Abstract</strong>
+
+<p>
+{{ paper.abstract }}
+</p>
+{% endif %}
+
+{% if paper.bibtex %}
+<strong>BibTeX</strong>
+
+<pre>{{ paper.bibtex }}</pre>
+{% endif %}
+
+</div>
+
+<hr>
+
+{% endfor %}
