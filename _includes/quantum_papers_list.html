@@ -1,0 +1,28 @@
+{% for paper in site.data.quantum_papers %}
+
+<div style="margin-bottom:25px;">
+
+<strong>{{ paper.title }}</strong><br>
+
+{{ paper.authors }}<br>
+
+{% if paper.journal != "" %}
+{{ paper.journal }}<br>
+{% else %}
+{{ paper.status }}<br>
+{% endif %}
+
+<a href="https://arxiv.org/abs/{{ paper.quantum_papers }}">Abstract</a>
+|
+<a href="https://arxiv.org/pdf/{{ paper.quantum_papers }}.pdf">PDF</a>
+|
+<a href="https://arxiv.org/abs/{{ paper.quantum_papers }}">arXiv:{{ paper.arxiv }}</a>
+
+{% if paper.doi != "" %}
+|
+<a href="https://doi.org/{{ paper.doi }}">DOI</a>
+{% endif %}
+
+</div>
+
+{% endfor %}
