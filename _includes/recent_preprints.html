@@ -2,14 +2,9 @@
 
 {% assign current_year = site.time | date: "%Y" %}
 
-{% for paper in site.data.arxiv %}
+{% for paper in site.data.quantum_papers %}
 
-  {% assign paper_year = paper.year | append: "" %}
-
-  {% if paper.status | downcase == "preprint" and paper_year == current_year %}
-
-    {% assign abs_url = "https://arxiv.org/abs/" | append: paper.arxiv %}
-    {% assign pdf_url = "https://arxiv.org/pdf/" | append: paper.arxiv | append: ".pdf" %}
+  {% if paper.status == "preprint" and paper.year == current_year %}
 
     <div style="margin-bottom:30px;">
 
@@ -17,17 +12,17 @@
 
       {{ paper.authors }}<br>
 
-      {% if paper.journal %}
+      {% if paper.journal and paper.journal != "" %}
         <i>{{ paper.journal }}</i><br>
       {% endif %}
 
-      <a href="{{ abs_url }}">Abstract</a>
+      <a href="https://arxiv.org/abs/{{ paper.quantum_papers }}">Abstract</a>
       |
-      <a href="{{ pdf_url }}">PDF</a>
+      <a href="https://arxiv.org/pdf/{{ paper.quantum_papers }}.pdf">PDF</a>
       |
-      <a href="{{ abs_url }}">arXiv:{{ paper.arxiv }}</a>
+      <a href="https://arxiv.org/abs/{{ paper.quantum_papers }}">arXiv:{{ paper.arxiv }}</a>
 
-      {% if paper.doi %}
+      {% if paper.doi and paper.doi != "" %}
         |
         <a href="https://doi.org/{{ paper.doi }}">DOI</a>
       {% endif %}
