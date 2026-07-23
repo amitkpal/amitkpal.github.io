@@ -20,7 +20,7 @@ Published / Accepted for Publications
 **2026**
 
 1. **Developing a universal logical state-purification strategy**, C. B. Pushpan, T. K. Konar, A. Sen(De), and A. K. Pal, to appear in **Physical Review A**, **arXiv:** [2502.01393](https://arxiv.org/abs/2502.01393), 
-2. **Bridging the daemonic gap en route to charge multi-mode batteries via a single auxiliary**, C. B. Pushpan and A. K. Pal, **Phys. Rev. A** 114, 012607 (2026), **DOI:**[10.1103/jr71-mkfl](https://journals.aps.org/pra/abstract/10.1103/jr71-mkfl), **arXiv:** [2511.07243](https://arxiv.org/abs/2511.07243)
+2. **Bridging the daemonic gap en route to charge multi-mode batteries via a single auxiliary**, C. B. Pushpan and A. K. Pal, **Phys. Rev. A** 114, 012607 (2026), **DOI:** [10.1103/jr71-mkfl](https://journals.aps.org/pra/abstract/10.1103/jr71-mkfl), **arXiv:** [2511.07243](https://arxiv.org/abs/2511.07243)
 3. **Simultaneous cooling of qubits via a quantum absorption refrigerator and beyond**, J. G. Krishnan, C. B. Pushpan, and A. K. Pal, **Phys. Lett. A** 591, 131871 (2026), **DOI:** [10.1016/j.physleta.2026.131871](https://doi.org/10.1016/j.physleta.2026.131871), **arXiv:** [2410.15871](https://arxiv.org/abs/2410.15871)
 4. **Scalable and deterministic Greenberger-Horne-Zeilinger state generation via graph states-assisted measurements**, Harikrishnan K. J. and A. K. Pal, **Phys. Rev. A** 113, 052450 (2026), **DOI:** [10.1103/p2bp-mjk2](https://doi.org/10.1103/p2bp-mjk2), **arXiv:** [2410.15892](https://arxiv.org/abs/2410.15892)
 5. **Scaling of entanglement entropy and correlations in the variable-range extended Ising model**, Harikrishnan K. J., D. Sadhukhan, and A. K. Pal, **Phys. Rev. A** 113, 052444 (2026), **DOI:** [10.1103/vgrd-dg8j](https://doi.org/10.1103/vgrd-dg8j), **arXiv:** [2504.01846](https://arxiv.org/abs/2504.01846)
@@ -33,33 +33,32 @@ Published / Accepted for Publications
 
 **2024**
 
-1. **Estimating correlations and entanglement in the two-dimensional Heisenberg model in the strong rung-coupling limit**, C. B. Pushpan, Harikrishnan K. J., P. Narayan, and A. K. Pal, **Phys. Rev. A** 110, 032408 (2024), **DOI:**, **arXiv:** [2301.04615](https://arxiv.org/abs/2301.04615)
-2. **Quantum state transfer on 2D lattices: A low-energy eﬀective Hamiltonian approach**, C. B. Pushpan, Harikrishnan K. J., and A. K. Pal, **Phys. Lett. A** 511, 129543 (2024), **DOI:**. **arXiv:** [2306.08440](https://arxiv.org/abs/2306.08440)
+1. **Estimating correlations and entanglement in the two-dimensional Heisenberg model in the strong rung-coupling limit**, C. B. Pushpan, Harikrishnan K. J., P. Narayan, and A. K. Pal, **Phys. Rev. A** 110, 032408 (2024), **DOI:** [10.1103/PhysRevA.110.032408](https://doi.org/10.1103/PhysRevA.110.032408), **arXiv:** [2301.04615](https://arxiv.org/abs/2301.04615)
+2. **Quantum state transfer on 2D lattices: A low-energy eﬀective Hamiltonian approach**, C. B. Pushpan, Harikrishnan K. J., and A. K. Pal, **Phys. Lett. A** 511, 129543 (2024), **DOI:** [10.1016/j.physleta.2024.129543](https://doi.org/10.1016/j.physleta.2024.129543), **arXiv:** [2306.08440](https://arxiv.org/abs/2306.08440)
 
 **2023**
 
-1. **Localizing genuine multiparty entanglement in noisy stabilizer states**, Harikrishnan K. J. and A. K. Pal, **Phys. Rev. A** 108, 032404 (2023), **DOI:**, **arXiv:** [2211.01064](https://arxiv.org/abs/2211.01064)
-2. **Controlling gain with loss: Bounds of localizable entanglement in multi-qubit systems**, J. G. Krishnan, Harikrishnan K. J., and A. K. Pal, **Phys. Rev. A** 107, 042411 (2023), **DOI:**, **arXiv:** [2206.07731](https://arxiv.org/abs/2206.07731)
-3. **Designing refrigerators in higher dimensions using quantum spin models**, T. K. Konar, S. Ghosh, A. K. Pal, and A. Sen(De), **Phys. Rev. A** 107, 032602 (2023), **DOI:**, **arXiv:** [2112.13765](https://arxiv.org/abs/2112.13765)
+1. **Localizing genuine multiparty entanglement in noisy stabilizer states**, Harikrishnan K. J. and A. K. Pal, **Phys. Rev. A** 108, 032404 (2023), **DOI:** [10.1103/PhysRevA.108.032404](https://doi.org/10.1103/PhysRevA.108.032404), **arXiv:** [2211.01064](https://arxiv.org/abs/2211.01064)
+2. **Controlling gain with loss: Bounds of localizable entanglement in multi-qubit systems**, J. G. Krishnan, Harikrishnan K. J., and A. K. Pal, **Phys. Rev. A** 107, 042411 (2023), **DOI:** [10.1103/PhysRevA.107.042411](https://doi.org/10.1103/PhysRevA.107.042411), **arXiv:** [2206.07731](https://arxiv.org/abs/2206.07731)
+3. **Designing refrigerators in higher dimensions using quantum spin models**, T. K. Konar, S. Ghosh, A. K. Pal, and A. Sen(De), **Phys. Rev. A** 107, 032602 (2023), **DOI:** [10.1103/PhysRevA.107.032602](https://doi.org/10.1103/PhysRevA.107.032602), **arXiv:** [2112.13765](https://arxiv.org/abs/2112.13765)
 
 **2022**
 
-1. **Circulating genuine multiparty entanglement in quantum network**, P. Halder, R. Banerjee, S. Ghosh, A. K. Pal, and A. Sen(De), **Phys. Rev. A** 106, 032604 (2022), **DOI:**, **arXiv:** [2112.10122](https://arxiv.org/abs/2112.10122)
-2. **Exactly solvable 1D quantum models with Gamma matrices**, Y. Chugh, K. Dhochak, U. Divakaran, P. Narayan, and A. K. Pal, **Phys. Rev. E** 106, 024114 (2022), **DOI:**, **arXiv:** [2201.06588](https://arxiv.org/abs/2201.06588)
-3. **Distinguishing phases via non-Markovian dynamics of entanglement in topological quantum codes under parallel magnetic field**, Harikrishnan K. J. and A. K. Pal, **Phys. Rev. A** 105, 052421 (2022), **DOI:**, **arXiv:** [2108.11198](https://arxiv.org/abs/2108.11198)
-4. **Hierarchies of localizable entanglement due to spatial distribution of local noise**, R. Banerjee, A. K. Pal, and A. Sen(De), **Phys. Rev. Research** 4, 023035 (2022), **DOI:**, **arXiv:** [2003.02175](https://arxiv.org/abs/2003.02175)
-5. **Designing robust quantum refrigerators in disordered spin models**, T. K. Konar, S. Ghosh, A. K. Pal, and A. Sen(De), **Phys. Rev. A** 105, 022214 (2022), **DOI:**, **arXiv:** [2107.11668](https://arxiv.org/abs/2107.11668)
-6. **Relaxation times do not capture logical qubit dynamics**, A. K. Pal, P. Schindler, A. Erhard, A. Rivas, M.-A. Martin-Delgado, R. Blatt, T. Monz, and M. Müller, **Quantum** 6, 632 (2022), **DOI:**, **arXiv:**  [2012.07911](https://arxiv.org/abs/2012.07911)
+1. **Circulating genuine multiparty entanglement in quantum network**, P. Halder, R. Banerjee, S. Ghosh, A. K. Pal, and A. Sen(De), **Phys. Rev. A** 106, 032604 (2022), **DOI:** [10.1103/PhysRevA.106.032604](https://doi.org/10.1103/PhysRevA.106.032604), **arXiv:** [2112.10122](https://arxiv.org/abs/2112.10122)
+2. **Exactly solvable 1D quantum models with Gamma matrices**, Y. Chugh, K. Dhochak, U. Divakaran, P. Narayan, and A. K. Pal, **Phys. Rev. E** 106, 024114 (2022), **DOI:** [10.1103/PhysRevE.106.024114](https://doi.org/10.1103/PhysRevE.106.024114), **arXiv:** [2201.06588](https://arxiv.org/abs/2201.06588)
+3. **Distinguishing phases via non-Markovian dynamics of entanglement in topological quantum codes under parallel magnetic field**, Harikrishnan K. J. and A. K. Pal, **Phys. Rev. A** 105, 052421 (2022), **DOI:** [10.1103/PhysRevA.105.052421](https://doi.org/10.1103/PhysRevA.105.052421), **arXiv:** [2108.11198](https://arxiv.org/abs/2108.11198)
+4. **Hierarchies of localizable entanglement due to spatial distribution of local noise**, R. Banerjee, A. K. Pal, and A. Sen(De), **Phys. Rev. Research** 4, 023035 (2022), **DOI:** [10.1103/PhysRevResearch.4.023035](https://doi.org/10.1103/PhysRevResearch.4.023035), **arXiv:** [2003.02175](https://arxiv.org/abs/2003.02175)
+5. **Designing robust quantum refrigerators in disordered spin models**, T. K. Konar, S. Ghosh, A. K. Pal, and A. Sen(De), **Phys. Rev. A** 105, 022214 (2022), **DOI:** [10.1103/PhysRevA.105.022214](https://doi.org/10.1103/PhysRevA.105.022214), **arXiv:** [2107.11668](https://arxiv.org/abs/2107.11668)
+6. **Relaxation times do not capture logical qubit dynamics**, A. K. Pal, P. Schindler, A. Erhard, A. Rivas, M.-A. Martin-Delgado, R. Blatt, T. Monz, and M. Müller, **Quantum** 6, 632 (2022), **DOI:** [10.22331/q-2022-01-24-632](https://doi.org/10.22331/q-2022-01-24-632), **arXiv:**  [2012.07911](https://arxiv.org/abs/2012.07911)
 
 **2021**
 
-1. **Three qubits in less than three baths: Beyond two-body system-bath interactions in quantum refrigerators**, A. Ghoshal, S. Das, A. K. Pal, A. Sen(De), and U. Sen, **Phys. Rev. A** 104, 042208 (2021), **DOI:**, **arXiv**: [2012.08399](https://arxiv.org/abs/2012.08399)
+1. **Three qubits in less than three baths: Beyond two-body system-bath interactions in quantum refrigerators**, A. Ghoshal, S. Das, A. K. Pal, A. Sen(De), and U. Sen, **Phys. Rev. A** 104, 042208 (2021), **DOI:** [10.1103/PhysRevA.104.042208](https://doi.org/10.1103/PhysRevA.104.042208), **arXiv**: [2012.08399](https://arxiv.org/abs/2012.08399)
 
 **2020**
 
-1. **Scalable characterization of localizable entanglement in noisy topological quantum codes**, D. Amaro, M. Müller, and A. K. Pal, **New J. Phys.** 22, 053038 (2020), **DOI:**, **arXiv:** [1907.13161](https://arxiv.org/abs/1907.13161)
-
-2. **Uniform decoherence effect on localizable entanglement in random multi-qubit pure states**, R. Banerjee, A. K. Pal, and A. Sen(De), **Phys. Rev. A** 101, 042339 (2020), **DOI:**, **arXiv:** [1907.10847](https://arxiv.org/abs/1907.10847)
+1. **Scalable characterization of localizable entanglement in noisy topological quantum codes**, D. Amaro, M. Müller, and A. K. Pal, **New J. Phys.** 22, 053038 (2020), **DOI:** [10.1088/1367-2630/ab84b3](https://doi.org/10.1088/1367-2630/ab84b3), **arXiv:** [1907.13161](https://arxiv.org/abs/1907.13161)
+2. **Uniform decoherence effect on localizable entanglement in random multi-qubit pure states**, R. Banerjee, A. K. Pal, and A. Sen(De), **Phys. Rev. A** 101, 042339 (2020), **DOI:** [10.1103/PhysRevA.101.042339](https://doi.org/10.1103/PhysRevA.101.042339), **arXiv:** [1907.10847](https://arxiv.org/abs/1907.10847)
 
 
 **2019 and Before**
