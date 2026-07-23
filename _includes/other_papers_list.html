@@ -12,11 +12,11 @@
 {{ paper.status }}<br>
 {% endif %}
 
-<a href="https://arxiv.org/abs/{{ paper.other_papers }}">Abstract</a>
+<a href="https://arxiv.org/abs/{{ paper.arxiv }}">Abstract</a>
 |
-<a href="https://arxiv.org/pdf/{{ paper.other_papers }}.pdf">PDF</a>
+<a href="https://arxiv.org/pdf/{{ paper.arxiv }}.pdf">PDF</a>
 |
-<a href="https://arxiv.org/abs/{{ paper.other_papers }}">arXiv:{{ paper.arxiv }}</a>
+<a href="https://arxiv.org/abs/{{ paper.arxiv }}">arXiv:{{ paper.arxiv }}</a>
 
 {% if paper.doi != "" %}
 |
