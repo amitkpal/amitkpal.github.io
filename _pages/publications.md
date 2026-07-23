@@ -5,4 +5,4 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% include arxiv_list.html %}
+{% include quantum_papers_list.html %}
