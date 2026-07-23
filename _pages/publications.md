@@ -90,3 +90,5 @@ On physical modeling of biological systems
 1. **Noise-induced regime shifts: A quantitative characterization**, S. Ghosh, A. K. Pal, and I. Bose, **Eur. Phys. J. E** 36: 123 (2013), **DOI:** [10.1140/epje/i2013-13123-y](https://doi.org/10.1140/epje/i2013-13123-y), **arXiv:** [1212.5385](https://arxiv.org/abs/1212.5385)
 2. **Early signatures of regime shifts in gene expression dynamicsz**, M. Pal, A. K. Pal, S. Ghosh, and I. Bose, **Phys. Biol.** 10, 036010 (2013), **DOI:** [10.1088/1478-3975/10/3/036010](https://doi.org/10.1088/1478-3975/10/3/036010), **arXiv:** [1212.5383](https://arxiv.org/abs/1212.5383)
 
+
+{% include arxiv_list.html %}
