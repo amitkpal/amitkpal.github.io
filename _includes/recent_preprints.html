@@ -1,34 +1,15 @@
-<h2>Recent Preprints ({{ site.time | date: "%Y" }})</h2>
+<h2>Debug</h2>
 
-{% assign current_year = site.time | date: "%Y" %}
+Current year = "{{ site.time | date: "%Y" }}"
 
-{% for paper in site.data.quantum_papers %}
+<hr>
 
-  {% if paper.status == "preprint" and paper.year == current_year %}
+{% for paper in site.data.arxiv %}
 
-    <div style="margin-bottom:30px;">
+Title: {{ paper.title }}<br>
+Status: "{{ paper.status }}"<br>
+Year: "{{ paper.year }}"<br>
 
-      <strong>{{ paper.title }}</strong><br>
-
-      {{ paper.authors }}<br>
-
-      {% if paper.journal and paper.journal != "" %}
-        <i>{{ paper.journal }}</i><br>
-      {% endif %}
-
-      <a href="https://arxiv.org/abs/{{ paper.quantum_papers }}">Abstract</a>
-      |
-      <a href="https://arxiv.org/pdf/{{ paper.quantum_papers }}.pdf">PDF</a>
-      |
-      <a href="https://arxiv.org/abs/{{ paper.quantum_papers }}">arXiv:{{ paper.arxiv }}</a>
-
-      {% if paper.doi and paper.doi != "" %}
-        |
-        <a href="https://doi.org/{{ paper.doi }}">DOI</a>
-      {% endif %}
-
-    </div>
-
-  {% endif %}
+<hr>
 
 {% endfor %}
