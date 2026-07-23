@@ -62,27 +62,31 @@ Published / Accepted for Publications
 
 **2019 and Before**
 
-1. Necessarily transient quantum refrigerator, S. Das, A. Misra, A. K. Pal, A. Sen(De), and U. Sen, Europhys. Lett. 125, 20007 (2019), arXiv: 1606.06985
-2. Estimating localizable entanglement from witnesses, D. Amaro, M. Müller, and A. K. Pal, New. J. Phys. 20, 063017 (2018), arXiv: 1803.02753
-3. Scale-invariant freezing of entanglement, T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen, Phys. Rev. A 97, 062324 (2018), arXiv: 1610.00730
-4. Emergence of entanglement with temperature and time in factorization-surface states, T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen, Phys. Rev. A 97, 012316 (2018), arXiv: 1705.09812
-5. Canonical distillation of entanglement, T. Das, A. Kumar, A. K. Pal, N. Shukla, A. Sen(De), and U. Sen, Phys. Lett. A 381, 3529 (2017), arXiv: 1411.7936
-6. Multipartite entanglement accumulation in quantum states: Localizable generalized geometric measure, D. Sadhukhan, S. Singha Roy, A. K. Pal, D. Rakshit, A. Sen(De), and U. Sen, Phys. Rev. A 95, 022301 (2017), arXiv: 1511.03998
-7. Static and dynamical quantum correlations in phases of an alternating-field XY model, T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen, Phys. Rev. A 94, 042310 (2016), arXiv: 1605.07576
-8. Conclusive identification of quantum channels via monogamy of quantum correlations, A. Kumar, S. Singha Roy, A. K. Pal, R. Prabhu, A. Sen(De), and U. Sen, Phys. Lett. A 380, 3588 (2016), arXiv: 1603.02801
-9. Statistics of leading digits leads to unification of quantum correlations, T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen, Europhys. Lett. 114, 30004 (2016), arXiv: 1509.09295 (Selected as featured article (Editor’s choice) in Europhysics Letters; Included in the Europhysics Letters Highlights of 2016)
-10. Reducing computational complexity of quantum correlations, T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen, Phys. Rev. A 92, 062301 (2015), arXiv: 1504.04727
-11. Freezing of quantum correlations under local decoherence, T. Chanda, A. K. Pal, A. Biswas, A. Sen(De), and U. Sen, Phys. Rev. A, 91, 062119 (2015), arXiv: 1409.2096
-12. Quantum discord, decoherence and quantum phase transition, I. Bose and A. K. Pal, Int. J. Mod. Phys. B 27, 1345042 (2013), arXiv: 1205.1300
-13. Noise-induced regime shifts: A quantitative characterization, S. Ghosh, A. K. Pal, and I. Bose, Eur. Phys. J. E 36: 123 (2013), arXiv: 1212.5385
-14. Early signatures of regime shifts in gene expression dynamics, M. Pal, A. K. Pal, S. Ghosh, and I. Bose, Phys. Biol. 10, 036010 (2013), arXiv: 1212.5383
-15. Markovian evolution of classical and quantum correlations in transverse-field XY model, A. K. Pal and I. Bose, Eur. Phys. J. B 85: 277 (2012), arXiv: 1112.2050
-16. Transverse Ising Model: Markovian evolution of classical and quantum correlations under decoherence, A. K. Pal and I. Bose, Eur. Phys. J. B 85: 36 (2012), arXiv: 1107.3939
-17. Quantum discord in the ground and thermal states of spin clusters, A. K. Pal and I. Bose, J. Phys. B: At. Mol. Opt. Phys. 44, 045101 (2011), arXiv: 1012.0650
-18. Motion of bound domain walls in a spin ladder, I. Bose and A. K. Pal, Eur. Phys. J. B 77, 139-146 (2010), arXiv: 1006.3666
-19. Entanglement in a molecular three-qubit system, A. K. Pal and I. Bose, J. Phys.: Condens. Matter 22, 016004 (2010), arXiv: 0909.2918
+1. **Necessarily transient quantum refrigerator**, S. Das, A. Misra, A. K. Pal, A. Sen(De), and U. Sen, **Europhys. Lett.** 125, 20007 (2019), **DOI:**, **arXiv:** 1606.06985
+2. **Estimating localizable entanglement from witnesses**, D. Amaro, M. Müller, and A. K. Pal, **New. J. Phys.** 20, 063017 (2018), **DOI:**, **arXiv:** 1803.02753
+3. **Scale-invariant freezing of entanglement**, T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen, **Phys. Rev. A** 97, 062324 (2018), **DOI:**, **arXiv:** 1610.00730
+4. **Emergence of entanglement with temperature and time in factorization-surface states**, T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen, **Phys. Rev. A** 97, 012316 (2018), **DOI:**, **arXiv:** 1705.09812
+5. **Canonical distillation of entanglement**, T. Das, A. Kumar, A. K. Pal, N. Shukla, A. Sen(De), and U. Sen, **Phys. Lett. A** 381, 3529 (2017), **DOI:**, **arXiv:** 1411.7936
+6. **Multipartite entanglement accumulation in quantum states: Localizable generalized geometric measure**, D. Sadhukhan, S. Singha Roy, A. K. Pal, D. Rakshit, A. Sen(De), and U. Sen, **Phys. Rev. A** 95, 022301 (2017), **DOI:**, **arXiv:** 1511.03998
+7. **Static and dynamical quantum correlations in phases of an alternating-field XY model**, T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen, **Phys. Rev. A** 94, 042310 (2016), **DOI**, **arXiv:** 1605.07576
+8. **Conclusive identification of quantum channels via monogamy of quantum correlations**, A. Kumar, S. Singha Roy, A. K. Pal, R. Prabhu, A. Sen(De), and U. Sen, **Phys. Lett. A** 380, 3588 (2016), **DOI:**, **arXiv:** 1603.02801
+9. **Statistics of leading digits leads to unification of quantum correlations**, T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen, **Europhys. Lett.** 114, 30004 (2016), **DOI:**, **arXiv:** 1509.09295
+    - Selected as featured article (Editor’s choice) in Europhysics Letters; Included in the Europhysics Letters Highlights of 2016
+11. **Reducing computational complexity of quantum correlations**, T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen, **Phys. Rev. A** 92, 062301 (2015), **DOI:**, **arXiv:** 1504.04727
+12. **Freezing of quantum correlations under local decoherence**, T. Chanda, A. K. Pal, A. Biswas, A. Sen(De), and U. Sen, **Phys. Rev. A**, 91, 062119 (2015), **DOI:**, **arXiv:** 1409.2096
+13. **Quantum discord, decoherence and quantum phase transition**, I. Bose and A. K. Pal, **Int. J. Mod. Phys. B** 27, 1345042 (2013), **DOI:**, **arXiv:** 1205.1300
+14. **Markovian evolution of classical and quantum correlations in transverse-field XY model**, A. K. Pal and I. Bose, **Eur. Phys. J. B** 85: 277 (2012), **DOI:**, **arXiv:** 1112.2050
+15. **Transverse Ising Model: Markovian evolution of classical and quantum correlations under decoherence**, A. K. Pal and I. Bose, **Eur. Phys. J. B** 85: 36 (2012), **DOI:**, **arXiv:** 1107.3939
+16. **Quantum discord in the ground and thermal states of spin clusters**, A. K. Pal and I. Bose, **J. Phys. B: At. Mol. Opt. Phys.** 44, 045101 (2011), **DOI:**, **arXiv:** 1012.0650
+17. **Motion of bound domain walls in a spin ladder**, I. Bose and A. K. Pal, **Eur. Phys. J. B** 77, 139-146 (2010), **DOI:**, **arXiv:** 1006.3666
+18. **Entanglement in a molecular three-qubit system**, A. K. Pal and I. Bose, **J. Phys.: Condens. Matter** 22, 016004 (2010), **DOI:**, **arXiv:** 0909.2918
 
 **Books / Book Chapters**
 
 1. **Monogamy of quantum correlations - a review**, H. S. Dhar, A. K. Pal, D. Rakshit, A. Sen(De), and U. Sen, In **Lectures on general quantum correlations and their applications**, Edited by Felipe Fanchini, Diogo Soares-Pinto, and Gerardo Adesso (Springer (2017)), **DOI:** [10.1007/978-3-319-53412-1](https://doi.org/10.1007/978-3-319-53412-1), **arXiv:** [1610.01069](https://arxiv.org/abs/1610.01069)
+
+On physical modeling of biological systems
+------
+1. **Noise-induced regime shifts: A quantitative characterization**, S. Ghosh, A. K. Pal, and I. Bose, **Eur. Phys. J. E** 36: 123 (2013), **DOI:**, **arXiv:** 1212.5385
+2. **Early signatures of regime shifts in gene expression dynamicsz**, M. Pal, A. K. Pal, S. Ghosh, and I. Bose, **Phys. Biol.** 10, 036010 (2013), **DOI:**, **arXiv:** 1212.5383
 
