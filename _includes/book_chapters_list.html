@@ -1,0 +1,28 @@
+{% for paper in site.data.book_chapters %}
+
+<div style="margin-bottom:25px;">
+
+<strong>{{ paper.title }}</strong><br>
+
+{{ paper.authors }}<br>
+
+{% if paper.journal != "" %}
+{{ paper.journal }}<br>
+{% else %}
+{{ paper.status }}<br>
+{% endif %}
+
+<a href="https://arxiv.org/abs/{{ paper.book_chapters }}">Abstract</a>
+|
+<a href="https://arxiv.org/pdf/{{ paper.book_chapters }}.pdf">PDF</a>
+|
+<a href="https://arxiv.org/abs/{{ paper.book_chapters }}">arXiv:{{ paper.arxiv }}</a>
+
+{% if paper.doi != "" %}
+|
+<a href="https://doi.org/{{ paper.doi }}">DOI</a>
+{% endif %}
+
+</div>
+
+{% endfor %}
