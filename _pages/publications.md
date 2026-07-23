@@ -70,8 +70,7 @@ Published / Accepted for Publications
 6. **Multipartite entanglement accumulation in quantum states: Localizable generalized geometric measure**, D. Sadhukhan, S. Singha Roy, A. K. Pal, D. Rakshit, A. Sen(De), and U. Sen, **Phys. Rev. A** 95, 022301 (2017), **DOI:**, **arXiv:** 1511.03998
 7. **Static and dynamical quantum correlations in phases of an alternating-field XY model**, T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen, **Phys. Rev. A** 94, 042310 (2016), **DOI**, **arXiv:** 1605.07576
 8. **Conclusive identification of quantum channels via monogamy of quantum correlations**, A. Kumar, S. Singha Roy, A. K. Pal, R. Prabhu, A. Sen(De), and U. Sen, **Phys. Lett. A** 380, 3588 (2016), **DOI:**, **arXiv:** 1603.02801
-9. **Statistics of leading digits leads to unification of quantum correlations**, T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen, **Europhys. Lett.** 114, 30004 (2016), **DOI:**, **arXiv:** 1509.09295
-    - Selected as featured article (Editor’s choice) in Europhysics Letters; Included in the Europhysics Letters Highlights of 2016
+9. **Statistics of leading digits leads to unification of quantum correlations**, T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen, **Europhys. Lett.** 114, 30004 (2016), **DOI:**, **arXiv:** 1509.09295 (Editor’s choice, Europhysics Letters Highlights of 2016)
 11. **Reducing computational complexity of quantum correlations**, T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen, **Phys. Rev. A** 92, 062301 (2015), **DOI:**, **arXiv:** 1504.04727
 12. **Freezing of quantum correlations under local decoherence**, T. Chanda, A. K. Pal, A. Biswas, A. Sen(De), and U. Sen, **Phys. Rev. A**, 91, 062119 (2015), **DOI:**, **arXiv:** 1409.2096
 13. **Quantum discord, decoherence and quantum phase transition**, I. Bose and A. K. Pal, **Int. J. Mod. Phys. B** 27, 1345042 (2013), **DOI:**, **arXiv:** 1205.1300
