@@ -16,7 +16,22 @@ Current research interests
 - Noisy quantum devices and applications
 - Many-body noisy quantum metrology.
 
-{% include recent_preprints.html %}
+This year so far
+------
 
+{% assign current_year = site.time | date: "%Y" %}
+{% for paper in site.data.quantum_papers %}
+  {% if paper.year == current_year and paper.status == "preprint" %}
+  <p>
+    <strong>{{ paper.title }}</strong><br>
+    {{ paper.authors }}<br>
+    {% if paper.arxiv %}
+      <a href="https://arxiv.org/abs/{{ paper.arxiv }}">
+        arXiv:{{ paper.arxiv }}
+      </a>
+    {% endif %}
+  </p>
+  {% endif %}
+{% endfor %}
 
 For complete list of publications, see [here](publications.md).
