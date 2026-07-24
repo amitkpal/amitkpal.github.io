@@ -1,6 +1,12 @@
+- date: 2026-07-25
+  title: We grow in number
+  description: >
+    Vishnupriya K and Nirupam Sen joins the group as PhD students. Welcome Vishnupriya and Nirupam. 
+  link: 
+
 
 - date: 2026-04-07
-  title: Jithin defended!
+  title: Jithin defended
   description: >
     Jithin successfuly defended his thesis. Congratulations to Dr. Jithin G. Krishnan!
   link: 
@@ -18,7 +24,44 @@
   link: 
   
 - date: 2026-01-01
-  title: The group grows!
+  title: The group grows
   description: >
     We welcome Vimal Sreekanth to the CQS Group, who joins as a PhD student. 
   link:
+
+- date: 2025-11-03
+  title: Jithin submitted!
+  description: >
+     Jithin G Krishnan submits his thesis titled “Localizable entanglement: Bounds and special features”.
+  link:
+
+
+- date: 2025-10-24
+  title: Talk by Anindita Bera
+  description: >
+     Dr. Anindita Bera from BIT Mesra delivers a seminar titled “A day with entanglement witnesses”.
+  link:
+
+
+- date: 2025-10-24
+  title: Talk by Sudipto Singha Roy
+  description: >
+      Dr. Sudipto Singha Roy from IIT (ISM) Dhanbad delivers a seminar on “Quantum complexity in constrained many-body models”.
+  link:
+
+
+- date: 2025-09-16
+  title: Talk by Mithun Thudiyangal
+  description: >
+      Dr. Mithun Thudiyangal from Christ University Bengaluru speaks on “Spontaneous quantum turbulence via the Kibble-Zurek mechanism”.
+  link:
+
+
+- date: 2024-09-25
+  title: Talk by Roopayan Ghosh
+  description: >
+      Dr. Roopayan Ghosh from University College London, UK delivers a seminar on “Correlations and entanglement in quantum many-body systems: 
+      detection, computation and applications”.
+  link: 
+
+  
