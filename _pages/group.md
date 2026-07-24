@@ -16,18 +16,8 @@ Current Members
 
 Former Members
 ------
-- **Jithin G. Krishnan** (PhD, January 2021 - April 2026)
-- **Fathimathu Thasni K K** (Masters student, 2024-2026)
-- **Aman Tiwari** (Masters student, 2022-2024, Now pursuing PhD at IIT Roorkee)
-- **Amir Hamza** (Masters student, Joint Project,  2021-2023, Now pursuing PhD at IIT Bombay)
-- **Nikhil Mesquita** (Masters student, 2021-2023, Now pursuing PhD at RRI Bangalore)
-- **Yash Chugh** (Masters student, Joint Project, 2019-2021)
-- **Pram Milan** (Masters student, Joint Project, 2019-2021, Now pursuing PhD at IIT Hyderabad)
-- **Hridya R** (Masters student, 2019-2021, Now pursuing PhD at TIFR, Mumbai)
-
 
 <ol class="former-members">
-
 {% for member in site.data.former_members %}
 <li>
 <strong>{{ member.name }}</strong>,
