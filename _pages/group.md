@@ -1,15 +1,11 @@
 ---
 layout: archive
-title: "Complex Quantum Systems and Dynamics Group"
+title: "Complex Quantum Systems Group"
 permalink: /group/
 author_profile: true
 ---
 
-![April2026](../images/group2026.png) 
-
-April 2026
-
-I have the priviledge of working with a group of extremely talented PhD and Masters students. 
+the CQS Group is constituted of extremely talented PhD and Masters students. 
 
 Current Members
 ------
