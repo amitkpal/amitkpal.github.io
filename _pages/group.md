@@ -20,11 +20,9 @@ Current Members
 
 
 <div class="people-grid">
-
-{% for person in site.data.students %}
-  {% include student_card.html person=person %}
+{% for person in site.data.group.phd %}
+  {% include person-card.html person=person %}
 {% endfor %}
-
 </div>
 
 Former Members
