@@ -13,3 +13,7 @@ author_profile: true
 ![April2026](../images/group2026.png) 
 
 2026 (From Left: Harikrishnan, Chandrima, Jithin, Amit, Vishnupriya, and Vimal)
+
+![Convocation2026](../images/convocation2026.png) 
+
+Convocation 2026
