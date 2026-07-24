@@ -26,7 +26,7 @@ Former Members
 {{ member.years }}
 {% if member.current %}
 &nbsp;|&nbsp;
-Currently {{ member.current }}
+Next position: {{ member.current }}
 {% endif %}
 </li>
 {% endfor %}
