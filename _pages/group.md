@@ -9,11 +9,6 @@ the CQS Group is constituted of extremely talented PhD and Masters students.
 
 Current Members
 ------
-- **Harikrishnan K J:** PhD student (PMRF)
-- **Chandrima B Pushpan:** PhD student (MSc-PhD Dual Degree, HTRA)
-- **Vimal Sreekanth:** PhD student (Regular, HTRA)
-- **Vishnupriya K:** Project JRF
-
 
 <div class="people-grid">
 {% for person in site.data.students %}
