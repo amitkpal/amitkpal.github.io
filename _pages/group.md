@@ -25,6 +25,23 @@ Former Members
 - **Pram Milan** (Masters student, Joint Project, 2019-2021, Now pursuing PhD at IIT Hyderabad)
 - **Hridya R** (Masters student, 2019-2021, Now pursuing PhD at TIFR, Mumbai)
 
+
+<ol class="former-members">
+
+{% for member in site.data.former_members %}
+<li>
+<strong>{{ member.name }}</strong>,
+{{ member.degree }}
+&nbsp;|&nbsp;
+{{ member.years }}
+{% if member.current %}
+&nbsp;|&nbsp;
+Currently {{ member.current }}
+{% endif %}
+</li>
+{% endfor %}
+</ol>
+
 Joining the Group
 ------
 
