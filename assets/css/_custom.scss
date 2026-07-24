@@ -1,0 +1,28 @@
+.people-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:35px;
+    margin-top:30px;
+}
+
+.person-card{
+    text-align:center;
+}
+
+.person-card img{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.person-card h3{
+    margin-top:15px;
+    margin-bottom:5px;
+    font-size:1.15rem;
+}
+
+.person-card p{
+    margin:0;
+    color:#666;
+}
