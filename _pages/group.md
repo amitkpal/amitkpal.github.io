@@ -18,6 +18,15 @@ Current Members
 - **Vimal Sreekanth:** PhD student (Regular, HTRA)
 - **Vishnupriya K:** Project JRF
 
+
+<div class="people-grid">
+
+{% for person in site.data.students %}
+  {% include student_card.html person=person %}
+{% endfor %}
+
+</div>
+
 Former Members
 ------
 - **Jithin G. Krishnan** (PhD, January 2021 - April 2026)
