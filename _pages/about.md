@@ -24,7 +24,7 @@ This year so far
       {{ item.date | date: "%B %-d, %Y" }}
     </div>
     {% if item.link and item.link != "" %}
-        <strong><a href="{{ item.link }}">{{ item.title }}</a></strong>
+        <a href="{{ item.link }}">{{ item.title }}</a>
     {% else %}
       <div class="news-title">
         {{ item.title }}
