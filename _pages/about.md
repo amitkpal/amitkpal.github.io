@@ -19,4 +19,30 @@ News and Events
 - **13-01-2026:** Dr. Surajit Bera from the Collège de France, Paris delivers a seminar titled "Generation of Volume-Law Entanglement by Local-Measurement-Only Quantum Dynamics".
 - **01-01-2026:** Vimal Sreekanth joins the group.
 
+{% assign current_year = site.time | date: "%Y" %}
+<div class="news-list">
+{% for item in site.data.news %}
+  {% assign item_year = item.date | date: "%Y" %}
+  {% if item_year == current_year %}
+  <div class="news-item">
+    <div class="news-date">
+      {{ item.date | date: "%B %-d, %Y" }}
+    </div>
+    {% if item.link and item.link != "" %}
+      <div class="news-title">
+        <a href="{{ item.link }}">{{ item.title }}</a>
+      </div>
+    {% else %}
+      <div class="news-title">
+        {{ item.title }}
+      </div>
+    {% endif %}
+    <div class="news-description">
+      {{ item.description }}
+    </div>
+  </div>
+  {% endif %}
+{% endfor %}
+</div>
+
 For older news and events, see [here](news.md).
