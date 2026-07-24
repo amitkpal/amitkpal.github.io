@@ -5,8 +5,6 @@ permalink: /group/
 author_profile: true
 ---
 
-the CQS Group is constituted of extremely talented PhD and Masters students. 
-
 Current Members
 ------
 
