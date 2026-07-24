@@ -20,7 +20,7 @@ Current Members
 
 
 <div class="people-grid">
-{% for person in site.data.group.phd %}
+{% for person in site.data.students %}
   {% include person-card.html person=person %}
 {% endfor %}
 </div>
