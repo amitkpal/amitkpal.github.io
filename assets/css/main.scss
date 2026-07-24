@@ -37,3 +37,41 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+/* ===========================================================
+   Group Members
+   =========================================================== */
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.person-card {
+  text-align: center;
+}
+
+.person-card img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  margin: 0 auto 12px auto;
+  border-radius: 8px;
+}
+
+.person-card h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.person-card p {
+  margin-top: 0.35rem;
+  margin-bottom: 0;
+  color: #666;
+  font-size: 0.95rem;
+}
