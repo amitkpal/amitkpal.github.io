@@ -15,11 +15,11 @@
   programme: Btech General
   semester: Even, Odd
   years:
-    - 2021(O) 
-    - 2022(E)
-    - 2024(E)
-    - 2025(O)
-    - 2026(E)
+    - 2021 
+    - 2022
+    - 2024
+    - 2025
+    - 2026
   materials:
     text: 
     url: 
