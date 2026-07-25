@@ -35,3 +35,89 @@
   materials:
     text: 
     url: 
+
+
+- code: PH3602
+  title: Basics of Quantum Information, Communication, and Computation
+  programme: BTech Elective
+  semester: Even, Odd
+  years:
+    - 2022
+  materials:
+    text: 
+    url: 
+
+
+- code: PH5007
+  title: Quantum Mechanics I
+  programme: MSc Physics Core
+  semester: Odd
+  years:
+    - 2022
+    - 2023
+    - 2024
+  materials:
+    text: 
+    url: 
+
+
+- code: PH5606
+  title:  Quantum Information and Computation
+  programme: MSc Physics Elective
+  semester: Even, Odd
+  years:
+    - 2026
+  materials:
+    text: 
+    url: 
+
+
+
+- code: PH5610
+  title:  Quantum Information and Many-Body Systems
+  programme: MSc Physics Elective
+  semester: Even, Odd
+  years:
+    - 2020
+    - 2021
+    - 2025
+  materials:
+    text: 
+    url: 
+
+
+
+- code: PH5621
+  title:  Quantum Optics
+  programme: MSc Physics Elective
+  semester: Even, Odd
+  years:
+    - 2023
+    - 2025
+  materials:
+    text: 
+    url: 
+
+
+- code: PH6004
+  title:  Exploring Quantum Spin Models using Python
+  programme: MSc Physics Elective
+  semester: Even, Odd
+  years:
+    - 2022
+  materials:
+    text: 
+    url: 
+
+
+- code: PH6603
+  title:  Introduction to Open Quantum Systems
+  programme: MSc Physics Elective
+  semester: Even, Odd
+  years:
+    - 2026
+  materials:
+    text: 
+    url: 
+
+
