@@ -3,47 +3,35 @@
   programme: BTech General
   semester: Odd
   years:
-    - 2026–27
-    - 2025–26
-    - 2024–25
+    - 2019
+    - 2020
+    - 2021
   materials:
     text: 
     url: 
 
-- code: PH4210
-  title: Quantum Information Theory
-  programme: MSc Physics
+- code: PH1030
+  title: Physics Lab
+  programme: Btech General
+  semester: Even, Odd
+  years:
+    - 2021(O) 
+    - 2022(E)
+    - 2024(E)
+    - 2025(O)
+    - 2026(E)
+  materials:
+    text: 
+    url: 
+
+- code: PH3601
+  title: Quantum Mechanics for Engineers
+  programme: BTech Elective
   semester: Even
   years:
-    - 2025–26
+    - 2020
+    - 2021
+    - 2024
   materials:
-    text: Course webpage
-    url: /teaching/ph4210/
-
-- code: PH5205
-  title: Open Quantum Systems
-  programme: PhD Coursework
-  semester: Even
-  years:
-    - 2025–26
-    - 2024–25
-
-- code: PH1203
-  title: Waves and Optics
-  programme: BTech Engineering Physics
-  semester: Even
-  years:
-    - 2023–24
-  materials:
-    text: Moodle page
-    url: https://moodle.iitpkd.ac.in/
-
-- code: PH6201
-  title: Quantum Error Correction
-  programme: PhD Special Topics
-  semester: Odd
-  years:
-    - 2026–27
-  materials:
-    text: GitHub Repository
-    url: https://github.com/username/qec-course
+    text: 
+    url: 
