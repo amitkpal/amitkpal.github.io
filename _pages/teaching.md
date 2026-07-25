@@ -32,3 +32,76 @@ PG Courses
 - **PH6XXX:** Exploring Quantum Spin Models using Python (Elective, Designed)
 - **PH6603:** Introduction to Open Quantum Systems (Elective, Designed)
 - **PH6XXX:** Introduction to Quantum Thermodynamics (Elective, Designed)
+
+
+
+
+
+
+{% assign current_year = site.time | date: "%Y" | plus: 0 %}
+{% assign next_year = current_year | plus: 1 %}
+{% capture current_academic_year %}{{ current_year }}–{{ next_year | modulo: 100 | prepend: "0" | slice: -2, 2 }}{% endcapture %}
+<div class="teaching-list">
+<h2>Current Courses</h2>
+{% assign found_current = false %}
+{% for course in site.data.teaching %}
+  {% if course.years contains current_academic_year %}
+    {% assign found_current = true %}
+    <div class="teaching-item">
+      <div class="course-title">
+        {% if course.materials and course.materials.url %}
+          <strong>
+            <a href="{{ course.materials.url }}">
+              {{ course.code }} — {{ course.title }}
+            </a>
+          </strong>
+        {% else %}
+          <strong>{{ course.code }} — {{ course.title }}</strong>
+        {% endif %}
+      </div>
+      <div class="course-meta">
+        <strong>Programme:</strong> {{ course.programme }}<br>
+        <strong>Semester:</strong> {{ course.semester }}<br>
+        <strong>Academic years:</strong>
+        {% for year in course.years %}
+          {{ year }}{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+{% unless found_current %}
+<p>No current teaching assignments.</p>
+{% endunless %}
+<h2>Previously Taught Courses</h2>
+{% assign found_previous = false %}
+{% for course in site.data.teaching %}
+  {% unless course.years contains current_academic_year %}
+    {% assign found_previous = true %}
+    <div class="teaching-item">
+      <div class="course-title">
+        {% if course.materials and course.materials.url %}
+          <strong>
+            <a href="{{ course.materials.url }}">
+              {{ course.code }} — {{ course.title }}
+            </a>
+          </strong>
+        {% else %}
+          <strong>{{ course.code }} — {{ course.title }}</strong>
+        {% endif %}
+      </div>
+      <div class="course-meta">
+        <strong>Programme:</strong> {{ course.programme }}<br>
+        <strong>Semester:</strong> {{ course.semester }}<br>
+        <strong>Academic years:</strong>
+        {% for year in course.years %}
+          {{ year }}{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endunless %}
+{% endfor %}
+{% unless found_previous %}
+<p>No previous courses.</p>
+{% endunless %}
+</div>
