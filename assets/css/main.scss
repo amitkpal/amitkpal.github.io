@@ -124,3 +124,40 @@
 .news-description {
   line-height: 1.6;
 }
+
+
+/* ===========================================================
+   Teaching
+   =========================================================== */
+
+.teaching-list {
+    margin-top: 2rem;
+}
+
+.teaching-item {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.course-title {
+    margin-bottom: 0.45rem;
+    font-size: 1.05rem;
+}
+
+.course-title strong {
+    font-weight: 600;
+}
+
+.course-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.course-title a:hover {
+    text-decoration: underline;
+}
+
+.course-meta {
+    line-height: 1.6;
+}
