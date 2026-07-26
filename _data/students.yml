@@ -1,176 +1,204 @@
 - name: Harikrishnan KJ
   designation: PhD Student
+  order: 2
   degree: PhD
   photo: hkj.png
   joined: 2022
+  graduation_year: 2027
   years: 2022-2026
   research: Applications of graph states in quantum information processing
   email: 
   webpage:
   current: true
-  present: 
+  next_position: 
 
 - name: Chandrima B. Pushpan
   designation: PhD Student
+  order: 2
   degree: PhD
   photo: cbp.png
   joined: 2022
+  graduation_year: 2027
   years: 2022-2026
   research: Measurement-assisted recovery of resource
   email: 
   webpage:
   current: true
-  present:
+  next_position:
 
 - name: Vimal Sreekanth
   designation: PhD Student
+  order: 2
   degree: PhD
   photo: vs.png
   joined: 2026
+  graduation_year: 2031
   years: 2026-2030
   research: Noisy quantum energy-storage devices
   email: 
   webpage:
   current: true
-  present:
+  next_position:
 
 - name: Vishnupriya K
   designation: PhD Student
+  order: 2
   degree: PhD
   photo: vpk.png
   joined: 2026
+  graduation_year: 2031
   years: 2026-2030
   research: Quantum metrology using many-body probes
   email: 
   webpage: 
   current: true
-  present:
+  next_position:
 
 - name: Nirupam Sen
   designation: PhD Student
+  order: 2
   degree: PhD
   photo: bio-photo.jpg
   joined: 2026
+  graduation_year: 2031
   years: 2026-2030
   research: 
   email: 
   webpage: 
   current: true
-  present:
+  next_position:
 
 
 - name: Nandu Manoj PK
   designation: Masters Student
+  order: 3
   degree: MSc
   photo: bio-photo.jpg
   joined: 2026
+  graduation_year: 2027
   years: 2026-2027
   research: 
   email: 
   webpage: 
   current: true
-  present:
+  next_position:
 
 
 - name: Jithin G. Krishnan
   designation: PhD Student
+  order: 2
   degree: PhD
   photo: 
   joined: 2021
+  graduation_year: 2026
   years: 2021-2025
   research: 
   email: 
   webpage: 
   current: false
-  present:
+  next_position:
 
 - name: Fathimathu Thasni K K
   designation: MSc Student
+  order: 3
   degree: MSc
   photo: 
   joined: 2025
+  graduation_year: 2026
   years: 2025-2026
   research: 
   email: 
   webpage: 
   current: false
-  present: 
+  next_position: 
   
 
 
 - name: Aman Tiwari
   designation: MSc Student
+  order: 3
   degree: MSc
   photo: 
   joined: 2023
+  graduation_year: 2024
   years: 2023-2024
   research: 
   email: 
   webpage: 
   current: false
-  present: PhD at IIT Roorkee
+  next_position: PhD at IIT Roorkee
 
 
 - name: Amir Hamza
   designation: MSc Student (joint project)
+  order: 3
   degree: MSc
   photo: 
   joined: 2022
+  graduation_year: 2023
   years: 2022-2023
   research: 
   email: 
   webpage: 
   current: false
-  present: PhD at IIT Bombay
+  next_position: PhD at IIT Bombay
   
 
 - name: Nikhil Mesquita
   designation: MSc Student
+  order: 3
   degree: MSc
   photo: 
   joined: 2022
+  graduation_year: 2023
   years: 2022-2023
   research: 
   email: 
   webpage: 
   current: false
-  present: PhD at RRI Bengaluru
+  next_position: PhD at RRI Bengaluru
 
 
 - name: Yash Chugh
   designation: MSc Student (joint project)
+  order: 3
   degree: MSc
   photo: 
   joined: 2020
+  graduation_year: 2021
   years: 2020-2021
   research: 
   email: 
   webpage: 
   current: false
-  present: 
+  next_position: 
 
 
 - name: Pram Milan
   designation: MSc Student (joint project)
+  order: 3
   degree: MSc
   photo: 
   joined: 2020
+  graduation_year: 2021
   years: 2020-2021
   research: 
   email: 
   webpage: 
   current: false
-  present: PhD at IIT Hyderabad
+  next_position: PhD at IIT Hyderabad
 
 
 - name: Hridya R
   designation: MSc Student
+  order: 3
   degree: MSc
   photo: 
   joined: 2020
+  graduation_year: 2021
   years: 2020-2021
   research: 
   email: 
   webpage: 
   current: false
-  present: PhD at TIFR Mumbai
+  next_position: PhD at TIFR Mumbai
