@@ -34,4 +34,33 @@ This year so far
   {% endif %}
 {% endfor %}
 
+
+
+{% assign current_year = site.time | date: "%Y" | plus: 0 %}
+{% assign papers = site.data.papers | sort: "sort" | reverse %}
+<div class="publication-list">
+{% include publication_section_current.html
+title="Recent Preprints"
+filter="recent_preprints"
+papers=papers
+current_year=current_year %}
+{% include publication_section_current.html
+title="Peer-reviewed Articles"
+filter="peer_reviewed"
+papers=papers
+current_year=current_year %}
+{% include publication_section_current.html
+title="Books / Book Chapters / Reviews"
+filter="books"
+papers=papers
+current_year=current_year %}
+{% include publication_section_current.html
+title="Other than Quantum"
+filter="other"
+papers=papers
+current_year=current_year %}
+</div>
+
+
+
 For complete list of publications, see [here](publications.md).
