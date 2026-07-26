@@ -1,12 +1,10 @@
 - title: A graph-aware bounded distance decoder for all stabilizer codes
   authors: Harikrishnan K. J., and A. K. Pal
   arxiv: 2604.25424
-  journal: 
-  doi: 
   year: 2026
   status: preprint
   subject: quantum
-  topic: qec
+  area: qec
   type: article
   sort: 20260401
   featured: false
@@ -14,12 +12,10 @@
 - title: Robust quantum metrology using disordered probes
   authors: Vishnupriya K., Harikrishnan K. J., and A. K. Pal
   arxiv: 2604.11635
-  journal: 
-  doi: 
   year: 2026
   status: preprint
   subject: quantum
-  topic: metrology
+  area: metrology
   type: article  
   sort: 20260402
   featured: false
@@ -27,12 +23,10 @@
 - title: Quantum batteries with K-regular graph generators: A no-go for quantum advantage
   authors: D. Ghosh, T. K. Konar, A. K. Pal, and A. Sen(De)
   arxiv: 2512.22908
-  journal: 
-  doi: 
   year: 2025
   status: preprint
   subject: quantum
-  topic: devices
+  area: devices
   type: article  
   sort: 20251201
   featured: false
@@ -40,12 +34,10 @@
 - title: Quantum error correction via purification using a single auxiliary
   authors: C. B. Pushpan, T. K. Konar, A. Sen(De), and A. K. Pal
   arxiv: 2512.09745
-  journal: 
-  doi: 
   year: 2025
   status: preprint
   subject: quantum
-  topic: measurement
+  area: measurement
   type: article  
   sort: 20251202
   featured: false
@@ -58,22 +50,20 @@
   year: 2025
   status: published
   subject: quantum
-  topic: device
+  area: device
   type: article
-  sort: 202511
+  sort: 20251101
   featured: false
 
 - title: Block entanglement bounds distribution of regionally localized entanglement
   authors: J. G. Krishnan, A. Sen(De), and A. K. Pal
   arxiv: 2508.05431
-  journal: 
-  doi: 
   year: 2025
   status: preprint
   subject: quantum
-  topic: entanglement
+  area: entanglement
   type: article
-  sort: 202508
+  sort: 20250801
   featured: false
   
 
@@ -86,9 +76,9 @@
   year: 2025
   status: published
   subject: quantum
-  topic: manybody
+  area: manybody
   type: article
-  sort: 202504
+  sort: 20250401
   featured: false
 
   
@@ -97,13 +87,12 @@
   authors: C. B. Pushpan, T. K. Konar, A. Sen(De), and A. K. Pal
   arxiv: 2502.01393
   journal: Physical Review A
-  doi: 
   year: 2025
-  status: published
+  status: accepted
   subject: quantum
-  topic: measurement
+  area: measurement
   type: article  
-  sort: 202502
+  sort: 20250201
   featured: false
 
 
@@ -115,7 +104,7 @@
   year: 2024
   status: published  
   subject: quantum
-  topic: device
+  area: device
   type: article  
   sort: 20241001
   featured: false
@@ -129,7 +118,7 @@
   year: 2024
   status: published
   subject: quantum
-  topic: network
+  area: network
   type: article
   sort: 20241002
   featured: false
@@ -143,9 +132,9 @@
   year: 2024
   status: published
   subject: quantum
-  topic: measurement
+  area: measurement
   type: article
-  sort: 202406
+  sort: 20240601
   featured: false
 
   
@@ -158,9 +147,9 @@
   year: 2024
   status: published
   subject: quantum
-  topic: manybody
+  area: manybody
   type: article
-  sort: 202405
+  sort: 20240501
   featured: false
 
 - title: Logarithmic growth of peripheral entanglement concentrated via noisy measurements in a star network of spins
@@ -171,9 +160,9 @@
   year: 2023
   status: published
   subject: quantum
-  topic: manybody
+  area: manybody
   type: article
-  sort: 202307
+  sort: 20230701
   featured: false
 
 
@@ -185,9 +174,9 @@
   year: 2023
   status: published
   subject: quantum
-  topic: protocol
+  area: protocol
   type: article
-  sort: 202306
+  sort: 20230601
   featured: false
   
 
@@ -199,9 +188,9 @@
   year: 2023
   status: published
   subject: quantum
-  topic: manybody
+  area: manybody
   type: article
-  sort: 202301
+  sort: 20230101
   featured: false
 
 
@@ -214,9 +203,9 @@
   year: 2022
   status: published
   subject: quantum
-  topic: entanglement
+  area: entanglement
   type: article
-  sort: 202211
+  sort: 20221101
   featured: false
 
 - title: Controlling gain with loss: Bounds of localizable entanglement in multi-qubit systems
@@ -227,9 +216,9 @@
   year: 2022
   status: published
   subject: quantum
-  topic: entanglement
+  area: entanglement
   type: article
-  sort: 202206
+  sort: 20220601
   featured: false
 
 
@@ -242,9 +231,9 @@
   year: 2022
   status: published
   subject: quantum
-  topic: manybody
+  area: manybody
   type: article
-  sort: 202201
+  sort: 20220101
   featured: false
 
 
@@ -256,7 +245,7 @@
   year: 2021
   status: published
   subject: quantum
-  topic: device
+  area: device
   type: article
   sort: 20211201
   featured: false
@@ -270,7 +259,7 @@
   year: 2021
   status: published  
   subject: "quantum"
-  topic: network
+  area: network
   type: article
   sort: 20211202
   featured: false
@@ -283,9 +272,9 @@
   year: 2021
   status: published
   subject: quantum
-  topic: manybody
+  area: manybody
   type: article
-  sort: 202108
+  sort: 20210801
   featured: false
   
 
@@ -299,9 +288,9 @@
   year: 2021
   status: published
   subject: quantum
-  topic: device
+  area: device
   type: article
-  sort: 202107
+  sort: 20210701
   featured: false
 
 - title: Relaxation times do not capture logical qubit dynamics
@@ -312,7 +301,7 @@
   year: 2020
   status: published
   subject: quantum
-  topic: trappedion
+  area: trappedion
   type: article
   sort: 20201201
   featured: false
@@ -325,7 +314,7 @@
   year: 2020
   status: published
   subject: quantum
-  topic: device
+  area: device
   type: article
   sort: 20201202
   featured: false
@@ -338,9 +327,9 @@
   year: 2020
   status: published
   subject: quantum
-  topic: entanglement
+  area: entanglement
   type: article
-  sort: 202003
+  sort: 20200301
   featured: false
   
 
@@ -352,7 +341,7 @@
   year: 2019
   status: published
   subject: quantum
-  topic: entanglement
+  area: entanglement
   type: article
   sort: 20190701
   featured: false
@@ -365,7 +354,7 @@
   year: 2019
   status: published
   subject: quantum
-  topic: entanglement
+  area: entanglement
   type: article
   sort: 20190702
   featured: false
@@ -379,9 +368,9 @@
   year: 2018
   status: published
   subject: quantum
-  topic: entanglement
+  area: entanglement
   type: article
-  sort: 201803
+  sort: 20180301
   featured: false
 
 
@@ -393,9 +382,9 @@
   year: 2017
   status: published
   subject: quantum
-  topic: manybody 
+  area: manybody 
   type: article
-  sort: 201705
+  sort: 20170501
   featured: false
 
 
@@ -407,9 +396,9 @@
   year: 2016
   status: published
   subject: quantum
-  topic: manybody
+  area: manybody
   type: article
-  sort: 201610
+  sort: 20161001
   featured: false
   
 
@@ -422,9 +411,9 @@
   year: 2016
   status: published
   subject: quantum
-  topic: device
+  area: device
   type: article
-  sort: 201606
+  sort: 20160601
   featured: false
 
 
@@ -436,9 +425,9 @@
   year: 2016
   status: published
   subject: quantum
-  topic: manybody
+  area: manybody
   type: article
-  sort: 201605
+  sort: 20160501
   featured: false
   
 
@@ -450,9 +439,9 @@
   year: 2016
   status: published
   subject: quantum
-  topic: entanglement
+  area: entanglement
   type: article
-  sort: 201603
+  sort: 20160301
   featured: false
   
 
@@ -464,9 +453,9 @@
   year: 2015
   status: published
   subject: quantum
-  topic: entanglement
+  area: entanglement
   type: article
-  sort: 201511
+  sort: 20151101
   featured: false
   
 
@@ -478,9 +467,9 @@
   year: 2015
   status: published
   subject: quantum
-  topic: entanglement
+  area: entanglement
   type: article
-  sort: 201509
+  sort: 20150901
   featured: false
 
   
@@ -493,9 +482,9 @@
   year: 2015
   status: published
   subject: quantum
-  topic: discord
+  area: discord
   type: article
-  sort: 201504
+  sort: 20150401
   featured: false
 
   
@@ -508,9 +497,9 @@
   year: 2014
   status: published
   subject: quantum
-  topic: entanglement
+  area: entanglement
   type: article
-  sort: 201411
+  sort: 20141101
   featured: false
 
   
@@ -523,9 +512,9 @@
   year: 2014
   status: published
   subject: quantum
-  topic: discord
+  area: discord
   type: article
-  sort: 201409
+  sort: 20140901
   featured: false
 
   
@@ -538,9 +527,9 @@
   year: 2012
   status: published
   subject: quantum
-  topic: discord
+  area: discord
   type: review
-  sort: 201205
+  sort: 20120501
   featured: false
   
 
@@ -552,9 +541,9 @@
   year: 2011
   status: published
   subject: quantum
-  topic: discord
+  area: discord
   type: article
-  sort: 201112
+  sort: 20111201
   featured: false
   
 
@@ -566,9 +555,9 @@
   year: 2011
   status: published
   subject: quantum
-  topic: discord
+  area: discord
   type: article
-  sort: 201107
+  sort: 20110701
   featured: false
 
 - title: Quantum discord in the ground and thermal states of spin clusters
@@ -579,9 +568,9 @@
   year: 2010
   status: published
   subject: quantum
-  topic: discord
+  area: discord
   type: article
-  sort: 201012
+  sort: 20101201
   featured: false
   
 
@@ -593,9 +582,9 @@
   year: 2010
   status: published
   subject: quantum
-  topic: manybody
+  area: manybody
   type: article
-  sort: 201006
+  sort: 20100601
   featured: false
   
 
@@ -607,9 +596,9 @@
   year: 2009
   status: published
   subject: quantum
-  topic: entanglement
+  area: entanglement
   type: article
-  sort: 200909
+  sort: 20090901
   featured: false
 
 
@@ -621,9 +610,9 @@
   year: 2016
   status: published
   subject: quantum
-  topic: discord
+  area: discord
   type: chapter
-  sort: 201610
+  sort: 20161001
   featured: false
 
 
@@ -635,7 +624,7 @@
   year: 2012
   status: published
   subject: other
-  topic: biophysics
+  area: biophysics
   type: article 
   sort: 20121201
   featured: false
@@ -649,7 +638,7 @@
   year: 2012
   status: published
   subject: other
-  topic: biophysics
+  area: biophysics
   type: article
   sort: 20121202
   featured: false
