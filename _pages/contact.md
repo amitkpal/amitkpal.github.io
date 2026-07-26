@@ -18,7 +18,7 @@ author_profile: true
 {{ site.data.contact.email }}
 </a>
 </p>
-<h2>Office Hours</h2>
+<h2>Office hours</h2>
 <p>
 {{ site.data.contact.office_hours }}
 </p>
@@ -39,7 +39,7 @@ rel="noopener">
 View on Google Maps →
 </a>
 </p>
-<h2>Contact Card</h2>
+<h2>Contact card</h2>
 <p>
 <a
 class="contact-button"
