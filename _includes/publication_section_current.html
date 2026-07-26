@@ -1,0 +1,49 @@
+<h2>{{ include.title }}</h2>
+{% assign found = false %}
+{% for paper in include.papers %}
+  {% if paper.year == include.current_year %}
+    {% case include.filter %}
+    {% when "recent_preprints" %}
+      {% if paper.status == "preprint" %}
+        {% assign found = true %}
+        {% include publication_entry.html paper=paper %}
+      {% endif %}
+    {% when "peer_reviewed" %}
+      {% if paper.subject == "quantum" %}
+        {% if paper.type == "article" %}
+          {% if paper.status == "accepted" or paper.status == "published" %}
+            {% assign found = true %}
+            {% include publication_entry.html paper=paper %}
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    {% when "books" %}
+      {% if paper.subject == "quantum" %}
+        {% if paper.status == "accepted" or paper.status == "published" %}
+          {% if paper.type == "book" %}
+            {% assign found = true %}
+            {% include publication_entry.html paper=paper %}
+          {% elsif paper.type == "chapter" %}
+            {% assign found = true %}
+            {% include publication_entry.html paper=paper %}
+          {% elsif paper.type == "review" %}
+            {% assign found = true %}
+            {% include publication_entry.html paper=paper %}
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    {% when "other" %}
+      {% if paper.subject == "other" %}
+        {% if paper.type == "article" %}
+          {% if paper.status == "accepted" or paper.status == "published" %}
+            {% assign found = true %}
+            {% include publication_entry.html paper=paper %}
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    {% endcase %}
+  {% endif %}
+{% endfor %}
+{% unless found %}
+<p>No entries.</p>
+{% endunless %}
