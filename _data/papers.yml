@@ -544,42 +544,51 @@
   featured: false
   
 
-- title: "Markovian evolution of classical and quantum correlations in transverse-field XY model"
-  authors: "A. K. Pal and I. Bose"
-  arxiv: "1112.2050"
-  journal: "European Physical Journal B"
-  doi: "10.1140/epjb/e2012-30108-1"
-  year: "2011"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+- title: Markovian evolution of classical and quantum correlations in transverse-field XY model
+  authors: A. K. Pal and I. Bose
+  arxiv: 1112.2050
+  journal: European Physical Journal B
+  doi: 10.1140/epjb/e2012-30108-1
+  year: 2011
+  status: published
+  subject: quantum
+  topic: entanglement
+  type: article
+  sort: 201112
+  featured: false
   
 
-- title: "Transverse Ising Model: Markovian evolution of classical and quantum correlations under decoherence"
-  authors: "A. K. Pal and I. Bose"
-  arxiv: "1107.3939"
-  journal: "European Physical Journal B"
-  doi: "10.1140/epjb/e2011-20858-5"
-  year: "2011"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+- title: Transverse Ising Model: Markovian evolution of classical and quantum correlations under decoherence
+  authors: A. K. Pal and I. Bose
+  arxiv: 1107.3939
+  journal: European Physical Journal B
+  doi: 10.1140/epjb/e2011-20858-5
+  year: 2011
+  status: published
+  subject: quantum
+  topic: entanglement
+  type: article
+  sort: 201107
+  featured: false
 
-- title: "Quantum discord in the ground and thermal states of spin clusters"
-  authors: "A. K. Pal and I. Bose"
-  arxiv: "1012.0650"
-  journal: "Journal of Physics B: Atomic, Molecular and Optical Physics"
-  doi: "10.1088/0953-4075/44/4/045101"
-  year: "2010"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+- title: Quantum discord in the ground and thermal states of spin clusters
+  authors: A. K. Pal and I. Bose
+  arxiv: 1012.0650
+  journal: Journal of Physics B: Atomic, Molecular and Optical Physics
+  doi: 10.1088/0953-4075/44/4/045101
+  year: 2010
+  status: published
+  subject: quantum
+  topic: discord
+  type: article
+  sort: 201012
+  featured: false
   
 
-- title: "Motion of bound domain walls in a spin ladder"
-  authors: "I. Bose and A. K. Pal"
-  arxiv: "1006.3666"
-  journal: "European Physical Journal B"
+- title: Motion of bound domain walls in a spin ladder
+  authors: "I. Bose and A. K. Pal
+  arxiv: 1006.3666
+  journal: European Physical Journal B
   doi: "10.1140/epjb/e2010-00240-1"
   year: "2010"
   status: "Published"
