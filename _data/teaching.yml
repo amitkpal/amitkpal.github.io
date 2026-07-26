@@ -9,7 +9,7 @@
   materials:
     text: 
     url: 
-  running: false
+  current: false
 
 - code: PH1030
   title: Physics Lab
@@ -24,7 +24,7 @@
   materials:
     text: 
     url: 
-  running: true
+  current: true
 
 - code: PH3601
   title: Quantum Mechanics for Engineers
@@ -37,7 +37,7 @@
   materials:
     text: 
     url: 
-  running: false
+  current: false
 
 
 - code: PH3602
@@ -49,7 +49,7 @@
   materials:
     text: 
     url: 
-  running: false
+  current: false
 
 
 - code: PH5007
@@ -63,7 +63,7 @@
   materials:
     text: 
     url: 
-  running: false
+  current: false
   
 
 - code: PH5606
@@ -75,7 +75,7 @@
   materials:
     text: 
     url: 
-  running: true
+  current: true
 
 
 
@@ -90,7 +90,7 @@
   materials:
     text: 
     url: 
-  running: false
+  current: false
 
 
 
@@ -104,7 +104,7 @@
   materials:
     text: 
     url: 
-  running: false
+  current: false
 
 
 - code: PH6004
@@ -116,7 +116,7 @@
   materials:
     text: 
     url: 
-  running: false
+  current: false
 
 
 - code: PH6603
@@ -128,6 +128,6 @@
   materials:
     text: 
     url: 
-  running: false
+  current: false
 
 
