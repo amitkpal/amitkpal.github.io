@@ -240,69 +240,118 @@
 }
 
 
-/* ===========================================================
+/* ==========================================================
    Publications
-   =========================================================== */
+   ========================================================== */
 
 .publication-list {
     margin-top: 2rem;
 }
 
+/* Section headings */
+
 .publication-list h2 {
     margin-top: 2.8rem;
-    margin-bottom: 1rem;
-    border-bottom: 2px solid #e5e5e5;
+    margin-bottom: 1.3rem;
     padding-bottom: 0.35rem;
+    border-bottom: 2px solid #e5e5e5;
 }
+
+/* One publication */
 
 .publication-item {
-    margin-bottom: 1.8rem;
+    margin-bottom: 2rem;
 }
 
+/* Title */
+
 .publication-title {
-    font-size: 1.05rem;
+    font-size: 1.08rem;
     line-height: 1.45;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.35rem;
 }
 
 .publication-title strong {
     font-weight: 700;
 }
 
+/* Authors */
+
 .publication-authors {
-    color: #444;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.15rem;
     line-height: 1.6;
 }
 
+/* Journal */
+
+.publication-journal {
+    color: #555;
+    font-size: 0.96rem;
+    font-weight: 500;
+    margin-bottom: 0.35rem;
+}
+
+/* Links */
+
 .publication-links {
+    font-size: 0.94rem;
+    margin-top: 0.2rem;
     line-height: 1.5;
 }
 
 .publication-links a {
     text-decoration: none;
+    font-weight: 500;
 }
 
 .publication-links a:hover {
     text-decoration: underline;
 }
 
+/* ==========================================================
+   Badges
+   ========================================================== */
+
 .pub-badge {
     display: inline-block;
-    margin-left: .55rem;
-    padding: .12rem .45rem;
+
+    margin-left: 0.6rem;
+
+    padding: 0.15rem 0.55rem;
+
     border-radius: 4px;
-    font-size: .72rem;
+
+    font-size: 0.72rem;
+
     font-weight: 600;
+
     text-transform: uppercase;
+
+    vertical-align: middle;
 }
 
-.preprint {
-    border: 1px solid #b30000;
+.badge-preprint {
     color: #b30000;
+    border: 1px solid #b30000;
 }
 
-.accepted {
-    border: 1px solid #0055aa;
+.badge-accepted {
     color: #0055aa;
+    border: 1px solid #0055aa;
+}
+
+/* ==========================================================
+   Responsive
+   ========================================================== */
+
+@media (max-width: 768px) {
+
+    .publication-title {
+        font-size: 1rem;
+    }
+
+    .publication-links {
+        line-height: 1.8;
+    }
+
 }
