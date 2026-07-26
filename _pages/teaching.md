@@ -8,7 +8,7 @@ author_profile: true
 
 {% assign current_year = site.time | date: "%Y" | plus: 0 %}
 <div class="teaching-list">
-<h2>Courses Running this Year</h2>
+<h2>Courses running this year</h2>
 {% assign current_found = false %}
 {% for course in site.data.teaching %}
   {% if course.years contains current_year %}
@@ -39,7 +39,7 @@ author_profile: true
 {% unless current_found %}
 <p>No courses offered during the current academic year.</p>
 {% endunless %}
-<h2>Previously Taught Courses</h2>
+<h2>Previously taught courses</h2>
 {% assign previous_found = false %}
 {% for course in site.data.teaching %}
   {% unless course.years contains current_year %}
