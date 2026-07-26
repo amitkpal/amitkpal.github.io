@@ -24,7 +24,10 @@ main:
     url: /group/    
 
   - title: "Gallery"
-    url: /gallery/     
+    url: /gallery/  
+
+  - title: "Contact"
+    url: /contact/       
 
   #- title: "Talks"
   #  url: /talks/    
