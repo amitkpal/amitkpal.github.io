@@ -1,59 +1,51 @@
 <div class="publication-item">
-<div class="publication-title">
-<strong>{{ include.paper.title }}</strong>
-{% if include.paper.status == "preprint" %}
-<span class="pub-badge preprint">Preprint</span>
-{% endif %}
-{% if include.paper.status == "accepted" %}
-<span class="pub-badge accepted">Accepted</span>
-{% endif %}
-</div>
-<div class="publication-authors">
-{{ include.paper.authors }}
-</div>
-<div class="publication-links">
-{% assign first = true %}
-{% if include.paper.abstract %}
-<a href="{{ include.paper.abstract }}">Abstract</a>
-{% assign first = false %}
-{% endif %}
-{% if include.paper.pdf %}
-{% unless first %} | {% endunless %}
-<a href="{{ include.paper.pdf }}">PDF</a>
-{% assign first = false %}
-{% endif %}
-{% if include.paper.arxiv %}
-{% unless first %} | {% endunless %}
-<a href="https://arxiv.org/abs/{{ include.paper.arxiv }}">
-arXiv:{{ include.paper.arxiv }}
-</a>
-{% assign first = false %}
-{% endif %}
-{% if include.paper.doi %}
-{% unless first %} | {% endunless %}
-<a href="https://doi.org/{{ include.paper.doi }}">
-DOI
-</a>
-{% assign first = false %}
-{% endif %}
-{% if include.paper.code %}
-{% unless first %} | {% endunless %}
-<a href="{{ include.paper.code }}">Code</a>
-{% assign first = false %}
-{% endif %}
-{% if include.paper.slides %}
-{% unless first %} | {% endunless %}
-<a href="{{ include.paper.slides }}">Slides</a>
-{% assign first = false %}
-{% endif %}
-{% if include.paper.video %}
-{% unless first %} | {% endunless %}
-<a href="{{ include.paper.video }}">Video</a>
-{% assign first = false %}
-{% endif %}
-{% if include.paper.news %}
-{% unless first %} | {% endunless %}
-<a href="{{ include.paper.news }}">News</a>
-{% endif %}
-</div>
+  <div class="publication-title">
+    <strong>{{ include.paper.title }}</strong>
+    {% if include.paper.status == "preprint" %}
+      <span class="pub-badge badge-preprint">Preprint</span>
+    {% elsif include.paper.status == "accepted" %}
+      <span class="pub-badge badge-accepted">Accepted</span>
+    {% endif %}
+  </div>
+  <div class="publication-authors">
+    {{ include.paper.authors }}
+  </div>
+  {% if include.paper.status == "accepted" or include.paper.status == "published" %}
+    {% if include.paper.journal %}
+      <div class="publication-journal">
+        {{ include.paper.journal }}
+      </div>
+    {% endif %}
+  {% endif %}
+  <div class="publication-links">
+    {% assign first = true %}
+    {% if include.paper.abstract %}
+      <a href="{{ include.paper.abstract }}">Abstract</a>
+      {% assign first = false %}
+    {% endif %}
+    {% if include.paper.pdf %}
+      {% unless first %} | {% endunless %}
+      <a href="{{ include.paper.pdf }}">PDF</a>
+      {% assign first = false %}
+    {% elsif include.paper.arxiv %}
+      {% unless first %} | {% endunless %}
+      <a href="https://arxiv.org/pdf/{{ include.paper.arxiv }}.pdf">
+        PDF
+      </a>
+      {% assign first = false %}
+    {% endif %}
+    {% if include.paper.arxiv %}
+      {% unless first %} | {% endunless %}
+      <a href="https://arxiv.org/abs/{{ include.paper.arxiv }}">
+        arXiv
+      </a>
+      {% assign first = false %}
+    {% endif %}
+    {% if include.paper.doi %}
+      {% unless first %} | {% endunless %}
+      <a href="https://doi.org/{{ include.paper.doi }}">
+        DOI
+      </a>
+    {% endif %}
+  </div>
 </div>
