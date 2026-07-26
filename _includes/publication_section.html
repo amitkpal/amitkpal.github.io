@@ -3,45 +3,43 @@
 {% for paper in include.papers %}
   {% case include.filter %}
   {% when "recent_preprints" %}
-    {% if paper.subject == "quantum"
-          and paper.status == "preprint"
-          and (paper.type == "article"
-          or paper.type == "review"
-          or paper.type == "chapter"
-          or paper.type == "book") %}
-      {% assign found = true %}
-      {% include publication_entry.html paper=paper %}
-    {% endif %}
+      {% if paper.status == "preprint" %}
+          {% assign found = true %}
+          {% include publication_entry.html paper=paper %}
+      {% endif %}
   {% when "peer_reviewed" %}
-    {% if paper.subject == "quantum"
-          and paper.type == "article"
-          and (paper.status == "accepted"
-          or paper.status == "published") %}
-      {% assign found = true %}
-      {% include publication_entry.html paper=paper %}
-    {% endif %}
+      {% if paper.subject == "quantum" %}
+          {% if paper.type == "article" %}
+              {% if paper.status == "accepted" or paper.status == "published" %}
+                  {% assign found = true %}
+                  {% include publication_entry.html paper=paper %}
+              {% endif %}
+          {% endif %}
+      {% endif %}
   {% when "books" %}
-    {% if paper.subject == "quantum"
-          and (paper.status == "accepted"
-          or paper.status == "published")
-          and (paper.type == "book"
-          or paper.type == "chapter"
-          or paper.type == "review") %}
-      {% assign found = true %}
-      {% include publication_entry.html paper=paper %}
-    {% endif %}
+      {% if paper.subject == "quantum" %}
+          {% if paper.status == "accepted" or paper.status == "published" %}
+              {% if paper.type == "book" %}
+                  {% assign found = true %}
+                  {% include publication_entry.html paper=paper %}
+              {% elsif paper.type == "chapter" %}
+                  {% assign found = true %}
+                  {% include publication_entry.html paper=paper %}
+              {% elsif paper.type == "review" %}
+                  {% assign found = true %}
+                  {% include publication_entry.html paper=paper %}
+              {% endif %}
+          {% endif %}
+      {% endif %}
   {% when "other" %}
-    {% if paper.subject == "other"
-          and (paper.status == "preprint"
-          or paper.status == "accepted"
-          or paper.status == "published")
-          and (paper.type == "article"
-          or paper.type == "review"
-          or paper.type == "chapter"
-          or paper.type == "book") %}
-      {% assign found = true %}
-      {% include publication_entry.html paper=paper %}
-    {% endif %}
+      {% if paper.subject == "other" %}
+          {% if paper.type == "article" %}
+              {% if paper.status == "accepted" or paper.status == "published" %}
+                  {% assign found = true %}
+                  {% include publication_entry.html paper=paper %}
+              {% endif %}
+          {% endif %}
+      {% endif %}
   {% endcase %}
 {% endfor %}
 {% unless found %}
