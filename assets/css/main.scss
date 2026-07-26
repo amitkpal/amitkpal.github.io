@@ -192,12 +192,14 @@
 }
 
 .contact-map {
-    width: 50%;
-    max-width: 400px;
+    width: clamp(300px, 55%, 500px);
+
     display: block;
-    margin: 1rem 0;
+    margin: 1rem auto;
+
     border-radius: 8px;
     border: 1px solid #dddddd;
+
     transition: opacity 0.2s ease;
 }
 
