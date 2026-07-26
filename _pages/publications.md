@@ -10,22 +10,22 @@ author_profile: true
 <div class="publication-list">
 
 {% include publication_section.html
-title="Recent Preprints"
+title="Recent preprints"
 filter="recent_preprints"
 papers=papers %}
 
 {% include publication_section.html
-title="Peer-reviewed Articles"
+title="Peer-reviewed articles"
 filter="peer_reviewed"
 papers=papers %}
 
 {% include publication_section.html
-title="Books / Book Chapters / Reviews"
+title="Books / Book chapters / Reviews"
 filter="books"
 papers=papers %}
 
 {% include publication_section.html
-title="Other than Quantum"
+title="Other than quantum"
 filter="other"
 papers=papers %}
 
