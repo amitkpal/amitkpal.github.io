@@ -112,7 +112,7 @@
 
 
 - name: Amir Hamza
-  designation: MSc Student (Joint project)
+  designation: MSc Student (joint project)
   degree: MSc
   photo: 
   joined: 2022
@@ -124,8 +124,8 @@
   present: PhD at IIT Bombay
   
 
-- name: Amir Hamza
-  designation: MSc Student (Joint project)
+- name: Nikhil Mesquita
+  designation: MSc Student
   degree: MSc
   photo: 
   joined: 2022
@@ -134,25 +134,43 @@
   email: 
   webpage: 
   current: false
-  present: PhD at IIT Bombay
+  present: PhD at RRI Bengaluru
 
-
-- name: Nikhil Mesquita
-  degree: Masters Student
-  years: 2022-2023
-  current: PhD at RRI Bengaluru
 
 - name: Yash Chugh
-  degree: Masters Student (Joint Project)
+  designation: MSc Student (joint project)
+  degree: MSc
+  photo: 
+  joined: 2020
   years: 2020-2021
-  current: 
+  research: 
+  email: 
+  webpage: 
+  current: false
+  present: 
+
 
 - name: Pram Milan
-  degree: Masters Student (Joint Project)
+  designation: MSc Student (joint project)
+  degree: MSc
+  photo: 
+  joined: 2020
   years: 2020-2021
-  current: PhD at IIT Hyderabad
+  research: 
+  email: 
+  webpage: 
+  current: false
+  present: PhD at IIT Hyderabad
+
 
 - name: Hridya R
-  degree: Masters Student 
+  designation: MSc Student
+  degree: MSc
+  photo: 
+  joined: 2020
   years: 2020-2021
-  current: PhD at TIFR Mumbai
+  research: 
+  email: 
+  webpage: 
+  current: false
+  present: PhD at TIFR Mumbai
