@@ -1,48 +1,158 @@
 - name: Harikrishnan KJ
   designation: PhD Student
+  degree: PhD
   photo: hkj.png
   joined: 2022
+  years: 2022-2026
   research: Applications of graph states in quantum information processing
   email: 
   webpage:
+  current: true
+  present: 
 
 - name: Chandrima B. Pushpan
   designation: PhD Student
+  degree: PhD
   photo: cbp.png
   joined: 2022
+  years: 2022-2026
   research: Measurement-assisted recovery of resource
   email: 
   webpage:
+  current: true
+  present:
 
 - name: Vimal Sreekanth
   designation: PhD Student
+  degree: PhD
   photo: vs.png
   joined: 2026
+  years: 2026-2030
   research: Noisy quantum energy-storage devices
   email: 
   webpage:
+  current: true
+  present:
 
 - name: Vishnupriya K
   designation: PhD Student
+  degree: PhD
   photo: vpk.png
   joined: 2026
+  years: 2026-2030
   research: Quantum metrology using many-body probes
   email: 
-  webpage:
+  webpage: 
+  current: true
+  present:
 
 - name: Nirupam Sen
   designation: PhD Student
+  degree: PhD
   photo: bio-photo.jpg
   joined: 2026
+  years: 2026-2030
   research: 
   email: 
-  webpage:
+  webpage: 
+  current: true
+  present:
 
 
 - name: Nandu Manoj PK
   designation: Masters Student
+  degree: MSc
   photo: bio-photo.jpg
   joined: 2026
+  years: 2026-2027
   research: 
   email: 
-  webpage:
+  webpage: 
+  current: true
+  present:
+
+
+- name: Jithin G. Krishnan
+  designation: PhD Student
+  degree: PhD
+  photo: 
+  joined: 2021
+  years: 2021-2025
+  research: 
+  email: 
+  webpage: 
+  current: false
+  present:
+
+- name: Fathimathu Thasni K K
+  designation: MSc Student
+  degree: MSc
+  photo: 
+  joined: 2025
+  years: 2025-2026
+  research: 
+  email: 
+  webpage: 
+  current: false
+  present: 
+  
+
+
+- name: Aman Tiwari
+  designation: MSc Student
+  degree: MSc
+  photo: 
+  joined: 2023
+  years: 2023-2024
+  research: 
+  email: 
+  webpage: 
+  current: false
+  present: PhD at IIT Roorkee
+
+
+- name: Amir Hamza
+  designation: MSc Student (Joint project)
+  degree: MSc
+  photo: 
+  joined: 2022
+  years: 2022-2023
+  research: 
+  email: 
+  webpage: 
+  current: false
+  present: PhD at IIT Bombay
+  
+
+- name: Amir Hamza
+  designation: MSc Student (Joint project)
+  degree: MSc
+  photo: 
+  joined: 2022
+  years: 2022-2023
+  research: 
+  email: 
+  webpage: 
+  current: false
+  present: PhD at IIT Bombay
+
+
+- name: Nikhil Mesquita
+  degree: Masters Student
+  years: 2022-2023
+  current: PhD at RRI Bengaluru
+
+- name: Yash Chugh
+  degree: Masters Student (Joint Project)
+  years: 2020-2021
+  current: 
+
+- name: Pram Milan
+  degree: Masters Student (Joint Project)
+  years: 2020-2021
+  current: PhD at IIT Hyderabad
+
+- name: Hridya R
+  degree: Masters Student 
+  years: 2020-2021
+  current: PhD at TIFR Mumbai
