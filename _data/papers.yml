@@ -1,272 +1,347 @@
-- title: "A graph-aware bounded distance decoder for all stabilizer codes"
-  authors: "Harikrishnan K. J., and A. K. Pal"
-  arxiv: "2604.25424"
-  journal: ""
-  doi: ""
-  year: "2026"
-  status: "preprint"
-  subject: "quantum"
-  type: "article"
+- title: A graph-aware bounded distance decoder for all stabilizer codes
+  authors: Harikrishnan K. J., and A. K. Pal
+  arxiv: 2604.25424
+  journal: 
+  doi: 
+  year: 2026
+  status: preprint
+  subject: quantum
+  topic: qec
+  type: article
+  sort: 20260401
+  featured: false
 
-- title: "Robust quantum metrology using disordered probes"
-  authors: "Vishnupriya K., Harikrishnan K. J., and A. K. Pal"
-  arxiv: "2604.11635"
-  journal: ""
-  doi: ""
-  year: "2026"
-  status: "preprint"
-  subject: "quantum"
-  type: "article"  
+- title: Robust quantum metrology using disordered probes
+  authors: Vishnupriya K., Harikrishnan K. J., and A. K. Pal
+  arxiv: 2604.11635
+  journal: 
+  doi: 
+  year: 2026
+  status: preprint
+  subject: quantum
+  topic: metrology
+  type: article  
+  sort: 20260402
+  featured: false
 
-- title: "Quantum batteries with K-regular graph generators: A no-go for quantum advantage"
-  authors: "D. Ghosh, T. K. Konar, A. K. Pal, and A. Sen(De)"
-  arxiv: "2512.22908"
-  journal: ""
-  doi: ""
-  year: "2025"
-  status: "preprint"
-  subject: "quantum"
-  type: "article"  
+- title: Quantum batteries with K-regular graph generators: A no-go for quantum advantage
+  authors: D. Ghosh, T. K. Konar, A. K. Pal, and A. Sen(De)
+  arxiv: 2512.22908
+  journal: 
+  doi: 
+  year: 2025
+  status: preprint
+  subject: quantum
+  topic: devices
+  type: article  
+  sort: 20251201
+  featured: false
 
-- title: "Quantum error correction via purification using a single auxiliary"
-  authors: "C. B. Pushpan, T. K. Konar, A. Sen(De), and A. K. Pal"
-  arxiv: "2512.09745"
-  journal: ""
-  doi: ""
-  year: "2025"
-  status: "preprint"
-  subject: "quantum"
-  type: "article"  
+- title: Quantum error correction via purification using a single auxiliary
+  authors: C. B. Pushpan, T. K. Konar, A. Sen(De), and A. K. Pal
+  arxiv: 2512.09745
+  journal: 
+  doi: 
+  year: 2025
+  status: preprint
+  subject: quantum
+  topic: measurement
+  type: article  
+  sort: 20251202
+  featured: false
 
-- title: "Bridging the daemonic gap en route to charge multi-mode batteries via a single auxiliary"
-  authors: "C. B. Pushpan and A. K. Pal"
-  arxiv: "2511.07243"
-  journal: "Physical Review A"
-  doi: "10.1103/jr71-mkfl"
-  year: "2025"
-  status: "Published"
-  subject: "quantum"
-  type: "article"  
+- title: Bridging the daemonic gap en route to charge multi-mode batteries via a single auxiliary
+  authors: C. B. Pushpan and A. K. Pal
+  arxiv: 2511.07243
+  journal: Physical Review A
+  doi: 10.1103/jr71-mkfl
+  year: 2025
+  status: published
+  subject: quantum
+  topic: device
+  type: article
+  sort: 202511
+  featured: false
 
-- title: "Block entanglement bounds distribution of regionally localized entanglement"
-  authors: "J. G. Krishnan, A. Sen(De), and A. K. Pal"
-  arxiv: "2508.05431"
-  journal: ""
-  doi: ""
-  year: "2025"
-  status: "preprint"
-  subject: "quantum"
-  type: "article"  
+- title: Block entanglement bounds distribution of regionally localized entanglement
+  authors: J. G. Krishnan, A. Sen(De), and A. K. Pal
+  arxiv: 2508.05431
+  journal: 
+  doi: 
+  year: 2025
+  status: preprint
+  subject: quantum
+  topic: entanglement
+  type: article
+  sort: 202508
+  featured: false
+  
 
 
-- title: "Scaling of entanglement entropy and correlations in the variable-range extended Ising model"
-  authors: "Harikrishnan K. J., D. Sadhukhan, and A. K. Pal"
-  arxiv: "2504.01846"
-  journal: "Physical Review A"
-  doi: "10.1103/vgrd-dg8j"
-  year: "2025"
-  status: "Published"
-  subject: "quantum"
-  type: "article"  
+- title: Scaling of entanglement entropy and correlations in the variable-range extended Ising model
+  authors: Harikrishnan K. J., D. Sadhukhan, and A. K. Pal
+  arxiv: 2504.01846
+  journal: Physical Review A
+  doi: 10.1103/vgrd-dg8j
+  year: 2025
+  status: published
+  subject: quantum
+  topic: manybody
+  type: article
+  sort: 202504
+  featured: false
 
   
 
-- title: "Developing a universal logical state-purification strategy"
-  authors: "C. B. Pushpan, T. K. Konar, A. Sen(De), and A. K. Pal"
-  arxiv: "2502.01393"
-  journal: "Physical Review A (in production)"
-  doi: ""
-  year: "2025"
-  status: "Published"
-  subject: "quantum"
-  type: "article"  
+- title: Developing a universal logical state-purification strategy
+  authors: C. B. Pushpan, T. K. Konar, A. Sen(De), and A. K. Pal
+  arxiv: 2502.01393
+  journal: Physical Review A
+  doi: 
+  year: 2025
+  status: published
+  subject: quantum
+  topic: measurement
+  type: article  
+  sort: 202502
+  featured: false
 
 
-- title: "Simultaneous cooling of qubits via a quantum absorption refrigerator and beyond"
-  authors: "J. G. Krishnan, C. B. Pushpan, and A. K. Pal"
-  arxiv: "2410.15871"
-  journal: "Physics Letters A"
-  doi: "10.1016/j.physleta.2026.131871"
-  year: "2024"
-  status: "Published"  
-  subject: "quantum"
-  type: "article"  
+- title: Simultaneous cooling of qubits via a quantum absorption refrigerator and beyond
+  authors: J. G. Krishnan, C. B. Pushpan, and A. K. Pal
+  arxiv: 2410.15871
+  journal: Physics Letters A
+  doi: 10.1016/j.physleta.2026.131871
+  year: 2024
+  status: published  
+  subject: quantum
+  topic: device
+  type: article  
+  sort: 20241001
+  featured: false
 
 
-- title: "Scalable and deterministic Greenberger-Horne-Zeilinger state generation via graph states-assisted measurements"
-  authors: "Harikrishnan K. J. and A. K. Pal"
-  arxiv: "2410.15892"
-  journal: "Physical Review A"
-  doi: "10.1103/p2bp-mjk2"
-  year: "2024"
-  status: "Published"
-  subject: "quantum"
-  type: "article"  
+- title: Scalable and deterministic Greenberger-Horne-Zeilinger state generation via graph states-assisted measurements
+  authors: Harikrishnan K. J. and A. K. Pal
+  arxiv: 2410.15892
+  journal: Physical Review A
+  doi: 10.1103/p2bp-mjk2
+  year: 2024
+  status: published
+  subject: quantum
+  topic: network
+  type: article
+  sort: 20241002
+  featured: false
   
 
-- title: "Recovery of resources through sequential noisy measurements"
-  authors: "S. Mondal, P. Halder, A. K. Pal, and A. Sen(De)"
-  arxiv: "2406.07652"
-  journal: "Physical Review A"
-  doi: "10.1103/PhysRevA.111.042401"
-  year: "2024"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+- title: Recovery of resources through sequential noisy measurements
+  authors: S. Mondal, P. Halder, A. K. Pal, and A. Sen(De)
+  arxiv: 2406.07652
+  journal: Physical Review A
+  doi: 10.1103/PhysRevA.111.042401
+  year: 2024
+  status: published
+  subject: quantum
+  topic: measurement
+  type: article
+  sort: 202406
+  featured: false
 
   
 
-- title: "Entanglement and fidelity across quantum phase transitions in locally perturbed topological codes with open boundaries"
-  authors: "Harikrishnan K. J., and A. K. Pal"
-  arxiv: "2405.00416"
-  journal: "Physical Review A"
-  doi: "10.1103/PhysRevA.111.032401"
-  year: "2024"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+- title: Entanglement and fidelity across quantum phase transitions in locally perturbed topological codes with open boundaries
+  authors: Harikrishnan K. J., and A. K. Pal
+  arxiv: 2405.00416
+  journal: Physical Review A
+  doi: 10.1103/PhysRevA.111.032401
+  year: 2024
+  status: published
+  subject: quantum
+  topic: manybody
+  type: article
+  sort: 202405
+  featured: false
 
-- title: "Logarithmic growth of peripheral entanglement concentrated via noisy measurements in a star network of spins"
-  authors: "J. G. Krishnan, Harikrishnan K. J., and A. K. Pal"
-  arxiv: "2307.15949"
-  journal: "Physics Letters A"
-  doi: "10.1016/j.physleta.2024.130170"
-  year: "2023"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+- title: Logarithmic growth of peripheral entanglement concentrated via noisy measurements in a star network of spins
+  authors: J. G. Krishnan, Harikrishnan K. J., and A. K. Pal
+  arxiv: 2307.15949
+  journal: Physics Letters A
+  doi: 10.1016/j.physleta.2024.130170
+  year: 2023
+  status: published
+  subject: quantum
+  topic: manybody
+  type: article
+  sort: 202307
+  featured: false
 
 
-- title: "Quantum state transfer on 2D lattices: A low-energy effective Hamiltonian approach"
-  authors: "C. B. Pushpan, Harikrishnan K. J., and A. K. Pal"
-  arxiv: "2306.08440"
-  journal: "Physics Letters A"
-  doi: "10.1016/j.physleta.2024.129543"
-  year: "2023"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+- title: Quantum state transfer on 2D lattices: A low-energy effective Hamiltonian approach
+  authors: C. B. Pushpan, Harikrishnan K. J., and A. K. Pal
+  arxiv: 2306.08440
+  journal: Physics Letters A
+  doi: 10.1016/j.physleta.2024.129543
+  year: 2023
+  status: published
+  subject: quantum
+  topic: protocol
+  type: article
+  sort: 202306
+  featured: false
   
 
-- title: "Estimating correlations and entanglement in the two-dimensional Heisenberg model in the strong rung-coupling limit"
-  authors: "C. B. Pushpan, Harikrishnan K. J., P. Narayan, and A. K. Pal"
-  arxiv: "2301.04615"
-  journal: "Physical Review A"
-  doi: "10.1103/PhysRevA.110.032408"
-  year: "2023"
-  status: "Published"
+- title: Estimating correlations and entanglement in the two-dimensional Heisenberg model in the strong rung-coupling limit
+  authors: C. B. Pushpan, Harikrishnan K. J., P. Narayan, and A. K. Pal
+  arxiv: 2301.04615
+  journal: Physical Review A
+  doi: 10.1103/PhysRevA.110.032408
+  year: 2023
+  status: published
+  subject: quantum
+  topic: manybody
+  type: article
+  sort: 202301
+  featured: false
+
+
+
+- title: Localizing genuine multiparty entanglement in noisy stabilizer states
+  authors: Harikrishnan K. J. and A. K. Pal
+  arxiv: 2211.01064
+  journal: Physical Review A
+  doi: 10.1103/PhysRevA.108.032404
+  year: 2022
+  status: published
+  subject: quantum
+  topic: entanglement
+  type: article
+  sort: 202211
+  featured: false
+
+- title: Controlling gain with loss: Bounds of localizable entanglement in multi-qubit systems
+  authors: J. G. Krishnan, Harikrishnan K. J., and A. K. Pal
+  arxiv: 2206.07731
+  journal: Physical Review A
+  doi: 10.1103/PhysRevA.107.042411
+  year: 2022
+  status: published
+  subject: quantum
+  topic: entanglement
+  type: article
+  sort: 202206
+  featured: false
+
+
+
+- title: Exactly solvable 1D quantum models with Gamma matrices
+  authors: Y. Chugh, K. Dhochak, U. Divakaran, P. Narayan, and A. K. Pal
+  arxiv: 2201.06588
+  journal: Physical Review E
+  doi: 10.1103/PhysRevE.106.024114
+  year: 2022
+  status: published
+  subject: quantum
+  topic: manybody
+  type: article
+  sort: 202201
+  featured: false
+
+
+- title: Designing refrigerators in higher dimensions using quantum spin models
+  authors: T. K. Konar, S. Ghosh, A. K. Pal, and A. Sen(De)
+  arxiv: 2112.13765
+  journal: Physical Review A
+  doi: 10.1103/PhysRevA.107.032602
+  year: 2021
+  status: published
+  subject: quantum
+  topic: device
+  type: article
+  sort: 20211201
+  featured: false
+
+
+- title: Circulating genuine multiparty entanglement in quantum network
+  authors: P. Halder, R. Banerjee, S. Ghosh, A. K. Pal, and A. Sen(De)
+  arxiv: 2112.10122
+  journal: Physical Review A
+  doi: 10.1103/PhysRevA.106.032604
+  year: 2021
+  status: published  
   subject: "quantum"
-  type: "article"
+  topic: network
+  type: article
+  sort: 20211202
+  featured: false
 
-
-
-- title: "Localizing genuine multiparty entanglement in noisy stabilizer states"
-  authors: "Harikrishnan K. J. and A. K. Pal"
-  arxiv: "2211.01064"
-  journal: "Physical Review A"
-  doi: "10.1103/PhysRevA.108.032404"
-  year: "2022"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
-
-- title: "Controlling gain with loss: Bounds of localizable entanglement in multi-qubit systems"
-  authors: "J. G. Krishnan, Harikrishnan K. J., and A. K. Pal"
-  arxiv: "2206.07731"
-  journal: "Physical Review A"
-  doi: "10.1103/PhysRevA.107.042411"
-  year: "2022"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
-
-
-
-- title: "Exactly solvable 1D quantum models with Gamma matrices"
-  authors: "Y. Chugh, K. Dhochak, U. Divakaran, P. Narayan, and A. K. Pal"
-  arxiv: "2201.06588"
-  journal: "Physical Review E"
-  doi: "10.1103/PhysRevE.106.024114"
-  year: "2022"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
-
-
-- title: "Designing refrigerators in higher dimensions using quantum spin models"
-  authors: "T. K. Konar, S. Ghosh, A. K. Pal, and A. Sen(De)"
-  arxiv: "2112.13765"
-  journal: "Physical Review A"
-  doi: "10.1103/PhysRevA.107.032602"
-  year: "2021"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
-
-
-- title: "Circulating genuine multiparty entanglement in quantum network"
-  authors: "P. Halder, R. Banerjee, S. Ghosh, A. K. Pal, and A. Sen(De)"
-  arxiv: "2112.10122"
-  journal: "Physical Review A"
-  doi: "10.1103/PhysRevA.106.032604"
-  year: "2021"
-  status: "Published"  
-  subject: "quantum"
-  type: "article"
+- title: Distinguishing phases via non-Markovian dynamics of entanglement in topological quantum codes under parallel magnetic field
+  authors: Harikrishnan K. J. and A. K. Pal
+  arxiv: 2108.11198
+  journal: Physical Review A
+  doi: 10.1103/PhysRevA.105.052421
+  year: 2021
+  status: published
+  subject: quantum
+  topic: manybody
+  type: article
+  sort: 202108
+  featured: false
   
 
-- title: "Distinguishing phases via non-Markovian dynamics of entanglement in topological quantum codes under parallel magnetic field"
-  authors: "Harikrishnan K. J. and A. K. Pal"
-  arxiv: "2108.11198"
-  journal: "Physical Review A"
-  doi: "10.1103/PhysRevA.105.052421"
-  year: "2021"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
 
 
+- title: Designing robust quantum refrigerators in disordered spin models
+  authors: T. K. Konar, S. Ghosh, A. K. Pal, and A. Sen(De)
+  arxiv: 2107.11668
+  journal: Physical Review A
+  doi: 10.1103/PhysRevA.105.022214
+  year: 2021
+  status: published
+  subject: quantum
+  topic: device
+  type: article
+  sort: 202107
+  featured: false
 
-- title: "Designing robust quantum refrigerators in disordered spin models"
-  authors: "T. K. Konar, S. Ghosh, A. K. Pal, and A. Sen(De)"
-  arxiv: "2107.11668"
-  journal: "Physical Review A"
-  doi: "10.1103/PhysRevA.105.022214"
-  year: "2021"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+- title: Relaxation times do not capture logical qubit dynamics
+  authors: A. K. Pal, P. Schindler, A. Erhard, Á. Rivas, M. A. Martin-Delgado, R. Blatt, T. Monz, and M. Müller
+  arxiv: 2012.07911
+  journal: Quantum
+  doi: 10.22331/q-2022-01-24-632
+  year: 2020
+  status: published
+  subject: quantum
+  topic: trappedion
+  type: article
+  sort: 20201201
+  featured: false
 
-- title: "Relaxation times do not capture logical qubit dynamics"
-  authors: "A. K. Pal, P. Schindler, A. Erhard, Á. Rivas, M. A. Martin-Delgado, R. Blatt, T. Monz, and M. Müller"
-  arxiv: "2012.07911"
-  journal: "Quantum"
-  doi: "10.22331/q-2022-01-24-632"
-  year: "2020"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+- title: Three qubits in less than three baths: Beyond two-body system-bath interactions in quantum refrigerators
+  authors: A. Ghoshal, S. Das, A. K. Pal, A. Sen(De), and U. Sen
+  arxiv: 2012.08399
+  journal: Physical Review A
+  doi: 10.1103/PhysRevA.104.042208
+  year: 2020
+  status: published
+  subject: quantum
+  topic: device
+  type: article
+  sort: 20201202
+  featured: false
 
-- title: "Three qubits in less than three baths: Beyond two-body system-bath interactions in quantum refrigerators"
-  authors: "A. Ghoshal, S. Das, A. K. Pal, A. Sen(De), and U. Sen"
-  arxiv: "2012.08399"
-  journal: "Physical Review A"
-  doi: "10.1103/PhysRevA.104.042208"
-  year: "2020"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
-
-
-- title: "Hierarchies of localizable entanglement due to spatial distribution of local noise"
-  authors: "R. Banerjee, A. K. Pal, and A. Sen(De)"
-  arxiv: "2003.02175"
-  journal: "Physical Review Research"
-  doi: "10.1103/PhysRevResearch.4.023035"
-  year: "2020"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+- title: Hierarchies of localizable entanglement due to spatial distribution of local noise
+  authors: R. Banerjee, A. K. Pal, and A. Sen(De)
+  arxiv: 2003.02175
+  journal: Physical Review Research
+  doi: 10.1103/PhysRevResearch.4.023035
+  year: 2020
+  status: Published
+  subject: quantum
+  topic: entanglement
+  type: article
+  sort: 202003
+  featured: false
   
 
 - title: "Scalable characterization of localizable entanglement in noisy topological quantum codes"
