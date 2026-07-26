@@ -5,7 +5,7 @@ permalink: /group/
 author_profile: true
 ---
 
-Current Members
+Current members
 ------
 
 <div class="people-grid">
@@ -14,7 +14,7 @@ Current Members
 {% endfor %}
 </div>
 
-Former Members
+Former members
 ------
 
 <ol class="former-members">
@@ -32,7 +32,7 @@ Next position: {{ member.current }}
 {% endfor %}
 </ol>
 
-Joining the Group
+Joining the group
 ------
 
 **PhD:** We are always looking for motivated and skilled candidates from diverse backgrounds to join our group as PhD students. To pursue your PhD with us, you have to hold a MSc/MS degree in Physics, and pass one of the competitive national-level examinations (see [IIT Palakkad Research Portal](https://resap.iitpkd.ac.in) for details). Eligible candidates will have to go through the admission procedure in place, typically including an examination and an interview. If you are interested, please get in touch via email, attaching your CV, prior to applying formally for more information on research topics and availability of positions. 
