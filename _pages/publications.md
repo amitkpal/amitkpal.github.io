@@ -10,24 +10,24 @@ author_profile: true
 <div class="publication-list">
 
 {% include publication_section.html
-    title="Recent Preprints"
-    filter="recent_preprints"
-    papers=papers %}
+title="Recent Preprints"
+filter="recent_preprints"
+papers=papers %}
 
 {% include publication_section.html
-    title="Peer-reviewed Articles"
-    filter="peer_reviewed"
-    papers=papers %}
+title="Peer-reviewed Articles"
+filter="peer_reviewed"
+papers=papers %}
 
 {% include publication_section.html
-    title="Published Books, Book Chapters & Reviews"
-    filter="books"
-    papers=papers %}
+title="Books / Book Chapters / Reviews"
+filter="books"
+papers=papers %}
 
 {% include publication_section.html
-    title="Other than Quantum"
-    filter="other"
-    papers=papers %}
+title="Other than Quantum"
+filter="other"
+papers=papers %}
 
 </div>
 
