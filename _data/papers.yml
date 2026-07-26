@@ -20,13 +20,13 @@
   sort: 20260402
   featured: false
 
-- title: Quantum batteries with K-regular graph generators: A no-go for quantum advantage
+- title: "Quantum batteries with K-regular graph generators: A no-go for quantum advantage"
   authors: D. Ghosh, T. K. Konar, A. K. Pal, and A. Sen(De)
   arxiv: 2512.22908
   year: 2025
   status: preprint
   subject: quantum
-  area: devices
+  area: device
   type: article  
   sort: 20251201
   featured: false
@@ -166,7 +166,7 @@
   featured: false
 
 
-- title: Quantum state transfer on 2D lattices: A low-energy effective Hamiltonian approach
+- title: "Quantum state transfer on 2D lattices: A low-energy effective Hamiltonian approach"
   authors: C. B. Pushpan, Harikrishnan K. J., and A. K. Pal
   arxiv: 2306.08440
   journal: Physics Letters A
@@ -208,7 +208,7 @@
   sort: 20221101
   featured: false
 
-- title: Controlling gain with loss: Bounds of localizable entanglement in multi-qubit systems
+- title: "Controlling gain with loss: Bounds of localizable entanglement in multi-qubit systems"
   authors: J. G. Krishnan, Harikrishnan K. J., and A. K. Pal
   arxiv: 2206.07731
   journal: Physical Review A
@@ -445,7 +445,7 @@
   featured: false
   
 
-- title: Multipartite entanglement accumulation in quantum states: Localizable generalized geometric measure
+- title: "Multipartite entanglement accumulation in quantum states: Localizable generalized geometric measure"
   authors: D. Sadhukhan, S. Singha Roy, A. K. Pal, D. Rakshit, A. Sen(De), and U. Sen
   arxiv: 1511.03998
   journal: Physical Review A
@@ -563,7 +563,7 @@
 - title: Quantum discord in the ground and thermal states of spin clusters
   authors: A. K. Pal and I. Bose
   arxiv: 1012.0650
-  journal: Journal of Physics B: Atomic, Molecular and Optical Physics
+  journal: "Journal of Physics B: Atomic, Molecular and Optical Physics"
   doi: 10.1088/0953-4075/44/4/045101
   year: 2010
   status: published
@@ -591,7 +591,7 @@
 - title: Entanglement in a molecular three-qubit system
   authors: A. K. Pal and I. Bose
   arxiv: 0909.2918
-  journal: Journal of Physics: Condensed Matter
+  journal: "Journal of Physics: Condensed Matter"
   doi: 10.1088/0953-8984/22/1/016004
   year: 2009
   status: published
@@ -602,7 +602,7 @@
   featured: false
 
 
-- title: Monogamy of quantum correlations - a review
+- title: "Monogamy of quantum correlations: A review"
   authors: H. S. Dhar, A. K. Pal, D. Rakshit, A. Sen(De), and U. Sen
   arxiv: 1610.01069
   journal: Lectures on General Quantum Correlations and Their Applications (Springer)
@@ -616,7 +616,7 @@
   featured: false
 
 
-- title: Noise-induced regime shifts: A quantitative characterization
+- title: "Noise-induced regime shifts: A quantitative characterization"
   authors: S. Ghosh, A. K. Pal, and I. Bose
   arxiv: 1212.5385
   journal: European Physical Journal E
