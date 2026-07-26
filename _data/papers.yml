@@ -436,7 +436,7 @@
   year: 2016
   status: published
   subject: quantum
-  topic: device
+  topic: manybody
   type: article
   sort: 201605
   featured: false
@@ -493,7 +493,7 @@
   year: 2015
   status: published
   subject: quantum
-  topic: entanglement
+  topic: discord
   type: article
   sort: 201504
   featured: false
@@ -523,7 +523,7 @@
   year: 2014
   status: published
   subject: quantum
-  topic: entanglement
+  topic: discord
   type: article
   sort: 201409
   featured: false
@@ -538,7 +538,7 @@
   year: 2012
   status: published
   subject: quantum
-  topic: entanglement
+  topic: discord
   type: review
   sort: 201205
   featured: false
@@ -552,7 +552,7 @@
   year: 2011
   status: published
   subject: quantum
-  topic: entanglement
+  topic: discord
   type: article
   sort: 201112
   featured: false
@@ -566,7 +566,7 @@
   year: 2011
   status: published
   subject: quantum
-  topic: entanglement
+  topic: discord
   type: article
   sort: 201107
   featured: false
@@ -586,55 +586,70 @@
   
 
 - title: Motion of bound domain walls in a spin ladder
-  authors: "I. Bose and A. K. Pal
+  authors: I. Bose and A. K. Pal
   arxiv: 1006.3666
   journal: European Physical Journal B
-  doi: "10.1140/epjb/e2010-00240-1"
-  year: "2010"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+  doi: 10.1140/epjb/e2010-00240-1
+  year: 2010
+  status: published
+  subject: quantum
+  topic: manybody
+  type: article
+  sort: 201006
+  featured: false
   
 
-- title: "Entanglement in a molecular three-qubit system"
-  authors: "A. K. Pal and I. Bose"
-  arxiv: "0909.2918"
-  journal: "Journal of Physics: Condensed Matter"
-  doi: "10.1088/0953-8984/22/1/016004"
-  year: "2009"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+- title: Entanglement in a molecular three-qubit system
+  authors: A. K. Pal and I. Bose
+  arxiv: 0909.2918
+  journal: Journal of Physics: Condensed Matter
+  doi: 10.1088/0953-8984/22/1/016004
+  year: 2009
+  status: published
+  subject: quantum
+  topic: entanglement
+  type: article
+  sort: 200909
+  featured: false
 
 
-- title: "Monogamy of quantum correlations - a review"
-  authors: "H. S. Dhar, A. K. Pal, D. Rakshit, A. Sen(De), and U. Sen"
-  arxiv: "1610.01069"
-  journal: "Lectures on General Quantum Correlations and Their Applications (Springer)"
-  doi: "10.1007/978-3-319-53412-1"
-  year: "2017"
-  status: "Published"
-  subject: "quantum"
-  type: "chapter"  
+- title: Monogamy of quantum correlations - a review
+  authors: H. S. Dhar, A. K. Pal, D. Rakshit, A. Sen(De), and U. Sen
+  arxiv: 1610.01069
+  journal: Lectures on General Quantum Correlations and Their Applications (Springer)
+  doi: 10.1007/978-3-319-53412-1
+  year: 2016
+  status: published
+  subject: quantum
+  topic: discord
+  type: chapter
+  sort: 201610
+  featured: false
 
 
-- title: "Noise-induced regime shifts: A quantitative characterization"
-  authors: "S. Ghosh, A. K. Pal, and I. Bose"
-  arxiv: "1212.5385"
-  journal: "European Physical Journal E"
-  doi: "10.1140/epje/i2013-13123-y"
-  year: "2013"
-  status: "Published"
-  subject: "other"
-  type: "article"  
+- title: Noise-induced regime shifts: A quantitative characterization
+  authors: S. Ghosh, A. K. Pal, and I. Bose
+  arxiv: 1212.5385
+  journal: European Physical Journal E
+  doi: 10.1140/epje/i2013-13123-y
+  year: 2012
+  status: published
+  subject: other
+  topic: biophysics
+  type: article 
+  sort: 20121201
+  featured: false
   
 
-- title: "Early signatures of regime shifts in gene expression dynamics"
-  authors: "M. Pal, A. K. Pal, S. Ghosh, and I. Bose"
-  arxiv: "1212.5383"
-  journal: "Physical Biology"
-  doi: "10.1088/1478-3975/10/3/036010"
-  year: "2013"
-  status: "Published"
-  subject: "other"
-  type: "article"    
+- title: Early signatures of regime shifts in gene expression dynamics
+  authors: M. Pal, A. K. Pal, S. Ghosh, and I. Bose
+  arxiv: 1212.5383
+  journal: Physical Biology
+  doi: 10.1088/1478-3975/10/3/036010
+  year: 2012
+  status: published
+  subject: other
+  topic: biophysics
+  type: article
+  sort: 20121202
+  featured: false
