@@ -168,3 +168,71 @@
 .course-meta {
     line-height: 1.7;
 }
+
+
+
+/* ===========================================================
+   Contact
+   =========================================================== */
+
+.contact-page {
+    margin-top: 2rem;
+}
+
+.contact-page h2 {
+    margin-top: 2.2rem;
+    margin-bottom: 0.7rem;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 0.3rem;
+}
+
+.contact-page p,
+.contact-page li {
+    line-height: 1.7;
+}
+
+.contact-map {
+    width: 100%;
+    max-width: 720px;
+    display: block;
+    margin: 1rem 0;
+    border-radius: 8px;
+    border: 1px solid #dddddd;
+    transition: opacity 0.2s ease;
+}
+
+.contact-map:hover {
+    opacity: 0.92;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 0.55rem 1rem;
+    border: 1px solid #777;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.contact-button:hover {
+    background: #f5f5f5;
+    text-decoration: none;
+}
+
+.profile-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.profile-list li {
+    margin-bottom: 0.35rem;
+}
+
+.profile-list a {
+    text-decoration: none;
+}
+
+.profile-list a:hover {
+    text-decoration: underline;
+}
