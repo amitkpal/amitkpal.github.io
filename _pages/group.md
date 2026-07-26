@@ -44,3 +44,42 @@ Joining the group
 - [KSCSTE Women in Science and Technology](https://kscste.kerala.gov.in/service/women-in-science-technology/)
 
 **MSc Projects:** Motivated Students from the MSc Physics program of IIT Palakkad can pursue their third (minor) and fourth (major) semester projects in the group. If you are interested, please contact by sending an email to know more about the available projects. 
+
+
+
+Current members
+------
+
+{% assign current_members = site.data.students
+   | where: "current", true
+   | sort: "order" %}
+<div class="people-grid">
+{% for person in current_members %}
+  {% include person-card.html person=person %}
+{% endfor %}
+</div>
+
+
+Former members
+------
+
+{% assign former_members = site.data.students
+   | where: "current", false
+   | sort: "graduation_year"
+   | reverse %}
+<ol class="former-members">
+{% for member in former_members %}
+<li>
+  <strong>{{ member.name }}</strong>,
+  {{ member.degree }}
+  {% if member.years %}
+    &nbsp;|&nbsp;
+    {{ member.years }}
+  {% endif %}
+  {% if member.next_position %}
+    &nbsp;|&nbsp;
+    Next position: {{ member.next_position }}
+  {% endif %}
+</li>
+{% endfor %}
+</ol>
