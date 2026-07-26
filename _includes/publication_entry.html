@@ -9,6 +9,9 @@
     {% if include.paper.journal %}
       <div class="publication-journal">
         {{ include.paper.journal }}
+        {% if include.paper.publication_year %}
+          &bull; {{ include.paper.publication_year }}
+        {% endif %}
       </div>
     {% endif %}
   {% endif %}
@@ -35,13 +38,9 @@
         arXiv
       </a>
       {% if include.paper.status == "preprint" %}
-        <span class="pub-badge badge-preprint">
-          preprint
-        </span>
+        <span class="pub-badge badge-preprint">Preprint</span>
       {% elsif include.paper.status == "accepted" %}
-        <span class="pub-badge badge-accepted">
-          accepted
-        </span>
+        <span class="pub-badge badge-accepted">Accepted</span>
       {% endif %}
       {% assign first = false %}
     {% endif %}
