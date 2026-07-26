@@ -1,0 +1,49 @@
+<h2>{{ include.title }}</h2>
+{% assign found = false %}
+{% for paper in include.papers %}
+  {% case include.filter %}
+  {% when "recent_preprints" %}
+    {% if paper.subject == "quantum"
+          and paper.status == "preprint"
+          and (paper.type == "article"
+          or paper.type == "review"
+          or paper.type == "chapter"
+          or paper.type == "book") %}
+      {% assign found = true %}
+      {% include publication_entry.html paper=paper %}
+    {% endif %}
+  {% when "peer_reviewed" %}
+    {% if paper.subject == "quantum"
+          and paper.type == "article"
+          and (paper.status == "accepted"
+          or paper.status == "published") %}
+      {% assign found = true %}
+      {% include publication_entry.html paper=paper %}
+    {% endif %}
+  {% when "books" %}
+    {% if paper.subject == "quantum"
+          and (paper.status == "accepted"
+          or paper.status == "published")
+          and (paper.type == "book"
+          or paper.type == "chapter"
+          or paper.type == "review") %}
+      {% assign found = true %}
+      {% include publication_entry.html paper=paper %}
+    {% endif %}
+  {% when "other" %}
+    {% if paper.subject == "other"
+          and (paper.status == "preprint"
+          or paper.status == "accepted"
+          or paper.status == "published")
+          and (paper.type == "article"
+          or paper.type == "review"
+          or paper.type == "chapter"
+          or paper.type == "book") %}
+      {% assign found = true %}
+      {% include publication_entry.html paper=paper %}
+    {% endif %}
+  {% endcase %}
+{% endfor %}
+{% unless found %}
+<p>No entries.</p>
+{% endunless %}
