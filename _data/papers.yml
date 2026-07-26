@@ -336,7 +336,7 @@
   journal: Physical Review Research
   doi: 10.1103/PhysRevResearch.4.023035
   year: 2020
-  status: Published
+  status: published
   subject: quantum
   topic: entanglement
   type: article
@@ -344,162 +344,205 @@
   featured: false
   
 
-- title: "Scalable characterization of localizable entanglement in noisy topological quantum codes"
-  authors: "D. Amaro, M. Müller, and A. K. Pal"
-  arxiv: "1907.13161"
-  journal: "New Journal of Physics"
-  doi: "10.1088/1367-2630/ab84b3"
-  year: "2019"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+- title: Scalable characterization of localizable entanglement in noisy topological quantum codes
+  authors: D. Amaro, M. Müller, and A. K. Pal
+  arxiv: 1907.13161
+  journal: New Journal of Physics
+  doi: 10.1088/1367-2630/ab84b3
+  year: 2019
+  status: published
+  subject: quantum
+  topic: entanglement
+  type: article
+  sort: 20190701
+  featured: false
 
-- title: "Uniform decoherence effect on localizable entanglement in random multi-qubit pure states"
-  authors: "R. Banerjee, A. K. Pal, and A. Sen(De)"
-  arxiv: "1907.10847"
-  journal: "Physical Review A"
-  doi: "10.1103/PhysRevA.101.042339"
-  year: "2019"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
-
-
-- title: "Estimating localizable entanglement from witnesses"
-  authors: "D. Amaro, M. Müller, and A. K. Pal"
-  arxiv: "1803.02753"
-  journal: "New Journal of Physics"
-  doi: "10.1088/1367-2630/aac485"
-  year: "2018"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+- title: Uniform decoherence effect on localizable entanglement in random multi-qubit pure states
+  authors: R. Banerjee, A. K. Pal, and A. Sen(De)
+  arxiv: 1907.10847
+  journal: Physical Review A
+  doi: 10.1103/PhysRevA.101.042339
+  year: 2019
+  status: published
+  subject: quantum
+  topic: entanglement
+  type: article
+  sort: 20190702
+  featured: false
 
 
-- title: "Emergence of entanglement with temperature and time in factorization-surface states"
-  authors: "T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen"
-  arxiv: "1705.09812"
-  journal: "Physical Review A"
-  doi: "10.1103/PhysRevA.97.012316"
-  year: "2017"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+- title: Estimating localizable entanglement from witnesses
+  authors: D. Amaro, M. Müller, and A. K. Pal
+  arxiv: 1803.02753
+  journal: New Journal of Physics
+  doi: 10.1088/1367-2630/aac485
+  year: 2018
+  status: published
+  subject: quantum
+  topic: entanglement
+  type: article
+  sort: 201803
+  featured: false
 
 
-- title: "Scale-invariant freezing of entanglement"
-  authors: "T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen"
-  arxiv: "1610.00730"
-  journal: "Physical Review A"
-  doi: "10.1103/PhysRevA.97.062324"
-  year: "2016"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+- title: Emergence of entanglement with temperature and time in factorization-surface states
+  authors: T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen
+  arxiv: 1705.09812
+  journal: Physical Review A
+  doi: 10.1103/PhysRevA.97.012316
+  year: 2017
+  status: published
+  subject: quantum
+  topic: manybody 
+  type: article
+  sort: 201705
+  featured: false
 
 
-- title: "Necessarily transient quantum refrigerator"
-  authors: "S. Das, A. Misra, A. K. Pal, A. Sen(De), and U. Sen"
-  arxiv: "1606.06985"
-  journal: "Europhysics Letters"
-  doi: "10.1209/0295-5075/125/20007"
-  year: "2016"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
-
-
-- title: "Static and dynamical quantum correlations in phases of an alternating-field XY model"
-  authors: "T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen"
-  arxiv: "1605.07576"
-  journal: "Physical Review A"
-  doi: "10.1103/PhysRevA.94.042310"
-  year: "2016"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+- title: Scale-invariant freezing of entanglement
+  authors: T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen
+  arxiv: 1610.00730
+  journal: Physical Review A
+  doi: 10.1103/PhysRevA.97.062324
+  year: 2016
+  status: published
+  subject: quantum
+  topic: manybody
+  type: article
+  sort: 201610
+  featured: false
   
 
-- title: "Conclusive identification of quantum channels via monogamy of quantum correlations"
-  authors: "A. Kumar, S. Singha Roy, A. K. Pal, R. Prabhu, A. Sen(De), and U. Sen"
-  arxiv: "1603.02801"
-  journal: "Physics Letters A"
-  doi: "10.1016/j.physleta.2016.08.039"
-  year: "2016"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+
+- title: Necessarily transient quantum refrigerator
+  authors: S. Das, A. Misra, A. K. Pal, A. Sen(De), and U. Sen
+  arxiv: 1606.06985
+  journal: Europhysics Letters
+  doi: 10.1209/0295-5075/125/20007
+  year: 2016
+  status: published
+  subject: quantum
+  topic: device
+  type: article
+  sort: 201606
+  featured: false
+
+
+- title: Static and dynamical quantum correlations in phases of an alternating-field XY model
+  authors: T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen
+  arxiv: 1605.07576
+  journal: Physical Review A
+  doi: 10.1103/PhysRevA.94.042310
+  year: 2016
+  status: published
+  subject: quantum
+  topic: device
+  type: article
+  sort: 201605
+  featured: false
   
 
-- title: "Multipartite entanglement accumulation in quantum states: Localizable generalized geometric measure"
-  authors: "D. Sadhukhan, S. Singha Roy, A. K. Pal, D. Rakshit, A. Sen(De), and U. Sen"
-  arxiv: "1511.03998"
-  journal: "Physical Review A"
-  doi: "10.1103/PhysRevA.95.022301"
-  year: "2015"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+- title: Conclusive identification of quantum channels via monogamy of quantum correlations
+  authors: A. Kumar, S. Singha Roy, A. K. Pal, R. Prabhu, A. Sen(De), and U. Sen
+  arxiv: 1603.02801
+  journal: Physics Letters A
+  doi: 10.1016/j.physleta.2016.08.039
+  year: 2016
+  status: published
+  subject: quantum
+  topic: entanglement
+  type: article
+  sort: 201603
+  featured: false
   
 
-- title: "Statistics of leading digits leads to unification of quantum correlations"
-  authors: "T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen"
-  arxiv: "1509.09295"
-  journal: "Europhysics Letters"
-  doi: "10.1209/0295-5075/114/30004"
-  year: "2015"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
-
+- title: Multipartite entanglement accumulation in quantum states: Localizable generalized geometric measure
+  authors: D. Sadhukhan, S. Singha Roy, A. K. Pal, D. Rakshit, A. Sen(De), and U. Sen
+  arxiv: 1511.03998
+  journal: Physical Review A
+  doi: 10.1103/PhysRevA.95.022301
+  year: 2015
+  status: published
+  subject: quantum
+  topic: entanglement
+  type: article
+  sort: 201511
+  featured: false
   
 
-- title: "Reducing computational complexity of quantum correlations"
-  authors: "T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen"
-  arxiv: "1504.04727"
-  journal: "Physical Review A"
-  doi: "10.1103/PhysRevA.92.062301"
-  year: "2015"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
-
-  
-
-- title: "Canonical distillation of entanglement"
-  authors: "T. Das, A. Kumar, A. K. Pal, N. Shukla, A. Sen(De), and U. Sen"
-  arxiv: "1411.7936"
-  journal: "Physics Letters A"
-  doi: "10.1016/j.physleta.2017.08.065"
-  year: "2014"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
-
-  
-
-- title: "Freezing of quantum correlations under local decoherence"
-  authors: "T. Chanda, A. K. Pal, A. Biswas, A. Sen(De), and U. Sen"
-  arxiv: "1409.2096"
-  journal: "Physical Review A"
-  doi: "10.1103/PhysRevA.91.062119"
-  year: "2014"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+- title: Statistics of leading digits leads to unification of quantum correlations
+  authors: T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen
+  arxiv: 1509.09295
+  journal: Europhysics Letters
+  doi: 10.1209/0295-5075/114/30004
+  year: 2015
+  status: published
+  subject: quantum
+  topic: entanglement
+  type: article
+  sort: 201509
+  featured: false
 
   
 
-- title: "Quantum discord, decoherence and quantum phase transition"
-  authors: "I. Bose and A. K. Pal"
-  arxiv: "1205.1300"
-  journal: "International Journal of Modern Physics B"
-  doi: "10.1142/S0217979213450422"
-  year: "2012"
-  status: "Published"
-  subject: "quantum"
-  type: "article"
+- title: Reducing computational complexity of quantum correlations
+  authors: T. Chanda, T. Das, D. Sadhukhan, A. K. Pal, A. Sen(De), and U. Sen
+  arxiv: 1504.04727
+  journal: Physical Review A
+  doi: 10.1103/PhysRevA.92.062301
+  year: 2015
+  status: published
+  subject: quantum
+  topic: entanglement
+  type: article
+  sort: 201504
+  featured: false
 
+  
+
+- title: Canonical distillation of entanglement
+  authors: T. Das, A. Kumar, A. K. Pal, N. Shukla, A. Sen(De), and U. Sen
+  arxiv: 1411.7936
+  journal: Physics Letters A
+  doi: 10.1016/j.physleta.2017.08.065
+  year: 2014
+  status: published
+  subject: quantum
+  topic: entanglement
+  type: article
+  sort: 201411
+  featured: false
+
+  
+
+- title: Freezing of quantum correlations under local decoherence
+  authors: T. Chanda, A. K. Pal, A. Biswas, A. Sen(De), and U. Sen
+  arxiv: 1409.2096
+  journal: Physical Review A
+  doi: 10.1103/PhysRevA.91.062119
+  year: 2014
+  status: published
+  subject: quantum
+  topic: entanglement
+  type: article
+  sort: 201409
+  featured: false
+
+  
+
+- title: Quantum discord, decoherence and quantum phase transition
+  authors: I. Bose and A. K. Pal
+  arxiv: 1205.1300
+  journal: International Journal of Modern Physics B
+  doi: 10.1142/S0217979213450422
+  year: 2012
+  status: published
+  subject: quantum
+  topic: entanglement
+  type: review
+  sort: 201205
+  featured: false
+  
 
 - title: "Markovian evolution of classical and quantum correlations in transverse-field XY model"
   authors: "A. K. Pal and I. Bose"
