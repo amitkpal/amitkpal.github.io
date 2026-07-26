@@ -48,6 +48,7 @@
   journal: Physical Review A
   doi: 10.1103/jr71-mkfl
   year: 2025
+  publication_year: 2026
   status: published
   subject: quantum
   area: device
@@ -74,6 +75,7 @@
   journal: Physical Review A
   doi: 10.1103/vgrd-dg8j
   year: 2025
+  publication_year: 2026
   status: published
   subject: quantum
   area: manybody
@@ -88,6 +90,7 @@
   arxiv: 2502.01393
   journal: Physical Review A
   year: 2025
+  publication_year: 2026
   status: accepted
   subject: quantum
   area: measurement
@@ -102,6 +105,7 @@
   journal: Physics Letters A
   doi: 10.1016/j.physleta.2026.131871
   year: 2024
+  publication_year: 2026
   status: published  
   subject: quantum
   area: device
@@ -116,6 +120,7 @@
   journal: Physical Review A
   doi: 10.1103/p2bp-mjk2
   year: 2024
+  publication_year: 2026
   status: published
   subject: quantum
   area: network
@@ -130,6 +135,7 @@
   journal: Physical Review A
   doi: 10.1103/PhysRevA.111.042401
   year: 2024
+  publication_year: 2025
   status: published
   subject: quantum
   area: measurement
@@ -145,6 +151,7 @@
   journal: Physical Review A
   doi: 10.1103/PhysRevA.111.032401
   year: 2024
+  publication_year: 2025
   status: published
   subject: quantum
   area: manybody
@@ -158,6 +165,7 @@
   journal: Physics Letters A
   doi: 10.1016/j.physleta.2024.130170
   year: 2023
+  publication_year: 2025
   status: published
   subject: quantum
   area: manybody
@@ -172,6 +180,7 @@
   journal: Physics Letters A
   doi: 10.1016/j.physleta.2024.129543
   year: 2023
+  publication_year: 2024
   status: published
   subject: quantum
   area: protocol
@@ -186,6 +195,7 @@
   journal: Physical Review A
   doi: 10.1103/PhysRevA.110.032408
   year: 2023
+  publication_year: 2024
   status: published
   subject: quantum
   area: manybody
@@ -201,6 +211,7 @@
   journal: Physical Review A
   doi: 10.1103/PhysRevA.108.032404
   year: 2022
+  publication_year: 2023
   status: published
   subject: quantum
   area: entanglement
@@ -214,6 +225,7 @@
   journal: Physical Review A
   doi: 10.1103/PhysRevA.107.042411
   year: 2022
+  publication_year: 2023
   status: published
   subject: quantum
   area: entanglement
@@ -229,6 +241,7 @@
   journal: Physical Review E
   doi: 10.1103/PhysRevE.106.024114
   year: 2022
+  publication_year: 2022
   status: published
   subject: quantum
   area: manybody
@@ -243,6 +256,7 @@
   journal: Physical Review A
   doi: 10.1103/PhysRevA.107.032602
   year: 2021
+  publication_year: 2023
   status: published
   subject: quantum
   area: device
@@ -257,6 +271,7 @@
   journal: Physical Review A
   doi: 10.1103/PhysRevA.106.032604
   year: 2021
+  publication_year: 2022
   status: published  
   subject: "quantum"
   area: network
@@ -270,6 +285,7 @@
   journal: Physical Review A
   doi: 10.1103/PhysRevA.105.052421
   year: 2021
+  publication_year: 2022
   status: published
   subject: quantum
   area: manybody
@@ -286,6 +302,7 @@
   journal: Physical Review A
   doi: 10.1103/PhysRevA.105.022214
   year: 2021
+  publication_year: 2022
   status: published
   subject: quantum
   area: device
@@ -299,6 +316,7 @@
   journal: Quantum
   doi: 10.22331/q-2022-01-24-632
   year: 2020
+  publication_year: 2022
   status: published
   subject: quantum
   area: trappedion
@@ -312,6 +330,7 @@
   journal: Physical Review A
   doi: 10.1103/PhysRevA.104.042208
   year: 2020
+  publication_year: 2021
   status: published
   subject: quantum
   area: device
@@ -325,6 +344,7 @@
   journal: Physical Review Research
   doi: 10.1103/PhysRevResearch.4.023035
   year: 2020
+  publication_year: 2022
   status: published
   subject: quantum
   area: entanglement
@@ -339,6 +359,7 @@
   journal: New Journal of Physics
   doi: 10.1088/1367-2630/ab84b3
   year: 2019
+  publication_year: 2020
   status: published
   subject: quantum
   area: entanglement
@@ -352,6 +373,7 @@
   journal: Physical Review A
   doi: 10.1103/PhysRevA.101.042339
   year: 2019
+  publication_year: 2020
   status: published
   subject: quantum
   area: entanglement
@@ -366,6 +388,7 @@
   journal: New Journal of Physics
   doi: 10.1088/1367-2630/aac485
   year: 2018
+  publication_year: 2018
   status: published
   subject: quantum
   area: entanglement
@@ -380,6 +403,7 @@
   journal: Physical Review A
   doi: 10.1103/PhysRevA.97.012316
   year: 2017
+  publication_year: 2018
   status: published
   subject: quantum
   area: manybody 
@@ -394,6 +418,7 @@
   journal: Physical Review A
   doi: 10.1103/PhysRevA.97.062324
   year: 2016
+  publication_year: 2018
   status: published
   subject: quantum
   area: manybody
@@ -409,6 +434,7 @@
   journal: Europhysics Letters
   doi: 10.1209/0295-5075/125/20007
   year: 2016
+  publication_year: 2019
   status: published
   subject: quantum
   area: device
@@ -423,6 +449,7 @@
   journal: Physical Review A
   doi: 10.1103/PhysRevA.94.042310
   year: 2016
+  publication_year: 2016
   status: published
   subject: quantum
   area: manybody
@@ -437,6 +464,7 @@
   journal: Physics Letters A
   doi: 10.1016/j.physleta.2016.08.039
   year: 2016
+  publication_year: 2016
   status: published
   subject: quantum
   area: entanglement
@@ -451,6 +479,7 @@
   journal: Physical Review A
   doi: 10.1103/PhysRevA.95.022301
   year: 2015
+  publication_year: 2017
   status: published
   subject: quantum
   area: entanglement
@@ -465,6 +494,7 @@
   journal: Europhysics Letters
   doi: 10.1209/0295-5075/114/30004
   year: 2015
+  publication_year: 2016
   status: published
   subject: quantum
   area: entanglement
@@ -480,6 +510,7 @@
   journal: Physical Review A
   doi: 10.1103/PhysRevA.92.062301
   year: 2015
+  publication_year: 2015
   status: published
   subject: quantum
   area: discord
@@ -495,6 +526,7 @@
   journal: Physics Letters A
   doi: 10.1016/j.physleta.2017.08.065
   year: 2014
+  publication_year: 2017
   status: published
   subject: quantum
   area: entanglement
@@ -510,6 +542,7 @@
   journal: Physical Review A
   doi: 10.1103/PhysRevA.91.062119
   year: 2014
+  publication_year: 2015
   status: published
   subject: quantum
   area: discord
@@ -525,6 +558,7 @@
   journal: International Journal of Modern Physics B
   doi: 10.1142/S0217979213450422
   year: 2012
+  publication_year: 2013
   status: published
   subject: quantum
   area: discord
@@ -539,6 +573,7 @@
   journal: European Physical Journal B
   doi: 10.1140/epjb/e2012-30108-1
   year: 2011
+  publication_year: 2012
   status: published
   subject: quantum
   area: discord
@@ -553,6 +588,7 @@
   journal: European Physical Journal B
   doi: 10.1140/epjb/e2011-20858-5
   year: 2011
+  publication_year: 2012
   status: published
   subject: quantum
   area: discord
@@ -566,6 +602,7 @@
   journal: "Journal of Physics B: Atomic, Molecular and Optical Physics"
   doi: 10.1088/0953-4075/44/4/045101
   year: 2010
+  publication_year: 2011
   status: published
   subject: quantum
   area: discord
@@ -580,6 +617,7 @@
   journal: European Physical Journal B
   doi: 10.1140/epjb/e2010-00240-1
   year: 2010
+  publication_year: 2010
   status: published
   subject: quantum
   area: manybody
@@ -594,6 +632,7 @@
   journal: "Journal of Physics: Condensed Matter"
   doi: 10.1088/0953-8984/22/1/016004
   year: 2009
+  publication_year: 2009
   status: published
   subject: quantum
   area: entanglement
@@ -608,6 +647,7 @@
   journal: Lectures on General Quantum Correlations and Their Applications (Springer)
   doi: 10.1007/978-3-319-53412-1
   year: 2016
+  publication_year: 2017
   status: published
   subject: quantum
   area: discord
@@ -622,6 +662,7 @@
   journal: European Physical Journal E
   doi: 10.1140/epje/i2013-13123-y
   year: 2012
+  publication_year: 2013
   status: published
   subject: other
   area: biophysics
@@ -636,6 +677,7 @@
   journal: Physical Biology
   doi: 10.1088/1478-3975/10/3/036010
   year: 2012
+  publication_year: 2013
   status: published
   subject: other
   area: biophysics
