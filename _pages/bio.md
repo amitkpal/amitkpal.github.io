@@ -6,9 +6,6 @@ author_profile: true
 ---
 
 
-{% include bio.html %}
-
-
 
 Positions
 ------
