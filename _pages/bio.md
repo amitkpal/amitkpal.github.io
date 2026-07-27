@@ -5,6 +5,11 @@ permalink: /bio/
 author_profile: true
 ---
 
+
+{% include bio.html %}
+
+
+
 Positions
 ------
 - Associate Professor
