@@ -23,7 +23,7 @@ repository               : "amitkpal/amitkpal.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "/images/people/profile.png"
   name             : "Amit Kumar Pal"
   pronouns         : "he/him/his"  
   bio              : "Associate Professor, Dept. of Physics, IIT Palakkad"
