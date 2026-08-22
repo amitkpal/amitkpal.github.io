@@ -18,6 +18,9 @@ Current members
 </div>
 
 
+{% include slideshow.html %}
+
+
 Former members
 ------
 
