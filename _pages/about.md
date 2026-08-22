@@ -12,8 +12,6 @@ Welcome to my homepage.
 I am an Associate Professor at the [Department of Physics](https://physics.iitpkd.ac.in), [IIT Palakkad](https://iitpkd.ac.in), where I lead the [Complex Quantum Systems (CQS) Group](group.md). Our research brings together cocepts from quantum information theory, quantum many-body physics, quantum optics, quantum thermodynamics, and open quantum systems. For my brief bio, see [here](bio.md).
 
 
-{% include slideshow.html %}
-
 This year so far
 ------
 
