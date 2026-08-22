@@ -5,6 +5,9 @@ permalink: /group/
 author_profile: true
 ---
 
+
+{% include slideshow.html %}
+
 Current members
 ------
 
@@ -16,9 +19,6 @@ Current members
   {% include person-card.html person=person %}
 {% endfor %}
 </div>
-
-
-{% include slideshow.html %}
 
 
 Former members
