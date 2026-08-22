@@ -23,8 +23,8 @@ main:
   - title: "Group"
     url: /group/    
 
-  - title: "Gallery"
-    url: /gallery/  
+  #- title: "Gallery"
+  #  url: /gallery/  
 
   - title: "Contact"
     url: /contact/       
