@@ -1,0 +1,25 @@
+<div class="swiper hero-swiper">
+
+  <div class="swiper-wrapper">
+
+    {% for slide in site.data.slideshow.slides %}
+
+      <div class="swiper-slide">
+
+        <img
+          src="{{ slide.image | relative_url }}"
+          alt="Department image">
+
+      </div>
+
+    {% endfor %}
+
+  </div>
+
+  <div class="swiper-pagination"></div>
+
+  <div class="swiper-button-prev"></div>
+
+  <div class="swiper-button-next"></div>
+
+</div>
