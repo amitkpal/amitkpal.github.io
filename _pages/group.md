@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-{% include slideshow.html %}
+<!--{% include slideshow.html %}-->
 
 Current members
 ------
