@@ -1,14 +1,16 @@
-<div class="swiper hero-swiper">
+<div class="swiper {{ include.class | default: 'hero-swiper' }}">
 
   <div class="swiper-wrapper">
 
-    {% for slide in site.data.slideshow.slides %}
+    {% assign slideshow_data = site.data[include.data] %}
+
+    {% for slide in slideshow_data.slides %}
 
       <div class="swiper-slide">
 
         <img
           src="{{ slide.image | relative_url }}"
-          alt="Department image">
+          alt="{{ slide.alt | default: 'Slideshow image' }}">
 
       </div>
 
