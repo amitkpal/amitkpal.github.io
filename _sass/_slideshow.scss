@@ -9,13 +9,7 @@
 
     margin: 2rem auto;
 
-    border-radius: 10px;
-
     overflow: hidden;
-
-    box-shadow: 0 10px 25px rgba(0,0,0,.15);
-
-    background: #ffffff;
 
 }
 
@@ -31,13 +25,7 @@
 
     margin: 2rem auto;
 
-    border-radius: 10px;
-
     overflow: hidden;
-
-    box-shadow: 0 10px 25px rgba(0,0,0,.15);
-
-    background: #ffffff;
 
 }
 
@@ -54,7 +42,7 @@
 
     align-items: center;
 
-    background: white;
+    background: transparent;
 
 }
 
@@ -135,9 +123,9 @@
 
     opacity: 1;
 
-    background: rgba(255,255,255,.45);
+    background: rgba(255, 255, 255, 0.45);
 
-    transition: all .25s ease;
+    transition: all 0.25s ease;
 
 }
 
@@ -182,16 +170,12 @@
         width: 95%;
         height: 220px;
 
-        border-radius: 6px;
-
     }
 
     .research-swiper {
 
         width: 94%;
         height: 210px;
-
-        border-radius: 6px;
 
     }
 
