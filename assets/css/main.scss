@@ -52,29 +52,43 @@
 
 .person-card {
   text-align: center;
+  padding: 1.5rem 1rem;
+  background: var(--global-card-bg-color, var(--global-bg-color));
+  border: 1px solid var(--global-border-color);
+  border-radius: 14px;
+  box-shadow: var(--global-card-shadow);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.person-card:hover {
+  box-shadow: var(--global-card-shadow-hover);
+  transform: translateY(-3px);
 }
 
 .person-card img {
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   object-position: center;
   display: block;
-  margin: 0 auto 12px auto;
-  border-radius: 8px;
+  margin: 0 auto 14px auto;
+  border-radius: 50%;
+  border: 3px solid var(--global-bg-color);
+  box-shadow: 0 0 0 1px var(--global-border-color);
 }
 
 .person-card h3 {
   margin: 0;
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.02rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
 .person-card p {
-  margin-top: 0.35rem;
+  margin-top: 0.4rem;
   margin-bottom: 0;
-  color: #666;
-  font-size: 0.95rem;
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
 }
 
 .former-members {
@@ -97,19 +111,30 @@
 }
 
 .news-item {
-  margin-bottom: 2rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem 1.5rem;
+  background: var(--global-card-bg-color, var(--global-bg-color));
+  border: 1px solid var(--global-border-color);
+  border-radius: 12px;
+  transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.news-item:hover {
+  box-shadow: var(--global-card-shadow);
+  border-color: var(--global-dark-border-color);
 }
 
 .news-date {
-  color: #777;
-  font-size: 0.9rem;
-  margin-bottom: 0.35rem;
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.4rem;
 }
 
 .news-title {
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 0.5rem;
 }
 
@@ -138,14 +163,22 @@
 .teaching-list h2 {
     margin-top: 2.5rem;
     margin-bottom: 1rem;
-    border-bottom: 2px solid #e5e5e5;
-    padding-bottom: 0.3rem;
+    border-bottom: 2px solid var(--global-border-color);
+    padding-bottom: 0.4rem;
 }
 
 .teaching-item {
-    margin-bottom: 2rem;
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid #efefef;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem 1.5rem;
+    background: var(--global-card-bg-color, var(--global-bg-color));
+    border: 1px solid var(--global-border-color);
+    border-radius: 12px;
+    transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.teaching-item:hover {
+    box-shadow: var(--global-card-shadow);
+    border-color: var(--global-dark-border-color);
 }
 
 .course-title {
@@ -154,7 +187,7 @@
 
 .course-title strong {
     font-size: 1.05rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .course-title a {
@@ -183,7 +216,7 @@
 .contact-page h2 {
     margin-top: 2.2rem;
     margin-bottom: 0.7rem;
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 1px solid var(--global-border-color);
     padding-bottom: 0.3rem;
 }
 
@@ -198,28 +231,36 @@
     display: block;
     margin: 1rem 0;
 
-    border-radius: 8px;
-    border: 1px solid #dddddd;
+    border-radius: 12px;
+    border: 1px solid var(--global-border-color);
+    box-shadow: var(--global-card-shadow);
 
-    transition: opacity 0.2s ease;
+    transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-map:hover {
-    opacity: 0.92;
+    box-shadow: var(--global-card-shadow-hover);
+    opacity: 0.96;
 }
 
 .contact-button {
     display: inline-block;
-    padding: 0.55rem 1rem;
-    border: 1px solid #777;
-    border-radius: 6px;
+    padding: 0.6rem 1.3rem;
+    color: #fff;
+    background: var(--global-base-color);
+    border: 0;
+    border-radius: 999px;
     text-decoration: none;
     font-weight: 600;
     margin-top: 0.5rem;
+    box-shadow: 0 1px 2px rgba(16, 24, 32, 0.08);
+    transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-button:hover {
-    background: #f5f5f5;
+    filter: brightness(0.9);
+    box-shadow: 0 4px 10px rgba(16, 24, 32, 0.14);
+    transform: translateY(-1px);
     text-decoration: none;
 }
 
@@ -255,13 +296,23 @@
     margin-top: 2.8rem;
     margin-bottom: 1.3rem;
     padding-bottom: 0.35rem;
-    border-bottom: 2px solid #e5e5e5;
+    border-bottom: 2px solid var(--global-border-color);
 }
 
 /* One publication */
 
 .publication-item {
-    margin-bottom: 2rem;
+    margin-bottom: 1.25rem;
+    padding: 1.35rem 1.6rem;
+    background: var(--global-card-bg-color, var(--global-bg-color));
+    border: 1px solid var(--global-border-color);
+    border-radius: 12px;
+    transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.publication-item:hover {
+    box-shadow: var(--global-card-shadow);
+    border-color: var(--global-dark-border-color);
 }
 
 /* Title */
@@ -269,7 +320,7 @@
 .publication-title {
     font-size: 1.08rem;
     line-height: 1.45;
-    margin-bottom: 0.35rem;
+    margin-bottom: 0.4rem;
 }
 
 .publication-title strong {
@@ -279,17 +330,18 @@
 /* Authors */
 
 .publication-authors {
-    margin-bottom: 0.15rem;
+    margin-bottom: 0.2rem;
     line-height: 1.6;
 }
 
 /* Journal */
 
 .publication-journal {
-    color: #555;
+    color: var(--global-text-color-light);
     font-size: 0.96rem;
     font-weight: 500;
     margin-bottom: 0.35rem;
+    font-style: italic;
 }
 
 /* Links */
@@ -318,13 +370,15 @@
 
     margin-left: 0.6rem;
 
-    padding: 0.15rem 0.55rem;
+    padding: 0.2rem 0.65rem;
 
-    border-radius: 4px;
+    border-radius: 999px;
 
-    font-size: 0.72rem;
+    font-size: 0.7rem;
 
-    font-weight: 600;
+    font-weight: 700;
+
+    letter-spacing: 0.02em;
 
     text-transform: uppercase;
 
@@ -333,12 +387,14 @@
 
 .badge-preprint {
     color: #b30000;
-    border: 1px solid #b30000;
+    background: rgba(179, 0, 0, 0.08);
+    border: 1px solid rgba(179, 0, 0, 0.3);
 }
 
 .badge-accepted {
     color: #0055aa;
-    border: 1px solid #0055aa;
+    background: rgba(0, 85, 170, 0.08);
+    border: 1px solid rgba(0, 85, 170, 0.3);
 }
 
 /* ==========================================================
