@@ -148,9 +148,9 @@
   // height: 36px;
 
   @media screen and (max-width: 924px) {
-    display: block;
-    width: 100%;
-    margin-bottom: 1rem;
+    display: table-cell;
+    vertical-align: top;
+    width: 104px;
   }
 
   @include breakpoint($large) {
@@ -166,10 +166,10 @@
 
     @media screen and (max-width: 924px) {
       display: block;
-      margin: 0 auto;
-      width: 140px;
-      height: 140px;
-      max-width: 140px;
+      margin: 0;
+      width: 96px;
+      height: 96px;
+      max-width: 96px;
       object-fit: cover;
       border: 3px solid var(--global-border-color);
       box-shadow: var(--global-card-shadow);
@@ -198,10 +198,11 @@
   line-height: 1;
 
   @media screen and (max-width: 924px) {
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding-left: 0;
+    display: table-cell;
+    vertical-align: top;
+    width: auto;
+    text-align: left;
+    padding-left: 16px;
     padding-right: 0;
     line-height: 1.4;
   }
@@ -227,7 +228,7 @@
   font-size: $type-size-5;
 
   @media screen and (max-width: 924px) {
-    font-size: $type-size-3;
+    font-size: $type-size-4;
     font-weight: 700;
   }
 }
@@ -281,10 +282,7 @@
   }
 
   @media screen and (max-width: 924px) {
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin-top: 0.5rem;
+    display: none;
   }
 
   @include breakpoint($large) {
