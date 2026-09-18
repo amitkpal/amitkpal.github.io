@@ -269,7 +269,7 @@
     border: 1px solid var(--global-border-color);
     border-radius: $border-radius;
     background: var(--global-bg-color);
-    box-shadow: 0 0 10px rgba(#000, 0.25);
+    box-shadow: var(--global-card-shadow-hover);
 
     a {
       margin: 0;
