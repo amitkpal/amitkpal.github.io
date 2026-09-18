@@ -2,24 +2,24 @@
     DEFAULT THEME - LIGHT VERSION
     ========================================================================== */
 /* Color codes used for the theme */
-$primary-color              : #2f7f93;
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+$primary-color              : #1d4e5f;
+$gray                       : #6b7280;
+$dark-gray                  : mix(#000, $gray, 42%);
+$darker-gray                : mix(#000, $gray, 62%);
+$light-gray                 : mix(#fff, $gray, 45%);
+$lighter-gray               : mix(#fff, $gray, 92%);
 
 /* Color codes used for the site */
-$danger-color               : #ee5f5b;
-$info-color                 : #2f7f93;
-$notice-color               : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
+$danger-color               : #e0554c;
+$info-color                 : #1d4e5f;
+$notice-color               : #6b7280;
+$success-color              : #3fa15a;
+$warning-color              : #dc8b16;
 
 /* Other basic settings for the template */
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$global-transition          : all 0.2s ease-in-out;
+$border-radius              : 10px;
+$box-shadow                 : 0 1px 2px rgba(16, 24, 32, 0.04), 0 4px 16px rgba(16, 24, 32, 0.06);
+$global-transition          : all 0.22s cubic-bezier(0.4, 0, 0.2, 1);
 $masthead-height            : 70px;
 $navicon-width              : 28px;
 $navicon-height             : 4px;
@@ -29,20 +29,22 @@ $sidebar-screen-min-width   : 1024px;
 /* Default light theme for the site */
 :root {
     --global-base-color                 : #{$primary-color};
-    --global-bg-color                   : #fff;
-    --global-footer-bg-color            : #f2f3f3;
+    --global-bg-color                   : #fdfdfc;
+    --global-footer-bg-color            : #f4f5f5;
     --global-border-color               : #{$lighter-gray};
-    --global-dark-border-color          : #bdc1c4;
-    --global-code-background-color      : #fafafa;
+    --global-dark-border-color          : #d7dade;
+    --global-code-background-color      : #f7f8f8;
     --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-    --global-link-color                 : #52adc8;
-    --global-link-color-hover           : mix(#000, #2f7f93, 25%);
-    --global-link-color-visited         : mix(#fff, #2f7f93, 25%);  
+    --global-fig-caption-color          : #{mix(#fff, $dark-gray, 25%)};
+    --global-link-color                 : #2b7a94;
+    --global-link-color-hover           : #{mix(#000, $primary-color, 20%)};
+    --global-link-color-visited         : #{mix(#fff, $primary-color, 20%)};
     --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
+    --global-masthead-link-color-hover  : #{$primary-color};
     --global-text-color                 : #{$dark-gray};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};
+    --global-card-bg-color              : #ffffff;
+    --global-card-shadow                : 0 1px 2px rgba(16, 24, 32, 0.04), 0 4px 16px rgba(16, 24, 32, 0.06);
+    --global-card-shadow-hover          : 0 4px 10px rgba(16, 24, 32, 0.07), 0 12px 28px rgba(16, 24, 32, 0.09);
 }
-
