@@ -5,6 +5,9 @@
 .masthead {
   position: fixed;
   background: var(--global-bg-color);
+  background: color-mix(in srgb, var(--global-bg-color) 88%, transparent);
+  -webkit-backdrop-filter: saturate(180%) blur(10px);
+          backdrop-filter: saturate(180%) blur(10px);
   height: fit-content;
   top: 0;
   width: 100%;
