@@ -156,10 +156,19 @@
   img {
     max-width: 175px;
     border-radius: 50%;
+    transition: $global-transition;
 
     @include breakpoint($large) {
-      padding: 5px;
+      padding: 4px;
       border: 1px solid var(--global-border-color);
+      box-shadow: var(--global-card-shadow);
+    }
+
+    &:hover {
+      @include breakpoint($large) {
+        box-shadow: var(--global-card-shadow-hover);
+        transform: translateY(-2px);
+      }
     }
   }
 }
@@ -256,7 +265,7 @@
   border-radius: $border-radius;
   background: var(--global-bg-color);
   z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
+  box-shadow: var(--global-card-shadow-hover);
   cursor: default;
 
   @include breakpoint($large) {
