@@ -17,18 +17,23 @@ author_profile: true
         {% if course.materials and course.materials.url %}
           <strong>
             <a href="{{ course.materials.url }}">
-              {{ course.code }} — {{ course.title }}
+              {{ course.code }}: {{ course.title }}
             </a>
           </strong>
         {% else %}
           <strong>
-            {{ course.code }} — {{ course.title }}
+            {{ course.code }}: {{ course.title }}
           </strong>
         {% endif %}
       </div>
       <div class="course-meta">
         <strong>Programme:</strong>
         {{ course.programme }}
+        {% if course.note %}
+        <br>
+        <strong>Note:</strong>
+        {{ course.note }}
+        {% endif %}
       </div>
     </div>
   {% endif %}
@@ -44,12 +49,12 @@ author_profile: true
     {% if course.materials and course.materials.url %}
       <strong>
         <a href="{{ course.materials.url }}">
-          {{ course.code }} — {{ course.title }}
+          {{ course.code }}: {{ course.title }}
         </a>
       </strong>
     {% else %}
       <strong>
-        {{ course.code }} — {{ course.title }}
+        {{ course.code }}: {{ course.title }}
       </strong>
     {% endif %}
   </div>
@@ -64,6 +69,11 @@ author_profile: true
     {% for year in course.years %}
       {{ year }}–{{ year | plus: 1 | modulo: 100 | prepend: "0" | slice: -2,2 }}{% unless forloop.last %}, {% endunless %}
     {% endfor %}
+    {% if course.note %}
+    <br>
+    <strong>Note:</strong>
+    {{ course.note }}
+    {% endif %}
   </div>
 </div>
 {% endfor %}
