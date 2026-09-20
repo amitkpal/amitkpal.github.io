@@ -10,7 +10,7 @@
     text: 
     url: 
   current: false
-  note: This course has been modified to PH1030: Physics.
+  note: "This course has been modified to PH1030: Physics"
 
 - code: PH1130
   title: Physics Lab
