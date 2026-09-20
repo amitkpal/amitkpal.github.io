@@ -10,8 +10,9 @@
     text: 
     url: 
   current: false
+  note: This course has been modified to PH1030: Physics.
 
-- code: PH1030
+- code: PH1130
   title: Physics Lab
   programme: Btech General
   semester: Even, Odd
@@ -25,6 +26,7 @@
     text: 
     url: 
   current: true
+  note:
 
 - code: PH3601
   title: Quantum Mechanics for Engineers
@@ -38,6 +40,7 @@
     text: 
     url: 
   current: false
+  note: 
 
 
 - code: PH3602
@@ -50,7 +53,7 @@
     text: 
     url: 
   current: false
-
+  note:
 
 - code: PH5007
   title: Quantum Mechanics I
@@ -64,6 +67,7 @@
     text: 
     url: 
   current: false
+  note:
   
 
 - code: PH5606
@@ -76,6 +80,7 @@
     text: 
     url: 
   current: true
+  note: 
 
 
 
@@ -91,7 +96,7 @@
     text: 
     url: 
   current: false
-
+  note:
 
 
 - code: PH5621
@@ -105,6 +110,7 @@
     text: 
     url: 
   current: false
+  note: 
 
 
 - code: PH6004
@@ -117,9 +123,10 @@
     text: 
     url: 
   current: false
+  note: 
 
 
-- code: PH6603
+- code: PH6604
   title:  Introduction to Open Quantum Systems
   programme: MSc Physics Elective
   semester: Even, Odd
@@ -129,5 +136,6 @@
     text: 
     url: 
   current: false
+  note: 
 
 
