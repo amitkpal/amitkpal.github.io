@@ -20,6 +20,10 @@ Current members
 {% endfor %}
 </div>
 
+Recent papers
+------
+
+{% include paper_slideshow.html limit=6 %}
 
 Former members
 ------
