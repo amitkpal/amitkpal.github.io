@@ -10,7 +10,22 @@
   area: qec
   type: article
   sort: 20260401
-  featured: false
+  featured: true
+  summary: >-
+    We formulate a bounded distance decoding strategy applicable to all stabilizer codes
+    including both CSS and non-CSS code-families. The framework emerges out of the local
+    Clifford equivalence between arbitrary stabilizer states and graph states. Using the
+    graphical representation of the stabilizers and the syndromes, we constitute the bounded
+    distance decoding as an adaptable generalization of maximum likelihood decoding,
+    ensuring correction of all errors with weights upper bounded by a target weight. We show
+    that strategic pruning associated with a feed-forward network structure of the graph can
+    reduce the search space and subsequently the runtime of the designed decoder. We
+    demonstrate satisfactory performance of the bounded distance decoder in the case of the
+    optimal non-CSS codes up to distance d = 11 subjected to the depolarizing error on all
+    qubits, and near-optimal decoding for the color and the surface codes, both belonging to
+    the CSS family, under the bit-flip errors on the qubits. We also develop an open-source
+    library, QGDecoder, enabling the graph-aware bounded distance decoding of arbitrary
+    stabilizer codes.
 
 - title: Robust quantum metrology using disordered probes
   authors: Vishnupriya K., Harikrishnan K. J., and A. K. Pal
@@ -24,7 +39,8 @@
   area: metrology
   type: article  
   sort: 20260402
-  featured: false
+  featured: true
+  summary: >-
 
 - title: "Quantum advantage unlocked: Charging quantum batteries with K-regular graph stabilizers"
   authors: D. Ghosh, T. K. Konar, G. Francica, A. K. Pal, and A. Sen(De)
@@ -38,7 +54,8 @@
   area: device
   type: article  
   sort: 20251201
-  featured: false
+  featured: true
+  summary: >-
 
 - title: Quantum error correction via purification using a single auxiliary
   authors: C. B. Pushpan, T. K. Konar, A. Sen(De), and A. K. Pal
@@ -52,7 +69,8 @@
   area: measurement
   type: article  
   sort: 20251202
-  featured: false
+  featured: true
+  summary: >-
 
 - title: Bridging the daemonic gap en route to charge multi-mode batteries via a single auxiliary
   authors: C. B. Pushpan and A. K. Pal
@@ -67,6 +85,7 @@
   type: article
   sort: 20251101
   featured: false
+  summary: >-
 
 - title: Block entanglement bounds distribution of regionally localized entanglement
   authors: J. G. Krishnan, A. Sen(De), and A. K. Pal
@@ -81,6 +100,7 @@
   type: article
   sort: 20250801
   featured: false
+  summary: >-
   
 
 
@@ -97,6 +117,7 @@
   type: article
   sort: 20250401
   featured: false
+  summary: >-
 
   
 
@@ -113,6 +134,7 @@
   type: article  
   sort: 20250201
   featured: false
+  summary: >-
 
 
 - title: Simultaneous cooling of qubits via a quantum absorption refrigerator and beyond
@@ -128,6 +150,7 @@
   type: article  
   sort: 20241001
   featured: false
+  summary: >-
 
 
 - title: Scalable and deterministic Greenberger-Horne-Zeilinger state generation via graph states-assisted measurements
@@ -143,6 +166,7 @@
   type: article
   sort: 20241002
   featured: false
+  summary: >-
   
 
 - title: Recovery of resources through sequential noisy measurements
@@ -158,6 +182,7 @@
   type: article
   sort: 20240601
   featured: false
+  summary: >-
 
   
 
@@ -174,6 +199,7 @@
   type: article
   sort: 20240501
   featured: false
+  summary: >-
 
 - title: Logarithmic growth of peripheral entanglement concentrated via noisy measurements in a star network of spins
   authors: J. G. Krishnan, Harikrishnan K. J., and A. K. Pal
@@ -188,6 +214,7 @@
   type: article
   sort: 20230701
   featured: false
+  summary: >-
 
 
 - title: "Quantum state transfer on 2D lattices: A low-energy effective Hamiltonian approach"
@@ -203,6 +230,7 @@
   type: article
   sort: 20230601
   featured: false
+  summary: >-
   
 
 - title: Estimating correlations and entanglement in the two-dimensional Heisenberg model in the strong rung-coupling limit
@@ -218,6 +246,7 @@
   type: article
   sort: 20230101
   featured: false
+  summary: >-
 
 
 
@@ -234,6 +263,7 @@
   type: article
   sort: 20221101
   featured: false
+  summary: >-
 
 - title: "Controlling gain with loss: Bounds of localizable entanglement in multi-qubit systems"
   authors: J. G. Krishnan, Harikrishnan K. J., and A. K. Pal
@@ -248,6 +278,7 @@
   type: article
   sort: 20220601
   featured: false
+  summary: >-
 
 
 
@@ -264,6 +295,7 @@
   type: article
   sort: 20220101
   featured: false
+  summary: >-
 
 
 - title: Designing refrigerators in higher dimensions using quantum spin models
@@ -279,6 +311,7 @@
   type: article
   sort: 20211201
   featured: false
+  summary: >-
 
 
 - title: Circulating genuine multiparty entanglement in quantum network
@@ -294,6 +327,7 @@
   type: article
   sort: 20211202
   featured: false
+  summary: >-
 
 - title: Distinguishing phases via non-Markovian dynamics of entanglement in topological quantum codes under parallel magnetic field
   authors: Harikrishnan K. J. and A. K. Pal
@@ -308,6 +342,7 @@
   type: article
   sort: 20210801
   featured: false
+  summary: >-
   
 
 
@@ -325,6 +360,7 @@
   type: article
   sort: 20210701
   featured: false
+  summary: >-
 
 - title: Relaxation times do not capture logical qubit dynamics
   authors: A. K. Pal, P. Schindler, A. Erhard, Á. Rivas, M. A. Martin-Delgado, R. Blatt, T. Monz, and M. Müller
@@ -339,6 +375,7 @@
   type: article
   sort: 20201201
   featured: false
+  summary: >-
 
 - title: "Three qubits in less than three baths: Beyond two-body system-bath interactions in quantum refrigerators"
   authors: A. Ghoshal, S. Das, A. K. Pal, A. Sen(De), and U. Sen
@@ -353,6 +390,7 @@
   type: article
   sort: 20201202
   featured: false
+  summary: >-
 
 - title: Hierarchies of localizable entanglement due to spatial distribution of local noise
   authors: R. Banerjee, A. K. Pal, and A. Sen(De)
@@ -367,6 +405,7 @@
   type: article
   sort: 20200301
   featured: false
+  summary: >-
   
 
 - title: Scalable characterization of localizable entanglement in noisy topological quantum codes
@@ -382,6 +421,7 @@
   type: article
   sort: 20190701
   featured: false
+  summary: >-
 
 - title: Uniform decoherence effect on localizable entanglement in random multi-qubit pure states
   authors: R. Banerjee, A. K. Pal, and A. Sen(De)
@@ -396,6 +436,7 @@
   type: article
   sort: 20190702
   featured: false
+  summary: >-
 
 
 - title: Estimating localizable entanglement from witnesses
@@ -411,6 +452,7 @@
   type: article
   sort: 20180301
   featured: false
+  summary: >-
 
 
 - title: Emergence of entanglement with temperature and time in factorization-surface states
@@ -426,6 +468,7 @@
   type: article
   sort: 20170501
   featured: false
+  summary: >-
 
 
 - title: Scale-invariant freezing of entanglement
@@ -441,6 +484,7 @@
   type: article
   sort: 20161001
   featured: false
+  summary: >-
   
 
 
@@ -457,6 +501,7 @@
   type: article
   sort: 20160601
   featured: false
+  summary: >-
 
 
 - title: Static and dynamical quantum correlations in phases of an alternating-field XY model
@@ -472,6 +517,7 @@
   type: article
   sort: 20160501
   featured: false
+  summary: >-
   
 
 - title: Conclusive identification of quantum channels via monogamy of quantum correlations
@@ -487,6 +533,7 @@
   type: article
   sort: 20160301
   featured: false
+  summary: >-
   
 
 - title: "Multipartite entanglement accumulation in quantum states: Localizable generalized geometric measure"
@@ -502,6 +549,7 @@
   type: article
   sort: 20151101
   featured: false
+  summary: >-
   
 
 - title: Statistics of leading digits leads to unification of quantum correlations
@@ -517,6 +565,7 @@
   type: article
   sort: 20150901
   featured: false
+  summary: >-
 
   
 
@@ -533,6 +582,7 @@
   type: article
   sort: 20150401
   featured: false
+  summary: >-
 
   
 
@@ -549,6 +599,7 @@
   type: article
   sort: 20141101
   featured: false
+  summary: >-
 
   
 
@@ -565,6 +616,7 @@
   type: article
   sort: 20140901
   featured: false
+  summary: >-
 
   
 
@@ -581,6 +633,7 @@
   type: review
   sort: 20120501
   featured: false
+  summary: >-
   
 
 - title: Markovian evolution of classical and quantum correlations in transverse-field XY model
@@ -596,6 +649,7 @@
   type: article
   sort: 20111201
   featured: false
+  summary: >-
   
 
 - title: "Transverse Ising Model: Markovian evolution of classical and quantum correlations under decoherence"
@@ -611,6 +665,7 @@
   type: article
   sort: 20110701
   featured: false
+  summary: >-
 
 - title: Quantum discord in the ground and thermal states of spin clusters
   authors: A. K. Pal and I. Bose
@@ -625,6 +680,7 @@
   type: article
   sort: 20101201
   featured: false
+  summary: >-
   
 
 - title: Motion of bound domain walls in a spin ladder
@@ -640,6 +696,7 @@
   type: article
   sort: 20100601
   featured: false
+  summary: >-
   
 
 - title: Entanglement in a molecular three-qubit system
@@ -655,6 +712,7 @@
   type: article
   sort: 20090901
   featured: false
+  summary: >-
 
 
 - title: "Monogamy of quantum correlations: A review"
@@ -670,6 +728,7 @@
   type: chapter
   sort: 20161001
   featured: false
+  summary: >-
 
 
 - title: "Noise-induced regime shifts: A quantitative characterization"
@@ -685,6 +744,7 @@
   type: article 
   sort: 20121201
   featured: false
+  summary: >-
   
 
 - title: Early signatures of regime shifts in gene expression dynamics
@@ -700,3 +760,4 @@
   type: article
   sort: 20121202
   featured: false
+  summary: >-
