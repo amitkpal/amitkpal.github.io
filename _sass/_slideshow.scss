@@ -316,3 +316,124 @@
     }
 
 }
+
+
+
+
+
+
+
+
+/* ---------- Recent papers carousel ---------- */
+.paper-swiper {
+  margin: 1.5rem 0 2.5rem;
+  padding: 0.25rem 0.25rem 2.5rem;
+  overflow: hidden;
+
+  .swiper-slide {
+    display: block;
+    height: auto;
+  }
+
+  .swiper-pagination {
+    bottom: 0.4rem;
+  }
+
+  .swiper-pagination-bullet {
+    background: var(--global-border-color) !important;
+    opacity: 1 !important;
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 999px !important;
+    transition: all 0.25s ease;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: var(--global-base-color) !important;
+    width: 24px !important;
+  }
+}
+
+.paper-card {
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem 1.4rem;
+  background: var(--global-card-bg-color, var(--global-bg-color));
+  border: 1px solid var(--global-border-color);
+  border-radius: 14px;
+  box-shadow: var(--global-card-shadow);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+
+  &:hover {
+    box-shadow: var(--global-card-shadow-hover);
+    transform: translateY(-2px);
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.6rem;
+
+    .pub-badge { margin-left: 0; }
+  }
+
+  &__year {
+    color: var(--global-text-color-light);
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+
+  &__title {
+    margin: 0 0 0.35rem;
+    font-size: 1.05rem;
+    line-height: 1.4;
+    font-weight: 700;
+  }
+
+  &__authors {
+    margin: 0 0 0.7rem;
+    color: var(--global-text-color-light);
+    font-size: 0.88rem;
+  }
+
+  &__abstract {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  &.is-open &__abstract {
+    -webkit-line-clamp: unset;
+    display: block;
+  }
+
+  &__more {
+    align-self: flex-start;
+    margin: 0.4rem 0 0.8rem;
+    padding: 0;
+    background: none;
+    border: 0;
+    color: var(--global-base-color);
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  &__links {
+    margin-top: auto;
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+
+    a { text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  }
+}
