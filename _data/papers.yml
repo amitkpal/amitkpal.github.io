@@ -27,6 +27,8 @@
     library, QGDecoder, enabling the graph-aware bounded distance decoding of arbitrary
     stabilizer codes.
 
+    
+
 - title: Robust quantum metrology using disordered probes
   authors: Vishnupriya K., Harikrishnan K. J., and A. K. Pal
   arxiv: 2604.11635
@@ -41,6 +43,23 @@
   sort: 20260402
   featured: true
   summary: >-
+    Disorder is ubiquitous in quantum devices including quantum probes designed and
+    fabricated for quantum parameter estimation and sensing. We investigate the robustness
+    of a quantum probe against the presence of glassy disorder. We define a disorder marker
+    quantifying the effect of the disorder by expanding the quantum Fisher information in
+    terms of different orders of the standardized central moments of the
+    disorder-distributions. We classify the quantum probes in terms of the possible values
+    of the disorder marker, and analytically show, for a disorder-sensitive probe with
+    identical and weak disorder on all or a subset of the parameters of the
+    probe-Hamiltonian, that the absolute value of the disorder marker exhibits a quadratic
+    dependence on the disorder strength. We derive a robustness scale intrinsic to the probe
+    that competes with the disorder, and provide a prescription for estimating the maximum
+    disorder strength that the probe can withstand from the disorder-free probe-Hamiltonian
+    for a given initial state of the probe, which can be computed without the disorder
+    averaging. We demonstrate our results in the case of a single-qubit probe under
+    disordered magnetic field, and a multi-qubit probe described by a disordered
+    one-dimensional Kitaev model with nearest-neighbor interactions.
+  
 
 - title: "Quantum advantage unlocked: Charging quantum batteries with K-regular graph stabilizers"
   authors: D. Ghosh, T. K. Konar, G. Francica, A. K. Pal, and A. Sen(De)
@@ -56,6 +75,19 @@
   sort: 20251201
   featured: true
   summary: >-
+    Regular graphs find broad applications ranging from quantum communication to quantum computation. 
+    Motivated by this, we investigate the design of a quantum battery based on a K-regular graph, where 
+    K denotes the number of edges incident on each vertex. We show that a 0-regular graph battery exhibits 
+    extractable work that scales linearly with the system-size when charged using a K-regular graph. This 
+    linear scaling is shown to persist even when the charging is implemented via a collective K-regular charger 
+    with power-law decaying interactions. Interestingly, we prove that both the maximum average power and instantaneous 
+    power scale super-linearly in the thermodynamic limit when the connectivity of the charging graph is of 
+    the order of the system size, thereby exhibiting it quantum advantage. Furthermore, by introducing the notion 
+    of the fraction of extractable work when only subsystems are accessible, we identify this fraction to be 
+    independent of system-size if the battery is prepared in the down-polarized product state. This 
+    independence breaks down when the battery is oriented along the x- and y-directions of the Bloch sphere.
+
+
 
 - title: Quantum error correction via purification using a single auxiliary
   authors: C. B. Pushpan, T. K. Konar, A. Sen(De), and A. K. Pal
@@ -71,6 +103,24 @@
   sort: 20251202
   featured: true
   summary: >-
+    We propose a single auxiliary-assisted purification-based framework for quantum error
+    correction, capable of correcting errors that drive a system from its ground-state
+    subspace into excited-state sectors. The protocol consists of a joint time evolution of
+    the system-auxiliary duo under a specially engineered interaction Hamiltonian, followed
+    by a single measurement of the auxiliary in its energy eigenbasis and a subsequent
+    post-selection of one of the measurement outcomes. We show that the resulting purified
+    state always achieves unit fidelity, while the probability of obtaining any energy of
+    the auxiliary other than its ground state energy yields the success rate of the
+    protocol. We demonstrate the power of this proposed method for several low-distance
+    quantum codes, including the three-, four-, and five-qubit codes, and for the
+    one-dimensional isotropic Heisenberg model, subjected to bit-flip, phase-flip, and
+    amplitude-damping noises acting on all qubits. Notably, the protocol expands the class
+    of correctable errors for a given code, particularly in the presence of
+    amplitude-damping noise. We further analyze the impact of replacing the auxiliary qudit
+    with a single auxiliary qubit, and the changes in the performance of the protocol under
+    the realistic scenario where noise remains active during the correction cycle.
+
+
 
 - title: Bridging the daemonic gap en route to charge multi-mode batteries via a single auxiliary
   authors: C. B. Pushpan and A. K. Pal
