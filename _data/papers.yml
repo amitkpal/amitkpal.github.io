@@ -1,7 +1,10 @@
 - title: A graph-aware bounded distance decoder for all stabilizer codes
   authors: Harikrishnan K. J., and A. K. Pal
   arxiv: 2604.25424
+  journal:
+  doi: 
   year: 2026
+  publication_year: 
   status: preprint
   subject: quantum
   area: qec
@@ -12,7 +15,10 @@
 - title: Robust quantum metrology using disordered probes
   authors: Vishnupriya K., Harikrishnan K. J., and A. K. Pal
   arxiv: 2604.11635
+  journal:
+  doi:
   year: 2026
+  publication_year: 
   status: preprint
   subject: quantum
   area: metrology
@@ -23,7 +29,10 @@
 - title: "Quantum advantage unlocked: Charging quantum batteries with K-regular graph stabilizers"
   authors: D. Ghosh, T. K. Konar, G. Francica, A. K. Pal, and A. Sen(De)
   arxiv: 2512.22908
+  journal:
+  doi: 
   year: 2025
+  publication_year: 
   status: preprint
   subject: quantum
   area: device
@@ -34,7 +43,10 @@
 - title: Quantum error correction via purification using a single auxiliary
   authors: C. B. Pushpan, T. K. Konar, A. Sen(De), and A. K. Pal
   arxiv: 2512.09745
+  journal: 
+  doi: 
   year: 2025
+  publication_year: 
   status: preprint
   subject: quantum
   area: measurement
