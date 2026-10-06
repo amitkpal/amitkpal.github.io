@@ -5,23 +5,35 @@ permalink: /group/
 author_profile: true
 ---
 
-Welcome to the Complex Quantum Systems Group at IIT Palakkad. Our research aims to uncover how collective quantum phenomena in quantum many-body systems give rise to useful functionalities for emerging quantum technologies, combining ideas from quantum information theory, quantum many-body physics, and open quantum systems. The long-term goal is to develop robust principles for quantum protocols, including sensing, computation, and energy storage that remain effective in the presence of decoherence, disorder, and engineered dissipation. For this, we develop theoretical models, derive exact and approximate analytical results wherever possible, and complement them with numerical methods to explore regimes beyond analytical tractability. 
-
-**Current research interests**
-- Quantum information processing using quantum many-body systems
-- Non-equilibrium quantum many-body systems  
-- Open quantum systems and decoherence
-- Many-body noisy quantum metrology
-- Non-hermitian topology
-
-
-<!--{% include slideshow.html %}-->
-
-## Current members
-
 {% assign current_members = site.data.students | where: "current", true | sort: "order" %}
 {% assign phd_members = current_members | where_exp: "p", "p.degree != 'MSc'" %}
 {% assign msc_members = current_members | where: "degree", "MSc" %}
+{% assign former_all = site.data.students | where: "current", false %}
+{% assign former_phd = former_all | where: "degree", "PhD" | sort: "graduation_year" | reverse %}
+{% assign former_msc = former_all | where: "degree", "MSc" | sort: "graduation_year" | reverse %}
+
+<div class="group-intro">
+  <p class="group-intro__text">Welcome to the Complex Quantum Systems Group at IIT Palakkad. Our research aims to uncover how collective quantum phenomena in quantum many-body systems give rise to useful functionalities for emerging quantum technologies, combining ideas from quantum information theory, quantum many-body physics, and open quantum systems. The long-term goal is to develop robust principles for quantum protocols, including sensing, computation, and energy storage that remain effective in the presence of decoherence, disorder, and engineered dissipation. For this, we develop theoretical models, derive exact and approximate analytical results wherever possible, and complement them with numerical methods to explore regimes beyond analytical tractability.</p>
+  <aside class="group-intro__aside">
+    <h3>Current research interests</h3>
+    <ul class="chip-list">
+      <li>Quantum information processing using quantum many-body systems</li>
+      <li>Non-equilibrium quantum many-body systems</li>
+      <li>Open quantum systems and decoherence</li>
+      <li>Many-body noisy quantum metrology</li>
+      <li>Non-hermitian topology</li>
+    </ul>
+  </aside>
+</div>
+
+<div class="group-stats">
+  <div class="group-stats__item"><strong>{{ phd_members.size }}</strong><span>PhD students</span></div>
+  <div class="group-stats__item"><strong>{{ msc_members.size }}</strong><span>MSc students</span></div>
+  <div class="group-stats__item"><strong>{{ former_all.size }}</strong><span>Alumni</span></div>
+  <a class="group-cta" href="#join">Join the group &darr;</a>
+</div>
+
+## Current members
 
 {% if phd_members.size > 0 %}
 <h3 class="members-subhead">PhD students</h3>
@@ -41,25 +53,54 @@ Welcome to the Complex Quantum Systems Group at IIT Palakkad. Our research aims 
 </ul>
 {% endif %}
 
+<section id="join" class="join-section">
+<h2>Join the group</h2>
+<div class="join-grid">
 
-## Former members
+<div class="join-card">
+<h3>PhD</h3>
+<p>We are always looking for motivated and skilled candidates from diverse backgrounds to join our group as PhD students. To pursue your PhD with us, you have to hold a MSc/MS degree in Physics, and pass one of the competitive national-level examinations (see <a href="https://resap.iitpkd.ac.in">IIT Palakkad Research Portal</a> for details). Eligible candidates will have to go through the admission procedure in place, typically including an examination and an interview. If you are interested, please get in touch via email, attaching your CV, prior to applying formally for more information on research topics and availability of positions.</p>
+</div>
 
-{% assign former_members = site.data.students | where: "current", false | sort: "graduation_year" | reverse %}
+<div class="join-card">
+<h3>Postdoc</h3>
+<p>We have a few very competitive post-doc positions at the Department, and we encourage interested postdoctoral candidates to apply for their own funding with us. If you are interested, please contact by sending an email with your CV. Possible funding information can be found below.</p>
+<ul>
+<li><a href="https://anrfonline.in/ANRF/npdf">ANRF-National Post-Doctoral Fellowship</a></li>
+<li><a href="https://dst.gov.in/scientific-programmes/wise-kiran">DST Woman Scientist Position</a></li>
+<li><a href="https://kscste.kerala.gov.in/service/women-in-science-technology/">KSCSTE Women in Science and Technology</a></li>
+</ul>
+</div>
+
+<div class="join-card">
+<h3>MSc projects</h3>
+<p>Motivated Students from the MSc Physics program of IIT Palakkad can pursue their third (minor) and fourth (major) semester projects in the group. If you are interested, please contact by sending an email to know more about the available projects.</p>
+</div>
+
+</div>
+</section>
+
+## Alumni
+
+<div class="alumni-grid">
+{% if former_phd.size > 0 %}
+<div class="alumni-col alumni-col--phd">
+<h3 class="alumni-col__title">Former PhD students <span>{{ former_phd.size }}</span></h3>
 <ul class="member-list">
-{% for person in former_members %}
+{% for person in former_phd %}
   {% include member_row.html person=person %}
 {% endfor %}
 </ul>
-
-
-## Joining the group
-
-**PhD:** We are always looking for motivated and skilled candidates from diverse backgrounds to join our group as PhD students. To pursue your PhD with us, you have to hold a MSc/MS degree in Physics, and pass one of the competitive national-level examinations (see [IIT Palakkad Research Portal](https://resap.iitpkd.ac.in) for details). Eligible candidates will have to go through the admission procedure in place, typically including an examination and an interview. If you are interested, please get in touch via email, attaching your CV, prior to applying formally for more information on research topics and availability of positions. 
-
-**Postdoc:** We have a few very competitive post-doc positions at the Department, and we encourage interested postdoctoral candidates to apply for their own funding with us. If you are interested,  please contact by sending an email with your CV. Possible funding information can be found below. 
-
-- [ANRF-National Post-Doctoral Fellowship](https://anrfonline.in/ANRF/npdf)
-- [DST Woman Scientist Position](https://dst.gov.in/scientific-programmes/wise-kiran)
-- [KSCSTE Women in Science and Technology](https://kscste.kerala.gov.in/service/women-in-science-technology/)
-
-**MSc Projects:** Motivated Students from the MSc Physics program of IIT Palakkad can pursue their third (minor) and fourth (major) semester projects in the group. If you are interested, please contact by sending an email to know more about the available projects.
+</div>
+{% endif %}
+{% if former_msc.size > 0 %}
+<div class="alumni-col alumni-col--msc">
+<h3 class="alumni-col__title">Former MSc students <span>{{ former_msc.size }}</span></h3>
+<ul class="member-list">
+{% for person in former_msc %}
+  {% include member_row.html person=person %}
+{% endfor %}
+</ul>
+</div>
+{% endif %}
+</div>
