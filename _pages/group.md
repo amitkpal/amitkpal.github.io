@@ -24,7 +24,10 @@ author_profile: true
   </aside>
 </div>
 
-## Current members
+<div class="section-head">
+  <h2 id="current-members">Current members</h2>
+  <a class="section-link" href="{{ '/group/members/' | relative_url }}">All current and past members <span aria-hidden="true">&rarr;</span></a>
+</div>
 
 <div class="people-grid">
 {% for person in current_members %}
