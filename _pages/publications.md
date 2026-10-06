@@ -14,7 +14,7 @@ author_profile: true
 <button type="button" class="pub-chip" data-status="preprint" aria-pressed="false">Preprint</button>
 <button type="button" class="pub-chip" data-status="published" aria-pressed="false">Accepted / published</button>
 </div>
-<div class="pub-chips" id="pub-area-chips" role="group" aria-label="Filter by topic"></div>
+<div class="pub-chips" id="pub-area-chips" hidden="hidden"></div>
 <div class="pub-status-row"><span id="pub-count" aria-live="polite"></span><button type="button" id="pub-clear" class="pub-clear" hidden="hidden">Clear filters</button></div>
 </div>
 
