@@ -1,11 +1,24 @@
+{% assign p = include.person %}
+{% assign parts = p.name | split: " " %}
+{% assign i1 = parts.first | slice: 0 %}
+{% assign i2 = parts.last | slice: 0 %}
 <div class="person-card">
+  {% if p.photo and p.photo != "" %}
+  <img src="{{ '/images/students/' | relative_url }}{{ p.photo }}" alt="{{ p.name }}">
+  {% else %}
+  <div class="person-avatar" aria-hidden="true">{{ i1 }}{% if parts.size > 1 %}{{ i2 }}{% endif %}</div>
+  {% endif %}
 
-  <img
-      src="{{ '/images/students/' | relative_url }}{{ include.person.photo }}"
-      alt="{{ include.person.name }}">
+  <h3>{{ p.name }}</h3>
+  <p class="person-card__role">{{ p.designation }}</p>
+  {% if p.joined %}<p class="person-card__meta">Joined {{ p.joined }}</p>{% endif %}
+  {% if p.research %}<p class="person-card__research">{{ p.research }}</p>{% endif %}
+  {% if p.note %}<div class="person-note">{{ p.note }}</div>{% endif %}
 
-  <h3>{{ include.person.name }}</h3>
-
-  <p>{{ include.person.designation }}</p>
-
+  {% if p.email or p.webpage %}
+  <p class="person-card__links">
+    {% if p.webpage %}<a href="{{ p.webpage }}">Webpage</a>{% endif %}
+    {% if p.email %}<a href="mailto:{{ p.email }}">Email</a>{% endif %}
+  </p>
+  {% endif %}
 </div>
