@@ -22,25 +22,20 @@ author_profile: true
 
 ## Past members
 
-<div class="alumni-grid">
 {% if former_phd.size > 0 %}
-<div class="alumni-col alumni-col--phd">
-<h3 class="alumni-col__title">Former PhD students</h3>
-<ul class="alumni-list">
+<h3 class="alumni-sub alumni-sub--phd">Former PhD students</h3>
+<ul class="alumni-lines">
 {% for person in former_phd %}
-  {% include alumni_row.html person=person %}
+  {% include alumni_line.html person=person %}
 {% endfor %}
 </ul>
-</div>
 {% endif %}
+
 {% if former_msc.size > 0 %}
-<div class="alumni-col alumni-col--msc">
-<h3 class="alumni-col__title">MSc students</h3>
-<ul class="alumni-list">
+<h3 class="alumni-sub alumni-sub--msc">Former MSc students</h3>
+<ul class="alumni-lines">
 {% for person in former_msc %}
-  {% include alumni_row.html person=person %}
+  {% include alumni_line.html person=person %}
 {% endfor %}
 </ul>
-</div>
 {% endif %}
-</div>
