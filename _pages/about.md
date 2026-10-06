@@ -11,7 +11,7 @@ Welcome to my homepage.
 
 I am an Associate Professor at the [Department of Physics](https://physics.iitpkd.ac.in), [IIT Palakkad](https://iitpkd.ac.in), where I lead the [Complex Quantum Systems (CQS) Group](group.md). Our research brings together cocepts from quantum information theory, quantum many-body physics, quantum optics, and open quantum systems. For my brief bio, see [here](bio.md).
 
-Recent papers
+Featured papers
 ------
 
 {% include paper_slideshow.html limit=6 %}
@@ -21,27 +21,6 @@ This year so far
 ------
 
 {% assign current_year = site.time | date: "%Y" %}
-<div class="news-list">
-{% for item in site.data.news %}
-  {% assign item_year = item.date | date: "%Y" %}
-  {% if item_year == current_year %}
-  <div class="news-item">
-    <div class="news-date">
-      {{ item.date | date: "%B %-d, %Y" }}
-    </div>
-    {% if item.link and item.link != "" %}
-        <a href="{{ item.link }}">{{ item.title }}</a>
-    {% else %}
-      <div class="news-title">
-        {{ item.title }}
-      </div>
-    {% endif %}
-    <div class="news-description">
-      {{ item.description }}
-    </div>
-  </div>
-  {% endif %}
-{% endfor %}
-</div>
+{% include news_timeline.html year=current_year %}
 
 For older news and events, see [here](news.md).
