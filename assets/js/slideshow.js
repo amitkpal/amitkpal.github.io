@@ -13,24 +13,39 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Recent-papers carousel
+  // Featured-papers carousel
   document.querySelectorAll(".paper-swiper").forEach(function (el) {
+    var n = el.querySelectorAll(".swiper-slide").length;
+
     var swiper = new Swiper(el, {
       slidesPerView: 1,
       spaceBetween: 18,
       speed: 700,
       rewind: true,
       grabCursor: true,
+      watchOverflow: true,
+      breakpointsBase: "container",          // breakpoints follow the carousel's own width
       autoplay: { delay: 7000, disableOnInteraction: false, pauseOnMouseEnter: true },
       pagination: { el: el.querySelector(".swiper-pagination"), clickable: true },
-      breakpoints: { 800: { slidesPerView: 2 } }
+      breakpoints: { 900: { slidesPerView: Math.min(2, n) } }   // never more cards per row than papers
     });
 
-    // Hide "Read more" when the abstract isn't actually truncated
+    // Show "Read more" only on cards whose abstract is actually cut off
+    function syncMore() {
+      el.querySelectorAll(".paper-card").forEach(function (card) {
+        if (card.classList.contains("is-open")) { return; }
+        var abs = card.querySelector(".paper-card__abstract");
+        var btn = card.querySelector(".paper-card__more");
+        btn.style.display = abs.scrollHeight > abs.clientHeight + 1 ? "" : "none";
+      });
+    }
+    syncMore();
+    window.addEventListener("load", syncMore);
+    window.addEventListener("resize", function () { window.requestAnimationFrame(syncMore); });
+    if (document.fonts && document.fonts.ready) { document.fonts.ready.then(syncMore); }
+
     el.querySelectorAll(".paper-card").forEach(function (card) {
-      var abs = card.querySelector(".paper-card__abstract");
       var btn = card.querySelector(".paper-card__more");
-      if (abs.scrollHeight <= abs.clientHeight + 1) { btn.style.display = "none"; }
       btn.addEventListener("click", function () {
         var open = card.classList.toggle("is-open");
         btn.textContent = open ? "Show less" : "Read more";
