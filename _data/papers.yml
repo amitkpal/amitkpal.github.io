@@ -195,6 +195,19 @@
   sort: 20250401
   featured: false
   summary: >-
+    We study the two-point correlation functions and the bipartite entanglement in the
+    ground state of the exactly-solvable variable-range extended Ising model of qubits in
+    the presence of a transverse field on a one-dimensional lattice. We introduce the
+    variation in the range of interaction by varying the coordination number, z, of each
+    qubit, where the interaction strength between a pair of qubits at a distance r varies
+    as ∼ r^(−α). We show that the algebraic nature of the correlation functions is present
+    only up to r = z/2, above which it exhibits short-range exponential scaling. We also
+    show that at the critical point, the bipartite entanglement exhibits a power-law
+    decrease (∼ z^(−γ)) with increasing coordination number irrespective of the partition
+    size and the value of α for α > 1. We further consider a sudden quench of the system
+    starting from the ground state of the infinite-field limit of the system Hamiltonian
+    via turning on the critical Hamiltonian, and demonstrate that the long-time averaged
+    bipartite entanglement exhibits a qualitatively similar variation (∼ z^(−γ)) with z.
 
   
 
@@ -212,6 +225,19 @@
   sort: 20250201
   featured: false
   summary: >-
+    We develop a measurement-based protocol for simultaneously purifying arbitrary logical states 
+    in multiple quantum error correcting codes with unit fidelity and finite probability, starting 
+    from arbitrary thermal states of each code. The protocol entails a time evolution caused by an 
+    engineered Hamiltonian, which results in transitions between the logical and error subspaces of 
+    the quantum error correcting code mediated by the auxiliary qubit, followed by a projective measurement 
+    in an optimum basis on the auxiliary qubit and an appropriate post-selection of the measurement outcomes. 
+    We illustrate the results with the three-qubit repetition code and the logical qubit used in quantum 
+    state transfer protocol. We further demonstrate that when the measurement base is not optimal, it is 
+    possible to achieve both classical fidelity, and fidelity as high as 90% through several iterations of 
+    the purifying procedure, thereby establishing its robustness against variations in the measurement 
+    basis. By repeating the purification rounds, we show that purifying the cardinal states of the 
+    logical Bloch sphere corresponding to logical qubits in quantum state transfer is feasible utilizing 
+    paradigmatic quantum spin models as the generator of the time evolution.
 
 
 - title: Simultaneous cooling of qubits via a quantum absorption refrigerator and beyond
@@ -228,6 +254,23 @@
   sort: 20241001
   featured: false
   summary: >-
+    We design a quantum thermal device that can simultaneously and dynamically cool multiple 
+    target qubits. Using a setup with three bosonic heat baths, we propose an engineering of 
+    interaction Hamiltonian using operators on different subspaces of the full Hilbert space of 
+    the system labelled by different magnetizations. We demonstrate, using the local as well as 
+    global quantum master equations, that a set of target qubits can be cooled simultaneously 
+    using these interaction Hamiltonians, while equal cooling of all target qubits is possible 
+    only when the local quantum master equation is used. However, the amount of cooling obtained 
+    from different magnetization subspaces, as quantified by a distance-based measure of qubit-local 
+    steady-state temperatures, may vary. We also investigate cooling of a set of target qubits when 
+    the interaction Hamiltonian has different magnetization components, and when the design of the 
+    quantum thermal device involves two heat baths instead of three. Further, we demonstrate, using 
+    local quantum master equation, that during providing cooling to the target qubits, the designed 
+    device operates only as a quantum absorption refrigerator. In contrast, use of the global quantum 
+    master equation indicates cooling of the target qubits even when the device works outside the 
+    operation regime of a quantum absorption refrigerator. We also extend the design to a star network 
+    of qubits interacting via Heisenberg interaction among each other, kept in contact with either 
+    three, or two heat baths, and discuss cooling of a set of target qubits using this device.
 
 
 - title: Scalable and deterministic Greenberger-Horne-Zeilinger state generation via graph states-assisted measurements
@@ -244,6 +287,19 @@
   sort: 20241002
   featured: false
   summary: >-
+    We propose a scalable and deterministic protocol for growing large multi-qubit states starting from 
+    two-qubit non-maximally entangled pure states, where the bipartite entanglement in the resultant state 
+    is higher than the maximum of the available entangled qubit-pairs. This is achieved via a truncation of 
+    the Hilbert space corresponding to a subsystem of qubits to a space that hosts a single qubit, brought 
+    about by a multi-qubit measurement assisted by the graph basis. We prove its equivalence to a repetitive 
+    two-qubit measurement-based protocol, and demonstrate realization of the required two-qubit measurement 
+    via a two-qubit parity measurement, thereby establishing the implementability of the protocol. We 
+    derive lower and upper bounds of the bipartite entanglement concentrated after a given number of 
+    rounds of measurements, where the entanglement of the available qubit-pairs are not-necessarily equal.
+    We further discuss the effect of possible imperfections that may arise in the protocol, and its 
+    robustness towards such imperfections. We demonstrate the usefulness of our proposal by applying it 
+    to create generalized GHZ states on arbitrary number of qubits, thereby underlining the possibility 
+    of creating maximally entangled qubit pairs via qubit-local projection measurements.
   
 
 - title: Recovery of resources through sequential noisy measurements
