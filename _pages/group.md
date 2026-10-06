@@ -5,6 +5,15 @@ permalink: /group/
 author_profile: true
 ---
 
+Welcome to the Complex Quantum Systems Group at IIT Palakkad. Our research aims to uncover how collective quantum phenomena in quantum many-body systems give rise to useful functionalities for emerging quantum technologies, combining ideas from quantum information theory, quantum many-body physics, and open quantum systems. The long-term goal is to develop robust principles for quantum protocols, including sensing, computation, and energy storage that remain effective in the presence of decoherence, disorder, and engineered dissipation. For this, we develop theoretical models, derive exact and approximate analytical results wherever possible, and complement them with numerical methods to explore regimes beyond analytical tractability. 
+
+**Current research interests**
+- Quantum information processing using quantum many-body systems
+- Non-equilibrium quantum many-body systems  
+- Open quantum systems and decoherence
+- Many-body noisy quantum metrology
+- Non-hermitian topology
+
 
 <!--{% include slideshow.html %}-->
 
