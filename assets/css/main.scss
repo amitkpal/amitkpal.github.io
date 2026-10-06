@@ -898,3 +898,14 @@
   border-color: var(--global-base-color);
   box-shadow: var(--global-card-shadow-hover);
 }
+
+
+.resource-ext {
+  float: right;
+  font-size: .7rem;
+  letter-spacing: .05em;
+  padding: .1rem .45rem;
+  border-radius: 999px;
+  border: 1px solid var(--global-border-color);
+  color: var(--global-text-color-light);
+}
