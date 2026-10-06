@@ -877,3 +877,24 @@
 .pub-tools input.pub-search__input:focus {
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--global-base-color) 22%, transparent);
 }
+
+
+
+/* Course resource pages */
+.course-page__title { font-size: 1.15rem; font-weight: 600; margin: 0 0 .25rem; }
+.course-page__meta { margin: 0 0 .25rem; color: var(--global-text-color-light); font-size: .9rem; }
+.resource-list { list-style: none; margin: .5rem 0 1.5rem; padding: 0; }
+.resource-list li { margin: 0 0 .5rem; }
+.resource-list a {
+  display: block;
+  padding: .6rem .9rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+  background: var(--global-card-bg-color);
+  text-decoration: none;
+  transition: border-color .2s ease, box-shadow .2s ease;
+}
+.resource-list a:hover {
+  border-color: var(--global-base-color);
+  box-shadow: var(--global-card-shadow-hover);
+}
