@@ -53,7 +53,7 @@ Former members
 Joining the group
 ------
 
-**PhD:** We always look for motivated and skilled candidates from diverse backgrounds to join our group as PhD students. To pursue your PhD with us, you have to hold a MSc/MS degree in Physics, and pass one of the competitive national-level examinations (see [IIT Palakkad Research Portal](https://resap.iitpkd.ac.in) for details). Eligible candidates will have to go through the admission procedure in place, typically including an examination and an interview. If you are interested, please get in touch via email, attaching your CV, prior to applying formally for more information on research topics and availability of positions. 
+**PhD:** We are always looking for motivated and skilled candidates from diverse backgrounds to join our group as PhD students. To pursue your PhD with us, you have to hold a MSc/MS degree in Physics, and pass one of the competitive national-level examinations (see [IIT Palakkad Research Portal](https://resap.iitpkd.ac.in) for details). Eligible candidates will have to go through the admission procedure in place, typically including an examination and an interview. If you are interested, please get in touch via email, attaching your CV, prior to applying formally for more information on research topics and availability of positions. 
 
 **Postdoc:** We have a few very competitive post-doc positions at the Department, and we encourage interested postdoctoral candidates to apply for their own funding with us. If you are interested,  please contact by sending an email with your CV. Possible funding information can be found below. 
 
