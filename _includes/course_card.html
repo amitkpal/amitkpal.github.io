@@ -10,8 +10,15 @@
         <strong>{{ c.code }}: {{ c.title }}</strong>
       {% endif %}
     </div>
-    {% if c.current %}
-    <span class="term-pill term-pill--current"><span class="term-pill__dot"></span>Currently Running</span>
+    {% if c.current or res_url != "" %}
+    <div class="course-side">
+      {% if c.current %}
+      <span class="term-pill term-pill--current"><span class="term-pill__dot"></span>Currently Running</span>
+      {% endif %}
+      {% if res_url != "" %}
+      <a class="btn-resources" href="{{ res_url }}">{{ c.materials.text | default: "Resources" }} <span aria-hidden="true">&rarr;</span></a>
+      {% endif %}
+    </div>
     {% endif %}
   </div>
   <div class="course-meta">
@@ -28,9 +35,4 @@
     {{ c.note }}
     {% endif %}
   </div>
-  {% if res_url != "" %}
-  <div class="course-actions">
-    <a class="btn-resources" href="{{ res_url }}">{{ c.materials.text | default: "Resources" }} <span aria-hidden="true">&rarr;</span></a>
-  </div>
-  {% endif %}
 </div>
