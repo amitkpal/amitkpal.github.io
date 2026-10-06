@@ -670,116 +670,73 @@ a:active {
    CONTACT
    =========================================================== */
 
-.contact-page { margin-top: 1.5rem; }
-
-.contact-grid {
+.contact-page {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
-  gap: 1.5rem;
-  align-items: stretch;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1.5rem 2rem;
+  align-items: start;
+  margin-top: 1.5rem;
 }
 
-.contact-cards { display: grid; gap: 0.9rem; align-content: start; }
-
-.contact-card {
-  display: flex;
-  gap: 1rem;
-  align-items: flex-start;
-  padding: 1rem 1.2rem;
-  background: var(--global-card-bg-color, var(--global-bg-color));
-  border: 1px solid var(--global-border-color);
-  border-radius: 14px;
-  transition: box-shadow 0.22s ease, border-color 0.22s ease;
+.contact-address {
+  padding: 1.1rem 1.4rem;
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--global-base-color) 8%, var(--global-bg-color));
 }
 
-.contact-card:hover {
-  box-shadow: var(--global-card-shadow);
-  border-color: var(--global-dark-border-color);
-}
-
-.contact-card__icon {
-  flex: 0 0 2.4rem;
-  height: 2.4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  color: var(--global-base-color);
-  background: color-mix(in srgb, var(--global-base-color) 10%, transparent);
-}
-
-.contact-card__body { min-width: 0; }
-
-.contact-card h3 {
-  margin: 0 0 0.25rem;
-  font-size: 0.78rem;
+.contact-address h3 {
+  margin: 0 0 0.4rem;
+  font-size: 0.8rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--global-text-color-light);
 }
 
-.contact-card p { margin: 0; font-size: 0.95rem; line-height: 1.6; overflow-wrap: anywhere; }
-.contact-card a { color: var(--global-base-color); font-weight: 600; }
+.contact-address p { margin: 0; line-height: 1.7; }
 
-/* map as a card */
-.contact-map-card {
-  position: relative;
+.contact-address .contact-address__hours {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1.1rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--global-base-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.contact-btn:hover {
+  border-color: var(--global-base-color);
+  background: color-mix(in srgb, var(--global-base-color) 8%, transparent);
+}
+
+.contact-photo img {
   display: block;
-  min-height: 16rem;
-  overflow: hidden;
+  width: 100%;
+  height: auto;
   border: 1px solid var(--global-border-color);
   border-radius: 16px;
   box-shadow: var(--global-card-shadow);
 }
 
-.contact-map-card img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.4s ease;
-}
-
-.contact-map-card:hover img { transform: scale(1.03); }
-
-.contact-map-card__cta {
-  position: absolute;
-  left: 1rem;
-  bottom: 1rem;
-  padding: 0.45rem 1rem;
-  border: 1px solid var(--global-border-color);
-  border-radius: 999px;
-  background: color-mix(in srgb, var(--global-bg-color) 85%, transparent);
-  -webkit-backdrop-filter: blur(8px);
-          backdrop-filter: blur(8px);
-  color: var(--global-text-color);
-  font-size: 0.85rem;
-  font-weight: 600;
-}
-
-.contact-extra { margin: 1.25rem 0 0; }
-
-.contact-vcard {
-  display: inline-block;
-  padding: 0.4rem 1rem;
-  border: 1px solid var(--global-border-color);
-  border-radius: 999px;
-  color: var(--global-base-color);
-  font-size: 0.85rem;
-  font-weight: 600;
-  transition: border-color 0.2s ease, background 0.2s ease;
-}
-
-.contact-vcard:hover {
-  border-color: var(--global-base-color);
-  background: color-mix(in srgb, var(--global-base-color) 8%, transparent);
-}
-
 @media (max-width: 760px) {
-  .contact-grid { grid-template-columns: 1fr; }
-  .contact-map-card { min-height: 14rem; }
+  .contact-page { grid-template-columns: 1fr; }
 }
 
 
