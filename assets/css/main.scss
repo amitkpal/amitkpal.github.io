@@ -959,3 +959,24 @@
 .teaching-item .btn-resources:hover span {
   transform: translateX(3px);
 }
+
+
+/* Teaching: cards in a two-column grid */
+.teaching-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  align-items: stretch;
+}
+
+.teaching-list .teaching-item {
+  margin-bottom: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+  .teaching-list {
+    grid-template-columns: 1fr;
+  }
+}
