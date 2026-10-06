@@ -1,0 +1,14 @@
+{% assign p = include.person %}
+{% if p.years %}
+  {% assign yrs = p.years | replace: "-", "–" %}
+{% elsif p.joined and p.graduation_year %}
+  {% capture yrs %}{{ p.joined }}–{{ p.graduation_year }}{% endcapture %}
+{% else %}
+  {% assign yrs = "" %}
+{% endif %}
+<li class="alumni-line">
+  <span class="alumni-line__name">{% if p.webpage %}<a href="{{ p.webpage }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}{% if p.designation contains "joint" %}<small>joint project</small>{% endif %}</span>
+  <span class="alumni-line__years">{{ yrs }}</span>
+  <span class="alumni-line__next">{% if p.next_position %}&rarr; {{ p.next_position }}{% endif %}</span>
+  {% if p.note %}<span class="alumni-line__note">{{ p.note }}</span>{% endif %}
+</li>
