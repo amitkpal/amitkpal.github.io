@@ -1095,3 +1095,121 @@
 }
 .paper-card__journal a { text-decoration: none; }
 .paper-card__journal a:hover { text-decoration: underline; }
+
+
+/* ---------- Group page layout ---------- */
+.group-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+  gap: 1.25rem 2rem;
+  align-items: start;
+  margin: 0 0 1.25rem;
+}
+.group-intro__text { margin: 0; }
+
+.group-intro__aside {
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 12px;
+  background: var(--global-card-bg-color, var(--global-bg-color));
+}
+.group-intro__aside h3 {
+  margin: 0 0 0.6rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+}
+
+.chip-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.chip-list li {
+  margin: 0;
+  padding: 0.25rem 0.65rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  font-size: 0.82rem;
+  line-height: 1.35;
+  background: color-mix(in srgb, var(--global-base-color) 6%, transparent);
+}
+
+.group-stats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 2rem;
+  margin: 0 0 0.5rem;
+  padding: 0.85rem 1.2rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 12px;
+  background: var(--global-card-bg-color, var(--global-bg-color));
+}
+.group-stats__item { display: flex; align-items: baseline; gap: 0.45rem; }
+.group-stats__item strong { font-size: 1.6rem; line-height: 1; color: var(--global-base-color); }
+.group-stats__item span {
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+}
+.group-cta {
+  margin-left: auto;
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--global-base-color);
+  border-radius: 999px;
+  color: var(--global-base-color);
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+.group-cta:hover {
+  text-decoration: none;
+  background: color-mix(in srgb, var(--global-base-color) 10%, transparent);
+}
+
+.join-section { scroll-margin-top: 5rem; }
+.join-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 1rem 0 2rem;
+}
+.join-card {
+  padding: 1.1rem 1.25rem;
+  border: 1px solid var(--global-border-color);
+  border-top: 3px solid var(--global-base-color);
+  border-radius: 12px;
+  background: var(--global-card-bg-color, var(--global-bg-color));
+}
+.join-card h3 { margin: 0 0 0.5rem; font-size: 1.05rem; }
+.join-card p { margin: 0 0 0.6rem; font-size: 0.9rem; line-height: 1.6; }
+.join-card ul { margin: 0 0 0 1.1rem; padding: 0; font-size: 0.9rem; }
+
+.alumni-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 2.5rem;
+  align-items: start;
+}
+.alumni-col { border-top: 3px solid var(--global-base-color); }
+.alumni-col--msc { border-top-color: #c28a3a; }
+.alumni-col__title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 0.8rem 0 0.2rem;
+  font-size: 1rem;
+}
+.alumni-col__title span { font-size: 0.82rem; font-weight: 600; color: var(--global-text-color-light); }
+.alumni-col .member-list { margin-top: 0.3rem; }
+
+@media (max-width: 900px) {
+  .join-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 800px) {
+  .group-intro { grid-template-columns: 1fr; }
+  .group-cta { margin-left: 0; }
+}
+@media (max-width: 700px) {
+  .alumni-grid { grid-template-columns: 1fr; }
+}
