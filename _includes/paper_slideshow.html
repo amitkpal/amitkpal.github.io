@@ -1,20 +1,28 @@
 {% assign limit = include.limit | default: 10 %}
-{% assign sorted = site.data.papers | sort: "sort" | reverse %}
+{% assign keys = "" %}
+{% for paper in site.data.papers %}
+  {% if paper.status == "preprint" %}{% assign dy = paper.year %}{% else %}{% assign dy = paper.publication_year | default: paper.year %}{% endif %}
+  {% assign keys = keys | append: dy | append: "-" | append: paper.sort | append: ":" | append: forloop.index0 | append: "," %}
+{% endfor %}
+{% assign keys = keys | split: "," | sort | reverse %}
 <div class="swiper paper-swiper" aria-label="Recent papers from the group">
   <div class="swiper-wrapper">
-    {% for paper in sorted limit: limit %}
+    {% for k in keys limit: limit %}
+      {% assign idx = k | split: ":" | last | plus: 0 %}
+      {% assign paper = site.data.papers[idx] %}
+      {% if paper.status == "preprint" %}{% assign shown_year = paper.year %}{% else %}{% assign shown_year = paper.publication_year | default: paper.year %}{% endif %}
       {% assign text = paper.summary | strip %}
       <div class="swiper-slide">
         <article class="paper-card">
           <div class="paper-card__top">
             <span class="pub-badge {% if paper.status == 'preprint' %}badge-preprint{% else %}badge-accepted{% endif %}">{{ paper.status }}</span>
-            <span class="paper-card__year">{{ paper.year }}</span>
+            <span class="paper-card__year">{{ shown_year }}</span>
           </div>
           <h3 class="paper-card__title">{{ paper.title }}</h3>
           <p class="paper-card__authors">{{ paper.authors }}</p>
           {% if paper.status != 'preprint' and paper.journal %}
           <p class="paper-card__journal">
-            {% if paper.doi %}<a href="https://doi.org/{{ paper.doi }}">{{ paper.journal }}</a>{% else %}{{ paper.journal }}{% endif %}{% if paper.publication_year %} &middot; {{ paper.publication_year }}{% endif %}
+            {% if paper.doi %}<a href="https://doi.org/{{ paper.doi }}">{{ paper.journal }}</a>{% else %}{{ paper.journal }}{% endif %}
           </p>
           {% endif %}
           {% if text != "" %}
