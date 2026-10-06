@@ -6,11 +6,12 @@
   joined: 2022
   graduation_year: 2027
   years: 2022-2026
-  research: Applications of graph states in quantum information processing
+  research: 
   email: 
   webpage:
   current: true
   next_position: 
+  note: "Prime Minister's Research Fellow"
 
 - name: Chandrima B. Pushpan
   designation: PhD Student
@@ -20,7 +21,7 @@
   joined: 2022
   graduation_year: 2027
   years: 2022-2026
-  research: Measurement-assisted recovery of resource
+  research: 
   email: 
   webpage:
   current: true
@@ -34,7 +35,7 @@
   joined: 2026
   graduation_year: 2031
   years: 2026-2030
-  research: Noisy quantum energy-storage devices
+  research: 
   email: 
   webpage:
   current: true
@@ -48,7 +49,7 @@
   joined: 2026
   graduation_year: 2031
   years: 2026-2030
-  research: Quantum metrology using many-body probes
+  research: 
   email: 
   webpage: 
   current: true
