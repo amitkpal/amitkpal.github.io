@@ -980,3 +980,24 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+
+/* Teaching: long titles wrap onto two lines; pill and button stay on the right */
+.course-head {
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.course-title {
+  flex: 1 1 12rem;
+  min-width: 0;
+}
+
+.course-side {
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.4rem;
+  margin-left: auto;
+}
