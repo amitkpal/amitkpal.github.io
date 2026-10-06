@@ -1,10 +1,16 @@
 {% assign p_areas = include.paper.area | join: " " %}
-{% if include.paper.status == "preprint" %}{% assign p_state = "preprint" %}{% else %}{% assign p_state = "published" %}{% endif %}
+{% if include.paper.status == "preprint" %}
+  {% assign p_state = "preprint" %}
+  {% assign p_year = include.paper.year %}
+{% else %}
+  {% assign p_state = "published" %}
+  {% assign p_year = include.paper.publication_year | default: include.paper.year %}
+{% endif %}
 <div class="publication-item"
      data-status="{{ p_state }}"
      data-areas="{{ p_areas | downcase | escape }}"
-     data-year="{{ include.paper.year }}"
-     data-search="{{ include.paper.title | append: ' ' | append: include.paper.authors | append: ' ' | append: include.paper.journal | append: ' ' | append: p_areas | append: ' ' | append: include.paper.year | downcase | escape }}">
+     data-year="{{ p_year }}"
+     data-search="{{ include.paper.title | append: ' ' | append: include.paper.authors | append: ' ' | append: include.paper.journal | append: ' ' | append: p_areas | append: ' ' | append: p_year | downcase | escape }}">
   <div class="publication-title">
     <strong>{{ include.paper.title }}</strong>
   </div>
