@@ -857,3 +857,23 @@
     bottom: 4rem;
   }
 }
+
+
+
+
+/* ---------- Publications: search box alignment ---------- */
+/* the theme sets input[type="search"] to content-box with a shadow, which
+   made the box overflow its card; these rules outrank it */
+.pub-tools input.pub-search__input {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  box-shadow: none;
+  -webkit-appearance: none;
+          appearance: none;
+}
+
+.pub-tools input.pub-search__input:focus {
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--global-base-color) 22%, transparent);
+}
