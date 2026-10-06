@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Featured-papers carousel
+  // Recent-papers carousel
   document.querySelectorAll(".paper-swiper").forEach(function (el) {
     var n = el.querySelectorAll(".swiper-slide").length;
 
@@ -30,12 +30,14 @@ document.addEventListener("DOMContentLoaded", function () {
       breakpoints: { 900: { slidesPerView: Math.min(2, n) } }   // never more cards per row than papers
     });
 
-    // Show "Read more" only on cards whose abstract is actually cut off
+    // Show "Read more" only on cards whose abstract is actually cut off.
+    // Cards without an abstract have no abstract or button, so skip them.
     function syncMore() {
       el.querySelectorAll(".paper-card").forEach(function (card) {
         if (card.classList.contains("is-open")) { return; }
         var abs = card.querySelector(".paper-card__abstract");
         var btn = card.querySelector(".paper-card__more");
+        if (!abs || !btn) { return; }
         btn.style.display = abs.scrollHeight > abs.clientHeight + 1 ? "" : "none";
       });
     }
@@ -46,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     el.querySelectorAll(".paper-card").forEach(function (card) {
       var btn = card.querySelector(".paper-card__more");
+      if (!btn) { return; }
       btn.addEventListener("click", function () {
         var open = card.classList.toggle("is-open");
         btn.textContent = open ? "Show less" : "Read more";
