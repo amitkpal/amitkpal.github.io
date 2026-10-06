@@ -1,0 +1,20 @@
+{% assign only_year = include.year | default: "" %}
+{% assign last_year = "" %}
+<ol class="timeline">
+{% for item in site.data.news %}
+{% assign item_year = item.date | date: "%Y" %}
+{% if only_year == "" or only_year == item_year %}
+{% if include.show_years and item_year != last_year %}
+{% assign last_year = item_year %}
+<li class="timeline__year" aria-hidden="true"><span>{{ item_year }}</span></li>
+{% endif %}
+<li class="timeline__item">
+<time class="timeline__date" datetime="{{ item.date | date: '%Y-%m-%d' }}"><span class="timeline__day">{{ item.date | date: "%b %-d" }}</span><span class="timeline__yr">{{ item_year }}</span></time>
+<div class="timeline__card">
+<div class="timeline__title">{% if item.link and item.link != "" %}<a href="{{ item.link }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</div>
+<div class="timeline__text">{{ item.description }}</div>
+</div>
+</li>
+{% endif %}
+{% endfor %}
+</ol>
