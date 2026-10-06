@@ -1,15 +1,6 @@
 {% assign c = include.course %}
 {% assign res_url = c.materials.url | default: "" %}
-{% assign latest = 0 %}
-{% assign latest_sem = c.semester %}
-{% for item in c.years %}
-  {% assign y = item.year | default: item %}
-  {% assign s = item.semester | default: c.semester %}
-  {% if y >= latest %}
-    {% assign latest = y %}
-    {% assign latest_sem = s %}
-  {% endif %}
-{% endfor %}
+{% assign runs = c.years | size %}
 <div class="teaching-item">
   <div class="course-head">
     <div class="course-title">
@@ -19,23 +10,17 @@
         <strong>{{ c.code }}: {{ c.title }}</strong>
       {% endif %}
     </div>
-    <span class="term-pill{% if c.current %} term-pill--current{% endif %}" title="{% if c.current %}Currently running{% else %}Most recent offering{% endif %}">{% if c.current %}<span class="term-pill__dot"></span>{% endif %}{% if latest_sem %}{{ latest_sem }}{% if latest > 0 %} {% endif %}{% endif %}{% if latest > 0 %}{{ latest }}{% endif %}</span>
+    {% if c.current %}
+    <span class="term-pill term-pill--current"><span class="term-pill__dot"></span>Currently Running</span>
+    {% endif %}
   </div>
   <div class="course-meta">
     <strong>Programme:</strong>
     {{ c.programme }}
-    {% if include.history %}
-      {% if c.semester %}
-    <br>
-    <strong>Semester:</strong>
-    {{ c.semester }}
-      {% endif %}
+    {% if runs > 0 %}
     <br>
     <strong>Offered:</strong>
-    {% for item in c.years %}
-      {% assign y = item.year | default: item %}
-      {% if item.semester %}{{ item.semester }} {% endif %}{{ y }}{% unless forloop.last %}, {% endunless %}
-    {% endfor %}
+    {% if runs == 1 %}once{% else %}{{ runs }} times{% endif %}
     {% endif %}
     {% if c.note %}
     <br>
