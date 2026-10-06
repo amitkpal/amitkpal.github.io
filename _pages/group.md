@@ -6,21 +6,18 @@ author_profile: true
 ---
 
 {% assign current_members = site.data.students | where: "current", true | sort: "order" %}
-{% assign former_all = site.data.students | where: "current", false %}
-{% assign former_phd = former_all | where: "degree", "PhD" | sort: "graduation_year" | reverse %}
-{% assign former_msc = former_all | where: "degree", "MSc" | sort: "graduation_year" | reverse %}
 
 <div class="group-intro">
   <p class="group-intro__text">Welcome to the Complex Quantum Systems Group at IIT Palakkad. Our research aims to uncover how collective quantum phenomena in quantum many-body systems give rise to useful functionalities for emerging quantum technologies, combining ideas from quantum information theory, quantum many-body physics, and open quantum systems. The long-term goal is to develop robust principles for quantum protocols, including sensing, computation, and energy storage that remain effective in the presence of decoherence, disorder, and engineered dissipation. For this, we develop theoretical models, derive exact and approximate analytical results wherever possible, and complement them with numerical methods to explore regimes beyond analytical tractability. If you are interested, see <a href="#join">how to join our group</a>.</p>
   <aside class="group-intro__aside">
     <h3>Current research interests</h3>
-    <ul class="chip-list">
-      <li>Quantum information processing using quantum many-body systems</li>
-      <li>Non-equilibrium quantum many-body systems</li>
-      <li>Open quantum systems and decoherence</li>
-      <li>Many-body noisy quantum metrology</li>
-      <li>Non-hermitian topology</li>
-    </ul>
+    {% for item in site.data.interests %}
+    <div class="interest-card">
+      <div class="interest-card__title">{% if item.link and item.link != "" %}<a href="{{ item.link }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</div>
+      {% assign idesc = item.description | strip %}
+      {% if idesc != "" %}<div class="interest-card__text">{{ idesc }}</div>{% endif %}
+    </div>
+    {% endfor %}
   </aside>
 </div>
 
@@ -33,31 +30,6 @@ author_profile: true
 {% for person in current_members %}
   {% include person-card.html person=person %}
 {% endfor %}
-</div>
-
-## Alumni
-
-<div class="alumni-grid">
-{% if former_phd.size > 0 %}
-<div class="alumni-col alumni-col--phd">
-<h3 class="alumni-col__title">Former PhD students</h3>
-<ul class="alumni-list">
-{% for person in former_phd %}
-  {% include alumni_row.html person=person %}
-{% endfor %}
-</ul>
-</div>
-{% endif %}
-{% if former_msc.size > 0 %}
-<div class="alumni-col alumni-col--msc">
-<h3 class="alumni-col__title">Former MSc students</h3>
-<ul class="alumni-list">
-{% for person in former_msc %}
-  {% include alumni_row.html person=person %}
-{% endfor %}
-</ul>
-</div>
-{% endif %}
 </div>
 
 <section id="join" class="join-section">
