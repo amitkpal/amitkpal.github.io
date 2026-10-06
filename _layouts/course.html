@@ -27,7 +27,7 @@ author_profile: true
         {% include course_files.html code=page.code title="Lecture notes" %}
         {% include course_files.html code=page.code sub="assignments" title="Assignments" %}
 
-        {% if page.links %}
+        {% if page.links.size > 0 %}
         <h2>External resources</h2>
         <ul class="resource-list">
           {% for l in page.links %}
@@ -41,7 +41,7 @@ author_profile: true
         </ul>
         {% endif %}
 
-        {% if page.books %}
+        {% if page.books.size > 0 %}
         <h2>Books and references</h2>
         <ul class="book-list">
           {% for b in page.books %}<li>{{ b }}</li>{% endfor %}
