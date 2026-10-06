@@ -670,18 +670,10 @@ a:active {
    CONTACT
    =========================================================== */
 
-.contact-page {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: 1.5rem 2rem;
-  align-items: stretch;
-  margin-top: 1.5rem;
-}
+.contact-page { margin-top: 1.5rem; }
 
-/* one tinted block that stretches to the height of the photo */
 .contact-main {
-  display: flex;
-  flex-direction: column;
+  max-width: 38rem;
   padding: 1.4rem 1.6rem;
   border-radius: 16px;
   background: color-mix(in srgb, var(--global-base-color) 8%, var(--global-bg-color));
@@ -707,8 +699,7 @@ a:active {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
-  margin-top: auto;
-  padding-top: 1.2rem;
+  margin-top: 1.2rem;
 }
 
 .contact-btn {
@@ -728,19 +719,6 @@ a:active {
 .contact-btn:hover {
   border-color: var(--global-base-color);
   background: color-mix(in srgb, var(--global-base-color) 8%, var(--global-bg-color));
-}
-
-.contact-photo img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border: 1px solid var(--global-border-color);
-  border-radius: 16px;
-  box-shadow: var(--global-card-shadow);
-}
-
-@media (max-width: 760px) {
-  .contact-page { grid-template-columns: 1fr; }
 }
 
 
