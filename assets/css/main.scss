@@ -914,3 +914,48 @@
 .resource-by { color: var(--global-text-color-light); font-size: .9em; }
 .book-list { margin: .5rem 0 1.5rem 1.2rem; }
 .book-list li { margin: 0 0 .35rem; }
+
+
+/* Teaching: right-aligned status pill and outline link button */
+.course-side {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-left: auto;
+}
+
+.teaching-item .btn-resources {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.2rem 0.75rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--global-base-color);
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-decoration: none;
+  filter: none;
+  transform: none;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.teaching-item .btn-resources span {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.teaching-item .btn-resources:hover {
+  filter: none;
+  transform: none;
+  text-decoration: none;
+  border-color: var(--global-base-color);
+  background: color-mix(in srgb, var(--global-base-color) 8%, transparent);
+}
+
+.teaching-item .btn-resources:hover span {
+  transform: translateX(3px);
+}
