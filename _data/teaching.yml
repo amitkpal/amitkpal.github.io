@@ -1,11 +1,10 @@
 - code: PH1010
   title: Physics I
   programme: BTech General
-  semester: Odd
   years:
-    - 2019
-    - 2020
-    - 2021
+    - {year: 2019, semester: August Semester}
+    - {year: 2020, semester: August Semester}
+    - {year: 2021, semester: August Semester}
   materials:
     text: 
     url: 
@@ -15,13 +14,13 @@
 - code: PH1130
   title: Physics Lab
   programme: Btech General
-  semester: Even, Odd
   years:
-    - 2021 
-    - 2022
-    - 2024
-    - 2025
-    - 2026
+    - {year: 2021, semester: August Semester}
+    - {year: 2022, semester: January Semester}
+    - {year: 2024, semester: January Semester}
+    - {year: 2025, semester: August Semester}
+    - {year: 2026, semester: January Semester}
+    - {year: 2026, semester: August Semester}   # not in the PDF: added because current is true; delete if wrong
   materials:
     text: 
     url: 
@@ -31,11 +30,10 @@
 - code: PH3601
   title: Quantum Mechanics for Engineers
   programme: BTech Elective
-  semester: Even
   years:
-    - 2020
-    - 2021
-    - 2024
+    - {year: 2020, semester: January Semester}
+    - {year: 2021, semester: January Semester}
+    - {year: 2024, semester: January Semester}
   materials:
     text: 
     url: 
@@ -46,9 +44,8 @@
 - code: PH3602
   title: Basics of Quantum Information, Communication, and Computation
   programme: BTech Elective
-  semester: Even, Odd
   years:
-    - 2022
+    - {year: 2022, semester: January Semester}
   materials:
     text: 
     url: 
@@ -58,11 +55,10 @@
 - code: PH5007
   title: Quantum Mechanics I
   programme: MSc Physics Core
-  semester: Odd
   years:
-    - 2022
-    - 2023
-    - 2024
+    - {year: 2022, semester: August Semester}
+    - {year: 2023, semester: August Semester}
+    - {year: 2024, semester: August Semester}
   materials:
     text: 
     url: 
@@ -71,11 +67,10 @@
   
 
 - code: PH5606
-  title:  Quantum Information and Computation
+  title: Quantum Information and Computation
   programme: MSc Physics Elective
-  semester: Even, Odd
   years:
-    - 2026
+    - {year: 2026, semester: August Semester}   # not in the PDF: inferred because current is true; delete if wrong
   materials:
     text: 
     url: 
@@ -85,13 +80,12 @@
 
 
 - code: PH5610
-  title:  Quantum Information and Many-Body Systems
+  title: Quantum Information and Many-Body Systems
   programme: MSc Physics Elective
-  semester: Even, Odd
   years:
-    - 2020
-    - 2021
-    - 2025
+    - {year: 2020, semester: August Semester}
+    - {year: 2021, semester: August Semester}
+    - {year: 2025, semester: August Semester}
   materials:
     text: 
     url: 
@@ -100,12 +94,11 @@
 
 
 - code: PH5621
-  title:  Quantum Optics
+  title: Quantum Optics
   programme: MSc Physics Elective
-  semester: Even, Odd
   years:
-    - 2023
-    - 2025
+    - {year: 2023, semester: January Semester}
+    - {year: 2025, semester: January Semester}
   materials:
     text: 
     url: 
@@ -114,11 +107,10 @@
 
 
 - code: PH6004
-  title:  Exploring Quantum Spin Models using Python
+  title: Exploring Quantum Spin Models using Python
   programme: MSc Physics Elective
-  semester: Even, Odd
   years:
-    - 2022
+    - {year: 2022, semester: August Semester}
   materials:
     text: 
     url: 
@@ -127,15 +119,12 @@
 
 
 - code: PH6604
-  title:  Introduction to Open Quantum Systems
+  title: Introduction to Open Quantum Systems
   programme: MSc Physics Elective
-  semester: Even, Odd
   years:
-    - 2026
+    - {year: 2026, semester: January Semester}
   materials:
     text: 
     url: 
   current: false
-  note: 
-
-
+  note:
