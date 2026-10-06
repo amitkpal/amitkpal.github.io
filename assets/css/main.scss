@@ -1086,3 +1086,12 @@
 .member-row__line { margin-top: 0.25rem; font-size: 0.9rem; line-height: 1.5; }
 .member-row__next { color: var(--global-text-color-light); }
 .member-row .person-note { max-width: 46rem; }
+
+
+.paper-card__journal {
+  margin: -0.3rem 0 0.7rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+.paper-card__journal a { text-decoration: none; }
+.paper-card__journal a:hover { text-decoration: underline; }
