@@ -828,3 +828,32 @@
   width: 100%;
   max-width: 100%;
 }
+
+
+
+
+
+/* ===========================================================
+   WIDER LAYOUT + CENTRED FOOTER
+   =========================================================== */
+
+/* One number controls the overall site width (masthead, content, footer).
+   It was effectively 1280px on wide screens and only 925px on 925–1279px screens. */
+#main,
+.masthead__inner-wrap,
+.page__footer footer {
+  max-width: 1400px;
+}
+
+/* centre the footer text on the page */
+.page__footer-copyright {
+  text-align: center;
+}
+
+/* the footer bar is pinned to the bottom on desktop, so lift the
+   back-to-top button above it */
+@media screen and (min-width: 769px) {
+  .to-top {
+    bottom: 4rem;
+  }
+}
