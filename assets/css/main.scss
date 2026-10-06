@@ -1213,3 +1213,54 @@
 @media (max-width: 700px) {
   .alumni-grid { grid-template-columns: 1fr; }
 }
+
+/* ---------- Group page, round 2 ---------- */
+.people-grid { margin-top: 1rem; }
+
+/* Alumni: two side-by-side columns */
+.alumni-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem 2.5rem;
+  align-items: start;
+  margin-bottom: 2.5rem;
+}
+.alumni-col { border-top: 3px solid var(--global-base-color); }
+.alumni-col--msc { border-top-color: #c28a3a; }
+.alumni-col__title { margin: 0.8rem 0 0.2rem; font-size: 1rem; }
+
+.alumni-list { list-style: none; margin: 0.3rem 0 0; padding: 0; }
+.alumni-row {
+  margin: 0;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--global-border-color);
+}
+.alumni-row__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.1rem 1rem;
+}
+.alumni-row__name a { color: inherit; text-decoration: none; }
+.alumni-row__name a:hover { text-decoration: underline; }
+.alumni-row__years { font-size: 0.8rem; color: var(--global-text-color-light); white-space: nowrap; }
+.alumni-row__line { margin-top: 0.15rem; font-size: 0.85rem; color: var(--global-text-color-light); }
+.alumni-row__next { margin-top: 0.2rem; font-size: 0.88rem; color: var(--global-base-color); font-weight: 600; }
+.alumni-row .person-note { max-width: 100%; }
+
+/* Join section: tinted band at the bottom */
+.join-section {
+  scroll-margin-top: 5rem;
+  margin-top: 2.5rem;
+  padding: 1.5rem 1.75rem 0.5rem;
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--global-base-color) 8%, var(--global-bg-color));
+}
+.join-section h2 { margin-top: 0; }
+.join-grid { margin: 1rem 0 1.25rem; }
+
+@media (max-width: 600px) {
+  .alumni-grid { grid-template-columns: 1fr; }
+  .join-section { padding: 1.25rem 1.1rem 0.25rem; }
+}
