@@ -11,6 +11,9 @@ main:
   - title: "About"
     url: /about/
 
+  - title: "Group"
+    url: /group/    
+
   #- title: "Research"
   #  url: /research/   
     
@@ -19,9 +22,6 @@ main:
 
   - title: "Teaching"
     url: /teaching/   
-
-  - title: "Group"
-    url: /group/    
 
   #- title: "Gallery"
   #  url: /gallery/  
