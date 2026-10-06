@@ -1,33 +1,27 @@
-<h2>{{ include.title }}</h2>
+{% assign last_year = "" %}
 {% assign found = false %}
+<section class="pub-section">
+<h2>{{ include.title }}</h2>
 {% for paper in include.papers %}
+  {% assign show = false %}
   {% case include.filter %}
   {% when "recent_preprints" %}
       {% if paper.status == "preprint" %}
-          {% assign found = true %}
-          {% include publication_entry.html paper=paper %}
+          {% assign show = true %}
       {% endif %}
   {% when "peer_reviewed" %}
       {% if paper.subject == "quantum" %}
           {% if paper.type == "article" %}
               {% if paper.status == "accepted" or paper.status == "published" %}
-                  {% assign found = true %}
-                  {% include publication_entry.html paper=paper %}
+                  {% assign show = true %}
               {% endif %}
           {% endif %}
       {% endif %}
   {% when "books" %}
       {% if paper.subject == "quantum" %}
           {% if paper.status == "accepted" or paper.status == "published" %}
-              {% if paper.type == "book" %}
-                  {% assign found = true %}
-                  {% include publication_entry.html paper=paper %}
-              {% elsif paper.type == "chapter" %}
-                  {% assign found = true %}
-                  {% include publication_entry.html paper=paper %}
-              {% elsif paper.type == "review" %}
-                  {% assign found = true %}
-                  {% include publication_entry.html paper=paper %}
+              {% if paper.type == "book" or paper.type == "chapter" or paper.type == "review" %}
+                  {% assign show = true %}
               {% endif %}
           {% endif %}
       {% endif %}
@@ -35,13 +29,27 @@
       {% if paper.subject == "other" %}
           {% if paper.type == "article" %}
               {% if paper.status == "accepted" or paper.status == "published" %}
-                  {% assign found = true %}
-                  {% include publication_entry.html paper=paper %}
+                  {% assign show = true %}
               {% endif %}
           {% endif %}
       {% endif %}
   {% endcase %}
+  {% if show %}
+    {% assign found = true %}
+    {% if paper.year != last_year %}
+      {% if last_year != "" %}
+</div>
+      {% endif %}
+      {% assign last_year = paper.year %}
+<div class="pub-year-group">
+<h3 class="pub-year">{{ paper.year }}</h3>
+    {% endif %}
+    {% include publication_entry.html paper=paper %}
+  {% endif %}
 {% endfor %}
-{% unless found %}
+{% if found %}
+</div>
+{% else %}
 <p>No entries.</p>
-{% endunless %}
+{% endif %}
+</section>
