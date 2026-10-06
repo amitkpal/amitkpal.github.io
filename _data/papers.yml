@@ -7,7 +7,7 @@
   publication_year: 
   status: preprint
   subject: quantum
-  area: qec
+  area: [quantum_error_correction,graph_states,topological_codes]
   type: article
   sort: 20260401
   featured: true
@@ -38,7 +38,7 @@
   publication_year: 
   status: preprint
   subject: quantum
-  area: metrology
+  area: [metrology,disorder,many_body_systems]
   type: article  
   sort: 20260402
   featured: true
@@ -70,7 +70,7 @@
   publication_year: 
   status: preprint
   subject: quantum
-  area: device
+  area: [quantum_battery,graph_states,stabilizer_states,many_body_systems]
   type: article  
   sort: 20251201
   featured: true
@@ -98,7 +98,7 @@
   publication_year: 
   status: preprint
   subject: quantum
-  area: measurement
+  area: [purification,masurement_based_protocols,quantum_error_correction]
   type: article  
   sort: 20251202
   featured: true
@@ -131,7 +131,7 @@
   publication_year: 2026
   status: published
   subject: quantum
-  area: device
+  area: [quantum_battery,ergotropy,measurement_based_protocols]
   type: article
   sort: 20251101
   featured: false
@@ -146,7 +146,7 @@
   publication_year: 2026  
   status: published
   subject: quantum
-  area: entanglement
+  area: [entanglement,quantum_network,localization]
   type: article
   sort: 20250801
   featured: false
@@ -163,7 +163,7 @@
   publication_year: 2026
   status: published
   subject: quantum
-  area: manybody
+  area: [many_body_systems,entanglement,long_range_models]
   type: article
   sort: 20250401
   featured: false
@@ -180,7 +180,7 @@
   publication_year: 2026
   status: published
   subject: quantum
-  area: measurement
+  area: [purification,measurement_based_protocols]
   type: article  
   sort: 20250201
   featured: false
@@ -196,7 +196,7 @@
   publication_year: 2026
   status: published  
   subject: quantum
-  area: device
+  area: [cooling,quantum_refrigerator]
   type: article  
   sort: 20241001
   featured: false
@@ -212,7 +212,7 @@
   publication_year: 2026
   status: published
   subject: quantum
-  area: network
+  area: [quantum_network,entanglement]
   type: article
   sort: 20241002
   featured: false
@@ -228,7 +228,7 @@
   publication_year: 2025
   status: published
   subject: quantum
-  area: measurement
+  area: [entanglement,measurement_based_protocol,localization]
   type: article
   sort: 20240601
   featured: false
@@ -245,7 +245,7 @@
   publication_year: 2025
   status: published
   subject: quantum
-  area: manybody
+  area: [many_body_systems,quantum_phase_transitions,entanglement,localization,topological_codes]
   type: article
   sort: 20240501
   featured: false
@@ -260,7 +260,7 @@
   publication_year: 2025
   status: published
   subject: quantum
-  area: manybody
+  area: [many_body_systems,entanglement]
   type: article
   sort: 20230701
   featured: false
@@ -276,7 +276,7 @@
   publication_year: 2024
   status: published
   subject: quantum
-  area: protocol
+  area: [quantum_state_transfer,many_body_systems]
   type: article
   sort: 20230601
   featured: false
@@ -292,7 +292,7 @@
   publication_year: 2024
   status: published
   subject: quantum
-  area: manybody
+  area: [entanglement,many_body_systems]
   type: article
   sort: 20230101
   featured: false
@@ -309,7 +309,7 @@
   publication_year: 2023
   status: published
   subject: quantum
-  area: entanglement
+  area: [entanglement,localization,graph_states,stabilizer_states,topological_codes]
   type: article
   sort: 20221101
   featured: false
@@ -324,7 +324,7 @@
   publication_year: 2023
   status: published
   subject: quantum
-  area: entanglement
+  area: [entanglement,localization]
   type: article
   sort: 20220601
   featured: false
@@ -341,7 +341,7 @@
   publication_year: 2022
   status: published
   subject: quantum
-  area: manybody
+  area: [many_body_systems,quantum_phase_transitions] 
   type: article
   sort: 20220101
   featured: false
