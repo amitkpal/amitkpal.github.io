@@ -23,7 +23,30 @@ author_profile: true
 
       <section class="page__content">
         {{ content }}
-        {% include course_files.html code=page.code title="Study material" %}
+
+        {% include course_files.html code=page.code title="Lecture notes" %}
+        {% include course_files.html code=page.code sub="assignments" title="Assignments" %}
+
+        {% if page.links %}
+        <h2>External resources</h2>
+        <ul class="resource-list">
+          {% for l in page.links %}
+          <li>
+            <a href="{{ l.url }}" target="_blank" rel="noopener">
+              {{ l.title }}{% if l.by %}<span class="resource-by"> &mdash; {{ l.by }}</span>{% endif %}
+              <span class="resource-ext">LINK</span>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if page.books %}
+        <h2>Books and references</h2>
+        <ul class="book-list">
+          {% for b in page.books %}<li>{{ b }}</li>{% endfor %}
+        </ul>
+        {% endif %}
       </section>
     </div>
   </article>
