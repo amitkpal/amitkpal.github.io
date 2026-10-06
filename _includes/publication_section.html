@@ -1,7 +1,4 @@
-{% assign last_year = "" %}
-{% assign found = false %}
-<section class="pub-section">
-<h2>{{ include.title }}</h2>
+{% assign keys = "" %}
 {% for paper in include.papers %}
   {% assign show = false %}
   {% case include.filter %}
@@ -35,19 +32,33 @@
       {% endif %}
   {% endcase %}
   {% if show %}
-    {% assign found = true %}
-    {% if paper.year != last_year %}
-      {% if last_year != "" %}
-</div>
-      {% endif %}
-      {% assign last_year = paper.year %}
-<div class="pub-year-group">
-<h3 class="pub-year">{{ paper.year }}</h3>
+    {% if paper.status == "preprint" %}
+      {% assign dy = paper.year %}
+    {% else %}
+      {% assign dy = paper.publication_year | default: paper.year %}
     {% endif %}
-    {% include publication_entry.html paper=paper %}
+    {% assign keys = keys | append: dy | append: "-" | append: paper.sort | append: ":" | append: forloop.index0 | append: "," %}
   {% endif %}
 {% endfor %}
-{% if found %}
+{% assign ordered = keys | split: "," | sort | reverse %}
+{% assign last_year = "" %}
+<section class="pub-section">
+<h2>{{ include.title }}</h2>
+{% for k in ordered %}
+  {% assign dy = k | slice: 0, 4 %}
+  {% assign idx = k | split: ":" | last | plus: 0 %}
+  {% assign paper = include.papers[idx] %}
+  {% if dy != last_year %}
+    {% if last_year != "" %}
+</div>
+    {% endif %}
+    {% assign last_year = dy %}
+<div class="pub-year-group">
+<h3 class="pub-year">{{ dy }}</h3>
+  {% endif %}
+  {% include publication_entry.html paper=paper %}
+{% endfor %}
+{% if ordered.size > 0 %}
 </div>
 {% else %}
 <p>No entries.</p>
