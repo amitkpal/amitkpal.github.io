@@ -412,3 +412,419 @@
     }
 
 }
+
+
+
+
+
+
+/* ===========================================================
+   SITE ENHANCEMENTS  (append to the very end of main.scss)
+   =========================================================== */
+
+[hidden] { display: none !important; }
+
+/* ---------- Translucent masthead ---------- */
+
+.masthead {
+  background: color-mix(in srgb, var(--global-bg-color) 70%, transparent);
+  -webkit-backdrop-filter: saturate(180%) blur(14px);
+          backdrop-filter: saturate(180%) blur(14px);
+  transition: background 0.25s ease, box-shadow 0.25s ease;
+}
+
+.masthead.is-scrolled {
+  background: color-mix(in srgb, var(--global-bg-color) 86%, transparent);
+  box-shadow: 0 8px 24px rgba(16, 24, 32, 0.07);
+}
+
+/* the nav pieces were opaque, which hid the blur behind them */
+.masthead .greedy-nav,
+.masthead .masthead__menu-item,
+.masthead .greedy-nav button {
+  background: transparent;
+}
+
+/* ---------- Reading-progress bar & back-to-top ---------- */
+
+.read-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  background: linear-gradient(90deg, var(--global-base-color), var(--global-link-color));
+  z-index: 40;
+  pointer-events: none;
+  will-change: transform;
+}
+
+.to-top {
+  position: fixed;
+  right: 1.1rem;
+  bottom: 1.1rem;
+  width: 2.7rem;
+  height: 2.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 1px solid var(--global-border-color);
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--global-bg-color) 80%, transparent);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  color: var(--global-text-color);
+  box-shadow: var(--global-card-shadow-hover);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
+  z-index: 30;
+}
+
+.to-top.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+
+.to-top:hover {
+  border-color: var(--global-base-color);
+  color: var(--global-base-color);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .masthead, .to-top, .read-progress { transition: none; }
+}
+
+/* ---------- Publications: search, chips, sticky year dividers ---------- */
+
+.pub-tools {
+  margin: 1.2rem 0 0.4rem;
+  padding: 1rem 1.1rem;
+  background: var(--global-card-bg-color, var(--global-bg-color));
+  border: 1px solid var(--global-border-color);
+  border-radius: 14px;
+  box-shadow: var(--global-card-shadow);
+}
+
+.pub-search__input {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.65rem 1rem 0.65rem 2.5rem;
+  border: 1px solid var(--global-dark-border-color);
+  border-radius: 999px;
+  background: var(--global-bg-color) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2.2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M20 20l-3.5-3.5'/%3E%3C/svg%3E") no-repeat 0.85rem center;
+  color: var(--global-text-color);
+  font: inherit;
+  font-size: 0.95rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pub-search__input:focus {
+  outline: none;
+  border-color: var(--global-base-color);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--global-base-color) 22%, transparent);
+}
+
+.pub-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.8rem;
+}
+
+.pub-chip {
+  margin: 0;
+  padding: 0.28rem 0.8rem;
+  border: 1px solid var(--global-dark-border-color);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--global-text-color);
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.4;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pub-chip:hover {
+  border-color: var(--global-base-color);
+}
+
+.pub-chip.is-active {
+  background: var(--global-base-color);
+  border-color: var(--global-base-color);
+  color: #fff;
+}
+
+.pub-chip__n {
+  margin-left: 0.35rem;
+  font-weight: 500;
+  opacity: 0.65;
+}
+
+.pub-status-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.8rem;
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+}
+
+.pub-clear {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--global-link-color);
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.pub-empty {
+  margin: 2rem 0;
+  color: var(--global-text-color-light);
+  text-align: center;
+}
+
+.publication-list .pub-year {
+  position: sticky;
+  top: var(--masthead-h, 3.4rem);
+  z-index: 5;
+  margin: 1.3rem 0 0.9rem;
+  padding: 0.4rem 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--global-text-color-light);
+  background: color-mix(in srgb, var(--global-bg-color) 88%, transparent);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+/* ---------- Teaching: term pill & resources button ---------- */
+
+.course-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.4rem 1rem;
+}
+
+.term-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.2rem 0.7rem;
+  border: 1px solid var(--global-dark-border-color);
+  border-radius: 999px;
+  color: var(--global-text-color-light);
+  font-size: 0.78rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.term-pill--current {
+  color: var(--global-text-color);
+  border-color: var(--global-base-color);
+  background: color-mix(in srgb, var(--global-base-color) 10%, transparent);
+}
+
+.term-pill__dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: #3fa15a;
+}
+
+.course-actions {
+  margin-top: 0.9rem;
+}
+
+.teaching-item .btn-resources {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--global-dark-border-color);
+  border-radius: 999px;
+  background: var(--global-base-color);
+  color: #fff;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.teaching-item .btn-resources:hover {
+  filter: brightness(1.15);
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+/* ---------- News: vertical timeline ---------- */
+
+/* date column 6.2rem + gap 1.7rem; the line sits in the middle of the gap (7.05rem) */
+.timeline {
+  list-style: none;
+  margin: 2rem 0 1rem;
+  padding: 0;
+}
+
+.timeline__item,
+.timeline__year {
+  position: relative;
+  display: grid;
+  grid-template-columns: 6.2rem 1fr;
+  column-gap: 1.7rem;
+  margin: 0;
+  padding: 0 0 1.5rem;
+}
+
+.timeline__item::before,
+.timeline__year::before {
+  content: "";
+  position: absolute;
+  top: 0.45rem;
+  bottom: -0.45rem;
+  left: calc(7.05rem - 1px);
+  width: 2px;
+  background: var(--global-border-color);
+}
+
+.timeline__item:last-child::before {
+  bottom: auto;
+  height: 1.2rem;
+  background: linear-gradient(var(--global-border-color), transparent);
+}
+
+.timeline__item::after {
+  content: "";
+  position: absolute;
+  top: 0.38rem;
+  left: calc(7.05rem - 6px);
+  width: 12px;
+  height: 12px;
+  box-sizing: border-box;
+  border: 3px solid var(--global-base-color);
+  border-radius: 50%;
+  background: var(--global-bg-color);
+}
+
+.timeline__date {
+  text-align: right;
+  padding-top: 0.1rem;
+  line-height: 1.25;
+}
+
+.timeline__day {
+  display: block;
+  color: var(--global-text-color);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.timeline__yr {
+  display: block;
+  color: var(--global-text-color-light);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.timeline__card {
+  padding: 0.9rem 1.1rem;
+  background: var(--global-card-bg-color, var(--global-bg-color));
+  border: 1px solid var(--global-border-color);
+  border-radius: 12px;
+  transition: box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+.timeline__item:hover .timeline__card {
+  box-shadow: var(--global-card-shadow);
+  border-color: var(--global-dark-border-color);
+}
+
+.timeline__title {
+  margin-bottom: 0.3rem;
+  font-weight: 700;
+}
+
+.timeline__title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.timeline__title a:hover {
+  text-decoration: underline;
+}
+
+.timeline__text {
+  line-height: 1.6;
+}
+
+.timeline__year {
+  padding-bottom: 1.1rem;
+}
+
+.timeline__year span {
+  justify-self: end;
+  color: var(--global-text-color);
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 600px) {
+  .timeline__item::before,
+  .timeline__year::before {
+    left: calc(0.4rem - 1px);
+  }
+
+  .timeline__item::after {
+    left: calc(0.4rem - 6px);
+  }
+
+  .timeline__item,
+  .timeline__year {
+    grid-template-columns: 1fr;
+    padding-left: 1.6rem;
+  }
+
+  .timeline__date {
+    text-align: left;
+    padding-bottom: 0.3rem;
+  }
+
+  .timeline__day,
+  .timeline__yr {
+    display: inline;
+  }
+
+  .timeline__yr {
+    margin-left: 0.4rem;
+  }
+
+  .timeline__year span {
+    justify-self: start;
+  }
+}
+
+/* ---------- Featured-papers carousel: fill the available width ---------- */
+
+.paper-swiper {
+  width: 100%;
+  max-width: 100%;
+}
