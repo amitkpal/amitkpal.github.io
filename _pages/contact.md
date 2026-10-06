@@ -6,7 +6,6 @@ author_profile: true
 ---
 
 <div class="contact-page">
-
 <div class="contact-main">
 
 <div class="contact-address">
@@ -21,9 +20,4 @@ author_profile: true
 </div>
 
 </div>
-
-<div class="contact-photo">
-<img src="{{ site.data.contact.map_image | relative_url }}" alt="Department building">
-</div>
-
 </div>
