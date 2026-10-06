@@ -12,30 +12,7 @@ author_profile: true
 {% for course in site.data.teaching %}
   {% if course.current %}
     {% assign current_found = true %}
-    <div class="teaching-item">
-      <div class="course-title">
-        {% if course.materials and course.materials.url %}
-          <strong>
-            <a href="{{ course.materials.url }}">
-              {{ course.code }}: {{ course.title }}
-            </a>
-          </strong>
-        {% else %}
-          <strong>
-            {{ course.code }}: {{ course.title }}
-          </strong>
-        {% endif %}
-      </div>
-      <div class="course-meta">
-        <strong>Programme:</strong>
-        {{ course.programme }}
-        {% if course.note %}
-        <br>
-        <strong>Note:</strong>
-        {{ course.note }}
-        {% endif %}
-      </div>
-    </div>
+    {% include course_card.html course=course %}
   {% endif %}
 {% endfor %}
 {% unless current_found %}
@@ -44,37 +21,6 @@ author_profile: true
 <h2>Past courses</h2>
 {% assign courses = site.data.teaching | sort: "code" %}
 {% for course in courses %}
-<div class="teaching-item">
-  <div class="course-title">
-    {% if course.materials and course.materials.url %}
-      <strong>
-        <a href="{{ course.materials.url }}">
-          {{ course.code }}: {{ course.title }}
-        </a>
-      </strong>
-    {% else %}
-      <strong>
-        {{ course.code }}: {{ course.title }}
-      </strong>
-    {% endif %}
-  </div>
-  <div class="course-meta">
-    <strong>Programme:</strong>
-    {{ course.programme }}
-    <br>
-    <strong>Semester:</strong>
-    {{ course.semester }}
-    <br>
-    <strong>Academic years:</strong>
-    {% for year in course.years %}
-      {{ year }}–{{ year | plus: 1 | modulo: 100 | prepend: "0" | slice: -2,2 }}{% unless forloop.last %}, {% endunless %}
-    {% endfor %}
-    {% if course.note %}
-    <br>
-    <strong>Note:</strong>
-    {{ course.note }}
-    {% endif %}
-  </div>
-</div>
+  {% include course_card.html course=course history=true %}
 {% endfor %}
 </div>
