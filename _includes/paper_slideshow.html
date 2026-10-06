@@ -1,32 +1,35 @@
-{% assign limit = include.limit | default: 6 %}
+{% assign limit = include.limit | default: 10 %}
 {% assign sorted = site.data.papers | sort: "sort" | reverse %}
-{% assign shown = 0 %}
-<div class="swiper paper-swiper" aria-label="Featured papers from the group">
+<div class="swiper paper-swiper" aria-label="Recent papers from the group">
   <div class="swiper-wrapper">
-    {% for paper in sorted %}
+    {% for paper in sorted limit: limit %}
       {% assign text = paper.summary | strip %}
-      {% if paper.featured == true and text != "" and shown < limit %}
-        {% assign shown = shown | plus: 1 %}
-        <div class="swiper-slide">
-          <article class="paper-card">
-            <div class="paper-card__top">
-              <span class="pub-badge {% if paper.status == 'preprint' %}badge-preprint{% else %}badge-accepted{% endif %}">{{ paper.status }}</span>
-              <span class="paper-card__year">{{ paper.year }}</span>
-            </div>
-            <h3 class="paper-card__title">{{ paper.title }}</h3>
-            <p class="paper-card__authors">{{ paper.authors }}</p>
-            <p class="paper-card__abstract">{{ text | escape }}</p>
-            <button type="button" class="paper-card__more" aria-expanded="false">Read more</button>
-            <div class="paper-card__links">
-              {% if paper.arxiv %}
-                <a href="https://arxiv.org/abs/{{ paper.arxiv }}">arXiv</a>
-                <a href="https://arxiv.org/pdf/{{ paper.arxiv }}.pdf">PDF</a>
-              {% endif %}
-              {% if paper.doi %}<a href="https://doi.org/{{ paper.doi }}">DOI</a>{% endif %}
-            </div>
-          </article>
-        </div>
-      {% endif %}
+      <div class="swiper-slide">
+        <article class="paper-card">
+          <div class="paper-card__top">
+            <span class="pub-badge {% if paper.status == 'preprint' %}badge-preprint{% else %}badge-accepted{% endif %}">{{ paper.status }}</span>
+            <span class="paper-card__year">{{ paper.year }}</span>
+          </div>
+          <h3 class="paper-card__title">{{ paper.title }}</h3>
+          <p class="paper-card__authors">{{ paper.authors }}</p>
+          {% if paper.status != 'preprint' and paper.journal %}
+          <p class="paper-card__journal">
+            {% if paper.doi %}<a href="https://doi.org/{{ paper.doi }}">{{ paper.journal }}</a>{% else %}{{ paper.journal }}{% endif %}{% if paper.publication_year %} &middot; {{ paper.publication_year }}{% endif %}
+          </p>
+          {% endif %}
+          {% if text != "" %}
+          <p class="paper-card__abstract">{{ text | escape }}</p>
+          <button type="button" class="paper-card__more" aria-expanded="false">Read more</button>
+          {% endif %}
+          <div class="paper-card__links">
+            {% if paper.arxiv %}
+              <a href="https://arxiv.org/abs/{{ paper.arxiv }}">arXiv</a>
+              <a href="https://arxiv.org/pdf/{{ paper.arxiv }}.pdf">PDF</a>
+            {% endif %}
+            {% if paper.doi %}<a href="https://doi.org/{{ paper.doi }}">DOI</a>{% endif %}
+          </div>
+        </article>
+      </div>
     {% endfor %}
   </div>
   <div class="swiper-pagination"></div>
