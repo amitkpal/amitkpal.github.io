@@ -1,6 +1,15 @@
 {% assign c = include.course %}
-{% assign latest = c.years | sort | last %}
 {% assign res_url = c.materials.url | default: "" %}
+{% assign latest = 0 %}
+{% assign latest_sem = c.semester %}
+{% for item in c.years %}
+  {% assign y = item.year | default: item %}
+  {% assign s = item.semester | default: c.semester %}
+  {% if y >= latest %}
+    {% assign latest = y %}
+    {% assign latest_sem = s %}
+  {% endif %}
+{% endfor %}
 <div class="teaching-item">
   <div class="course-head">
     <div class="course-title">
@@ -10,19 +19,22 @@
         <strong>{{ c.code }}: {{ c.title }}</strong>
       {% endif %}
     </div>
-    <span class="term-pill{% if c.current %} term-pill--current{% endif %}" title="{% if c.current %}Currently running{% else %}Most recent offering{% endif %}">{% if c.current %}<span class="term-pill__dot"></span>{% endif %}{{ c.semester }}{% if latest %} &middot; {{ latest }}–{{ latest | plus: 1 | modulo: 100 | prepend: "0" | slice: -2,2 }}{% endif %}</span>
+    <span class="term-pill{% if c.current %} term-pill--current{% endif %}" title="{% if c.current %}Currently running{% else %}Most recent offering{% endif %}">{% if c.current %}<span class="term-pill__dot"></span>{% endif %}{% if latest_sem %}{{ latest_sem }}{% if latest > 0 %} {% endif %}{% endif %}{% if latest > 0 %}{{ latest }}{% endif %}</span>
   </div>
   <div class="course-meta">
     <strong>Programme:</strong>
     {{ c.programme }}
     {% if include.history %}
+      {% if c.semester %}
     <br>
     <strong>Semester:</strong>
     {{ c.semester }}
+      {% endif %}
     <br>
-    <strong>Academic years:</strong>
-    {% for year in c.years %}
-      {{ year }}–{{ year | plus: 1 | modulo: 100 | prepend: "0" | slice: -2,2 }}{% unless forloop.last %}, {% endunless %}
+    <strong>Offered:</strong>
+    {% for item in c.years %}
+      {% assign y = item.year | default: item %}
+      {% if item.semester %}{{ item.semester }} {% endif %}{{ y }}{% unless forloop.last %}, {% endunless %}
     {% endfor %}
     {% endif %}
     {% if c.note %}
