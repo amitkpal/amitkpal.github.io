@@ -1,0 +1,30 @@
+---
+layout: default
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign cc = nil %}
+{% for x in site.data.teaching %}
+  {% if x.code == page.code %}{% assign cc = x %}{% endif %}
+{% endfor %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <article class="page">
+    <div class="page__inner-wrap">
+      <header>
+        <h1 class="page__title">{{ page.code }}{% if cc %}: {{ cc.title }}{% endif %}</h1>
+        {% if cc.programme %}<p class="course-page__meta">{{ cc.programme }}</p>{% endif %}
+        {% if cc.note %}<p class="course-page__meta">{{ cc.note }}</p>{% endif %}
+      </header>
+
+      <section class="page__content">
+        {{ content }}
+        {% include course_files.html code=page.code title="Study material" %}
+      </section>
+    </div>
+  </article>
+</div>
