@@ -1,0 +1,9 @@
+{% assign cc = nil %}
+{% for x in site.data.teaching %}
+  {% if x.code == include.code %}{% assign cc = x %}{% endif %}
+{% endfor %}
+{% if cc %}
+<p class="course-page__title">{{ cc.code }}: {{ cc.title }}</p>
+{% if cc.programme %}<p class="course-page__meta">{{ cc.programme }}</p>{% endif %}
+{% if cc.note %}<p class="course-page__meta">{{ cc.note }}</p>{% endif %}
+{% endif %}
