@@ -1,0 +1,16 @@
+{% assign dir = "/files/teaching/" | append: include.code | downcase | append: "/" %}
+{% if include.sub %}{% assign dir = dir | append: include.sub | append: "/" %}{% endif %}
+{% assign found = site.static_files | where_exp: "f", "f.path contains dir" | where_exp: "f", "f.extname != '.md'" | sort: "path" %}
+{% if found.size > 0 %}
+{% if include.title %}<h2>{{ include.title }}</h2>{% endif %}
+<ul class="resource-list">
+  {% for f in found %}
+  <li>
+    <a href="{{ f.path | relative_url }}">
+      {{ f.basename | replace: "-", " " | replace: "_", " " }}
+      <span class="resource-ext">{{ f.extname | remove: "." | upcase }}</span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
