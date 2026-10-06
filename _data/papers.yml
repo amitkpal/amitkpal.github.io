@@ -136,6 +136,21 @@
   sort: 20251101
   featured: false
   summary: >-
+    We show that harnessing daemonic advantage is possible while charging a quantum battery by first time-evolving 
+    the battery collectively with an auxiliary charger, followed by an energy extraction via tracing out the charger. 
+    We define the difference between the minimum daemonic ergotropy and the maximum ergotropy of the battery as the 
+    daemonic gap at the time where the ergotropy of the battery is maximum. Considering a harmonic mode as the battery 
+    and a qubit as the auxiliary charger interacting via Jaynes-Cummings interaction, we show that the daemonic gap 
+    can be closed for specific initial passive states of the battery, including the ground state, truncated mixtures 
+    of low-lying states, and canonical thermal states. We further define the daemonic band as the difference between 
+    the maximum and the minimum daemonic ergotropy, and show that starting from the ground state of the single-mode 
+    battery, the daemonic band collapses. We also show that achieving a complete charging, along with accessing the 
+    full daemonic band, is possible for the single-mode battery using all of the other initial states by repeating 
+    the charging cycle and maximizing ergotropy in every round. We extend the battery-charger design to a multi-mode 
+    resonator battery and a qudit charger, and demonstrate, for a double-mode battery and a qutrit charger, that 
+    repeating the charging cycle is vital for simultaneously charging individual modes of the collective battery.
+
+
 
 - title: Block entanglement bounds distribution of regionally localized entanglement
   authors: J. G. Krishnan, A. Sen(De), and A. K. Pal
@@ -151,7 +166,19 @@
   sort: 20250801
   featured: false
   summary: >-
-  
+    In quantum networks, eliminating connections between nodes is crucial to mitigate the effects of decoherence, 
+    often achieved by performing measurements on nodes that are idle, or vulnerable to noise. To characterize the 
+    entanglement content of the resulting smaller network, we introduce the notion of regionally localized entanglement, 
+    defined as the average entanglement concentrated over a two-qubit region in a multi-qubit system. Hence, the total regionally 
+    localized entanglement can be obtained by considering all two-qubit regions sharing a common qubit, referred to as the hub. 
+    We prove that the total regionally localized entanglement corresponding to a specific hub is bounded above and below via the 
+    localizable block entanglement shared between the hub and the rest of the multi-qubit system for a number of paradigmatic 
+    pure quantum states, including permutation-symmetric states and arbitrary superposition of states from a specific magnetization 
+    sector. Numerical simulations confirm that the bounds for permutation-symmetric pure states remain valid even for Haar-uniformly 
+    generated pure states, and when each of the qubits is sent through local phase-flip channels of Markovian and non-Markovian types, 
+    except when the system-size is small. On the other hand, arbitrary states from a particular magnetization sector yield bounds on 
+    total regionally localized entanglement that are distinct from the permutation-symmetric states, highlighting the structurally 
+    unique entanglement properties of the former.
 
 
 - title: Scaling of entanglement entropy and correlations in the variable-range extended Ising model
