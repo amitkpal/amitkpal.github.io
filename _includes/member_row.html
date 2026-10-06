@@ -1,0 +1,10 @@
+{% assign p = include.person %}
+<li class="member-row">
+  <div class="member-row__head">
+    <strong class="member-row__name">{% if p.webpage %}<a href="{{ p.webpage }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</strong>
+    <span class="member-row__tag">{{ p.designation }}{% if p.years %} &middot; {{ p.years | replace: "-", "–" }}{% endif %}</span>
+  </div>
+  {% if p.research %}<div class="member-row__line">{{ p.research }}</div>{% endif %}
+  {% if p.next_position %}<div class="member-row__line member-row__next">Next: {{ p.next_position }}</div>{% endif %}
+  {% if p.note %}<div class="person-note">{{ p.note }}</div>{% endif %}
+</li>
