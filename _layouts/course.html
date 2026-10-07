@@ -27,13 +27,17 @@ author_profile: true
         {% include course_files.html code=page.code title="Lecture notes" %}
         {% include course_files.html code=page.code sub="assignments" title="Assignments" %}
 
-        {% if page.links.size > 0 %}
+        {% assign good_links = "" | split: "" %}
+        {% for l in page.links %}
+          {% if l.url and l.url != "" and l.title and l.title != "" %}{% assign good_links = good_links | push: l %}{% endif %}
+        {% endfor %}
+        {% if good_links.size > 0 %}
         <h2>External resources</h2>
         <ul class="resource-list">
-          {% for l in page.links %}
+          {% for l in good_links %}
           <li>
             <a href="{{ l.url }}" target="_blank" rel="noopener">
-              {{ l.title }}{% if l.by %}<span class="resource-by"> &mdash; {{ l.by }}</span>{% endif %}
+              {{ l.title }}{% if l.by and l.by != "" %}<span class="resource-by"> &mdash; {{ l.by }}</span>{% endif %}
               <span class="resource-ext">LINK</span>
             </a>
           </li>
@@ -41,10 +45,15 @@ author_profile: true
         </ul>
         {% endif %}
 
-        {% if page.books.size > 0 %}
+        {% assign good_books = "" | split: "" %}
+        {% for b in page.books %}
+          {% assign bt = b | strip %}
+          {% if bt != "" %}{% assign good_books = good_books | push: bt %}{% endif %}
+        {% endfor %}
+        {% if good_books.size > 0 %}
         <h2>Books and references</h2>
         <ul class="book-list">
-          {% for b in page.books %}<li>{{ b }}</li>{% endfor %}
+          {% for b in good_books %}<li>{{ b }}</li>{% endfor %}
         </ul>
         {% endif %}
       </section>
